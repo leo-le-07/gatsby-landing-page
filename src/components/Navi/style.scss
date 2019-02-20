@@ -1,5 +1,30 @@
 @import 'scss/_variables.scss';
 
 .header {
-  background-color: $white;
+  // background-color: $white;
+
+  .navbar-nav {
+    .nav-item {
+      &.active {
+        .nav-link {
+          color: $red;
+        }
+      }
+
+      .nav-link {
+        color: $gray-900;
+        &:hover {
+          color: $red;
+        }
+      }
+    }
+  }
+
+  .logo {
+    height: 80px;
+  }
+
+  .fa.fa-navicon {
+    color: $gray-900;
+  }
 }

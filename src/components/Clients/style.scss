@@ -1,0 +1,19 @@
+@import 'scss/_variables.scss';
+
+.logo-wrapper {
+  min-height: 160px;
+  max-height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: $light-cyan
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

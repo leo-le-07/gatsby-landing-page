@@ -1,0 +1,1400 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+## Printing Press	content/posts/2015-05-01-hello-world/index.md	/^## Printing Press$/;"	h
+## Court Case	content/posts/2015-05-01-hello-world/index.md	/^## Court Case$/;"	h
+## Later Life	content/posts/2015-05-01-hello-world/index.md	/^## Later Life$/;"	h
+## Printing Method With Movable Type	content/posts/2015-05-01-hello-world/index.md	/^## Printing Method With Movable Type$/;"	h
+## Legacy	content/posts/2015-05-01-hello-world/index.md	/^## Legacy$/;"	h
+## An h2 header	content/posts/2015-05-28-hi-folks/index.md	/^## An h2 header$/;"	h
+# Gatstrap	README.md	/^# Gatstrap$/;"	h
+## GatsbyJS v2, v1, v0	README.md	/^## GatsbyJS v2, v1, v0$/;"	h
+## Features	README.md	/^## Features$/;"	h
+## Installation	README.md	/^## Installation$/;"	h
+## Usage	README.md	/^## Usage$/;"	h
+### Custom Theme	README.md	/^### Custom Theme$/;"	h
+___gatsby	public/index.html	/^<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"\/><meta http-equiv="X-UA-Compatible" content="IE=edge"\/><meta name="viewport" content="width=device-width, initial-scale=1.0"\/><link rel="manifest" href="\/manifest.webmanifest"\/><meta name="theme-color" content="#673ab7"\/><link rel="apple-touch-icon" sizes="192x192" href="\/img\/android-chrome-192x192.png"\/><link rel="apple-touch-icon" sizes="512x512" href="\/img\/android-chrome-512x512.png"\/><title data-react-helmet="true"><\/title><link rel="sitemap" type="application\/xml" href="\/sitemap.xml"\/><script src="\/socket.io\/socket.io.js"><\/script><link href="\/img\/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"\/><link href="\/img\/favicon.ico" rel="icon" type="image\/x-icon"\/><\/head><body><div id="___gatsby"><\/div><script src="\/commons.js"><\/script><script async="" src="\/\/pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js"><\/script><\/body><\/html>/;"	i
+title	gatsby-config.js	/^    title: 'Gatstrap',$/;"	P
+description	gatsby-config.js	/^    description: 'Gatsby starter for bootstrap a blog',$/;"	P
+siteUrl	gatsby-config.js	/^    siteUrl: 'https:\/\/gatstrap.netlify.com',$/;"	P
+author	gatsby-config.js	/^    author: 'jaxx2104',$/;"	P
+twitter	gatsby-config.js	/^    twitter: 'jaxx2104',$/;"	P
+adsense	gatsby-config.js	/^    adsense: '',$/;"	P
+pathPrefix	gatsby-config.js	/^  pathPrefix: '\/',$/;"	P
+plugins	gatsby-config.js	/^  plugins: [$/;"	P
+resolve	gatsby-config.js	/^      resolve: 'gatsby-source-filesystem',$/;"	P
+path	gatsby-config.js	/^        path: `${__dirname}\/content\/posts\/`,$/;"	P
+name	gatsby-config.js	/^        name: 'posts',$/;"	P
+resolve	gatsby-config.js	/^      resolve: 'gatsby-source-filesystem',$/;"	P
+path	gatsby-config.js	/^        path: `${__dirname}\/content\/images\/`,$/;"	P
+name	gatsby-config.js	/^        name: 'images',$/;"	P
+resolve	gatsby-config.js	/^      resolve: 'gatsby-transformer-remark',$/;"	P
+plugins	gatsby-config.js	/^        plugins: [$/;"	P
+resolve	gatsby-config.js	/^            resolve: 'gatsby-remark-images',$/;"	P
+maxWidth	gatsby-config.js	/^              maxWidth: 750,$/;"	P
+linkImagesToOriginal	gatsby-config.js	/^              linkImagesToOriginal: false,$/;"	P
+wrapperStyle	gatsby-config.js	/^              wrapperStyle: 'margin-bottom: 1.0725rem;',$/;"	P
+resolve	gatsby-config.js	/^            resolve: 'gatsby-remark-responsive-iframe',$/;"	P
+wrapperStyle	gatsby-config.js	/^              wrapperStyle: 'margin-bottom: 1.0725rem',$/;"	P
+resolve	gatsby-config.js	/^      resolve: `gatsby-plugin-manifest`,$/;"	P
+name	gatsby-config.js	/^        name: 'Gatstrap',$/;"	P
+short_name	gatsby-config.js	/^        short_name: 'Gatstrap',$/;"	P
+description	gatsby-config.js	/^        description: 'Gatsby starter for bootstrap a blog',$/;"	P
+homepage_url	gatsby-config.js	/^        homepage_url: 'https:\/\/gatstrap.netlify.com',$/;"	P
+start_url	gatsby-config.js	/^        start_url: '\/',$/;"	P
+background_color	gatsby-config.js	/^        background_color: '#fff',$/;"	P
+theme_color	gatsby-config.js	/^        theme_color: '#673ab7',$/;"	P
+display	gatsby-config.js	/^        display: 'standalone',$/;"	P
+icons	gatsby-config.js	/^        icons: [$/;"	P
+src	gatsby-config.js	/^            src: '\/img\/android-chrome-192x192.png',$/;"	P
+sizes	gatsby-config.js	/^            sizes: '192x192',$/;"	P
+type	gatsby-config.js	/^            type: 'image\/png',$/;"	P
+src	gatsby-config.js	/^            src: '\/img\/android-chrome-512x512.png',$/;"	P
+sizes	gatsby-config.js	/^            sizes: '512x512',$/;"	P
+type	gatsby-config.js	/^            type: 'image\/png',$/;"	P
+resolve	gatsby-config.js	/^      resolve: 'gatsby-plugin-google-analytics',$/;"	P
+trackingId	gatsby-config.js	/^        trackingId: '',$/;"	P
+resolve	gatsby-config.js	/^      resolve: 'gatsby-plugin-netlify',$/;"	P
+mergeSecurityHeaders	gatsby-config.js	/^        mergeSecurityHeaders: true,$/;"	P
+mergeLinkHeaders	gatsby-config.js	/^        mergeLinkHeaders: true,$/;"	P
+mergeCachingHeaders	gatsby-config.js	/^        mergeCachingHeaders: true,$/;"	P
+allFile	gatsby-node.js	/^            allFile(filter: { extension: { regex: "\/md|js\/" } }, limit: 1000) {$/;"	M
+name	gatsby-node.js	/^                  name: sourceInstanceName$/;"	P
+path	gatsby-node.js	/^                  path: absolutePath$/;"	P
+if	gatsby-node.js	/^        if (errors) {$/;"	M
+component	gatsby-node.js	/^            component: PostTemplate,$/;"	P
+path	gatsby-node.js	/^            path: name,$/;"	P
+component	gatsby-node.js	/^            component: PageTemplate,$/;"	P
+components	gatsby-node.js	/^        components: path.resolve(__dirname, 'src\/components'),$/;"	P
+templates	gatsby-node.js	/^        templates: path.resolve(__dirname, 'src\/templates'),$/;"	P
+scss	gatsby-node.js	/^        scss: path.resolve(__dirname, 'src\/scss'),$/;"	P
+Html	.cache/static-entry.js	/^  Html = require(`..\/src\/html`)$/;"	P
+if	.cache/static-entry.js	/^  if (testRequireError(`..\/src\/html`, err)) {$/;"	M
+Html	.cache/static-entry.js	/^    Html = require(`.\/default-html`)$/;"	P
+Html	.cache/static-entry.js	/^Html = Html && Html.__esModule ? Html.default : Html$/;"	P
+headComponents	.cache/static-entry.js	/^  let headComponents = [$/;"	A
+name	.cache/static-entry.js	/^      name="generator"$/;"	P
+content	.cache/static-entry.js	/^      content={`Gatsby ${gatsbyVersion}`}$/;"	P
+key	.cache/static-entry.js	/^      key={`generator-${gatsbyVersion}`}$/;"	P
+htmlAttributes	.cache/static-entry.js	/^  let htmlAttributes = {}$/;"	O
+bodyAttributes	.cache/static-entry.js	/^  let bodyAttributes = {}$/;"	O
+preBodyComponents	.cache/static-entry.js	/^  let preBodyComponents = []$/;"	A
+postBodyComponents	.cache/static-entry.js	/^  let postBodyComponents = []$/;"	A
+bodyProps	.cache/static-entry.js	/^  let bodyProps = {}$/;"	O
+bodyHtml	.cache/static-entry.js	/^    bodyHtml = body$/;"	P
+headComponents	.cache/static-entry.js	/^    headComponents = headComponents.concat(components)$/;"	P
+htmlAttributes	.cache/static-entry.js	/^    htmlAttributes = merge(htmlAttributes, attributes)$/;"	P
+bodyAttributes	.cache/static-entry.js	/^    bodyAttributes = merge(bodyAttributes, attributes)$/;"	P
+preBodyComponents	.cache/static-entry.js	/^    preBodyComponents = preBodyComponents.concat(components)$/;"	P
+postBodyComponents	.cache/static-entry.js	/^    postBodyComponents = postBodyComponents.concat(components)$/;"	P
+bodyProps	.cache/static-entry.js	/^    bodyProps = merge({}, bodyProps, props)$/;"	P
+headComponents	.cache/static-entry.js	/^    headComponents = components$/;"	P
+preBodyComponents	.cache/static-entry.js	/^    preBodyComponents = components$/;"	P
+postBodyComponents	.cache/static-entry.js	/^    postBodyComponents = components$/;"	P
+dataAndContext	.cache/static-entry.js	/^  let dataAndContext = {}$/;"	O
+if	.cache/static-entry.js	/^  if (page.jsonName in dataPaths) {$/;"	M
+dataAndContext	.cache/static-entry.js	/^      dataAndContext = JSON.parse($/;"	P
+RouteHandler	.cache/static-entry.js	/^  class RouteHandler extends React.Component {$/;"	C
+render	.cache/static-entry.js	/^    render() {$/;"	M
+props	.cache/static-entry.js	/^      const props = {$/;"	O
+pathContext	.cache/static-entry.js	/^        pathContext: dataAndContext.pageContext,$/;"	P
+baseuri	.cache/static-entry.js	/^        baseuri: `${__PATH_PREFIX__}`,$/;"	P
+pathname	.cache/static-entry.js	/^    pathname: pagePath,$/;"	P
+pathPrefix	.cache/static-entry.js	/^    pathPrefix: __PATH_PREFIX__,$/;"	P
+if	.cache/static-entry.js	/^  if (!bodyHtml) {$/;"	M
+bodyHtml	.cache/static-entry.js	/^      bodyHtml = renderToString(bodyComponent)$/;"	P
+if	.cache/static-entry.js	/^      if (!chunks) {$/;"	M
+if	.cache/static-entry.js	/^        if (chunk === `\/`) {$/;"	M
+for	.cache/static-entry.js	/^      for (const rel in childAssets) {$/;"	M
+chunks	.cache/static-entry.js	/^        chunks = merge($/;"	P
+scriptsAndStyles	.cache/static-entry.js	/^  scriptsAndStyles = uniqBy(scriptsAndStyles, item => item.name)$/;"	P
+script	.cache/static-entry.js	/^    script => script.name && script.name.endsWith(`.js`)$/;"	P
+style	.cache/static-entry.js	/^    style => style.name && style.name.endsWith(`.css`)$/;"	P
+pathname	.cache/static-entry.js	/^    pathname: pagePath,$/;"	P
+pathPrefix	.cache/static-entry.js	/^    pathPrefix: __PATH_PREFIX__,$/;"	P
+as	.cache/static-entry.js	/^          as="script"$/;"	P
+rel	.cache/static-entry.js	/^          rel={script.rel}$/;"	P
+key	.cache/static-entry.js	/^          key={script.name}$/;"	P
+href	.cache/static-entry.js	/^          href={`${__PATH_PREFIX__}\/${script.name}`}$/;"	P
+if	.cache/static-entry.js	/^  if (page.jsonName in dataPaths) {$/;"	M
+as	.cache/static-entry.js	/^        as="fetch"$/;"	P
+rel	.cache/static-entry.js	/^        rel="preload"$/;"	P
+key	.cache/static-entry.js	/^        key={dataPath}$/;"	P
+href	.cache/static-entry.js	/^        href={dataPath}$/;"	P
+crossOrigin	.cache/static-entry.js	/^        crossOrigin="use-credentials"$/;"	P
+if	.cache/static-entry.js	/^      if (style.rel === `prefetch`) {$/;"	M
+as	.cache/static-entry.js	/^            as="style"$/;"	P
+rel	.cache/static-entry.js	/^            rel={style.rel}$/;"	P
+key	.cache/static-entry.js	/^            key={style.name}$/;"	P
+href	.cache/static-entry.js	/^            href={`${__PATH_PREFIX__}\/${style.name}`}$/;"	P
+__html	.cache/static-entry.js	/^              __html: fs.readFileSync($/;"	P
+key	.cache/static-entry.js	/^      key={`script-loader`}$/;"	P
+id	.cache/static-entry.js	/^      id={`gatsby-script-loader`}$/;"	P
+__html	.cache/static-entry.js	/^        __html: windowData,$/;"	P
+key	.cache/static-entry.js	/^      key={`chunk-mapping`}$/;"	P
+id	.cache/static-entry.js	/^      id={`gatsby-chunk-mapping`}$/;"	P
+__html	.cache/static-entry.js	/^        __html: scriptChunkMapping,$/;"	P
+pathname	.cache/static-entry.js	/^    pathname: pagePath,$/;"	P
+pathPrefix	.cache/static-entry.js	/^    pathPrefix: __PATH_PREFIX__,$/;"	P
+headComponents	.cache/static-entry.js	/^      headComponents={headComponents}$/;"	P
+htmlAttributes	.cache/static-entry.js	/^      htmlAttributes={htmlAttributes}$/;"	P
+bodyAttributes	.cache/static-entry.js	/^      bodyAttributes={bodyAttributes}$/;"	P
+preBodyComponents	.cache/static-entry.js	/^      preBodyComponents={preBodyComponents}$/;"	P
+postBodyComponents	.cache/static-entry.js	/^      postBodyComponents={postBodyComponents}$/;"	P
+body	.cache/static-entry.js	/^      body={bodyHtml}$/;"	P
+path	.cache/static-entry.js	/^      path={pagePath}$/;"	P
+EnsureResources	.cache/ensure-resources.js	/^class EnsureResources extends React.Component {$/;"	C
+constructor	.cache/ensure-resources.js	/^  constructor(props) {$/;"	M
+state	.cache/ensure-resources.js	/^    this.state = {$/;"	M
+location	.cache/ensure-resources.js	/^      location: { ...location },$/;"	P
+pageResources	.cache/ensure-resources.js	/^      pageResources: loader.getResourcesForPathnameSync(location.pathname),$/;"	P
+reloadPage	.cache/ensure-resources.js	/^  reloadPage(prevHref) {$/;"	M
+getDerivedStateFromProps	.cache/ensure-resources.js	/^  static getDerivedStateFromProps({ location }, prevState) {$/;"	M
+if	.cache/ensure-resources.js	/^    if (prevState.location !== location) {$/;"	M
+location	.cache/ensure-resources.js	/^        location: { ...location },$/;"	P
+hasResources	.cache/ensure-resources.js	/^  hasResources(pageResources) {$/;"	M
+if	.cache/ensure-resources.js	/^    if (pageResources && pageResources.json) {$/;"	M
+if	.cache/ensure-resources.js	/^    if (pageResources && process.env.NODE_ENV !== `production`) {$/;"	M
+retryResources	.cache/ensure-resources.js	/^  retryResources(nextProps) {$/;"	M
+if	.cache/ensure-resources.js	/^    if (!loader.getResourcesForPathnameSync(pathname)) {$/;"	M
+nextLocation	.cache/ensure-resources.js	/^      this.nextLocation = nextProps.location$/;"	P
+if	.cache/ensure-resources.js	/^        if (this.nextLocation !== nextProps.location) {$/;"	M
+if	.cache/ensure-resources.js	/^        if (this.hasResources(pageResources)) {$/;"	M
+location	.cache/ensure-resources.js	/^            location: { ...window.location },$/;"	P
+shouldComponentUpdate	.cache/ensure-resources.js	/^  shouldComponentUpdate(nextProps, nextState) {$/;"	M
+if	.cache/ensure-resources.js	/^    if (!this.hasResources(nextState.pageResources)) {$/;"	M
+if	.cache/ensure-resources.js	/^    if (this.state.pageResources !== nextState.pageResources) {$/;"	M
+if	.cache/ensure-resources.js	/^    if (this.state.pageResources.json !== nextState.pageResources.json) {$/;"	M
+render	.cache/ensure-resources.js	/^  render() {$/;"	M
+if	.cache/ensure-resources.js	/^    if (!this.hasResources(this.state.pageResources) && isInitialRender) {$/;"	M
+isInitialRender	.cache/ensure-resources.js	/^    isInitialRender = false$/;"	P
+location	.cache/ensure-resources.js	/^  location: PropTypes.object.isRequired,$/;"	P
+pageResources	.cache/ensure-resources.js	/^  pageResources: PropTypes.object,$/;"	P
+Html	.cache/develop-static-entry.js	/^  Html = require(`..\/src\/html`)$/;"	P
+if	.cache/develop-static-entry.js	/^  if (testRequireError(`..\/src\/html`, err)) {$/;"	M
+Html	.cache/develop-static-entry.js	/^    Html = require(`.\/default-html`)$/;"	P
+Html	.cache/develop-static-entry.js	/^Html = Html && Html.__esModule ? Html.default : Html$/;"	P
+headComponents	.cache/develop-static-entry.js	/^  let headComponents = []$/;"	A
+htmlAttributes	.cache/develop-static-entry.js	/^  let htmlAttributes = {}$/;"	O
+bodyAttributes	.cache/develop-static-entry.js	/^  let bodyAttributes = {}$/;"	O
+preBodyComponents	.cache/develop-static-entry.js	/^  let preBodyComponents = []$/;"	A
+postBodyComponents	.cache/develop-static-entry.js	/^  let postBodyComponents = []$/;"	A
+bodyProps	.cache/develop-static-entry.js	/^  let bodyProps = {}$/;"	O
+headComponents	.cache/develop-static-entry.js	/^    headComponents = headComponents.concat(components)$/;"	P
+htmlAttributes	.cache/develop-static-entry.js	/^    htmlAttributes = merge(htmlAttributes, attributes)$/;"	P
+bodyAttributes	.cache/develop-static-entry.js	/^    bodyAttributes = merge(bodyAttributes, attributes)$/;"	P
+preBodyComponents	.cache/develop-static-entry.js	/^    preBodyComponents = preBodyComponents.concat(components)$/;"	P
+postBodyComponents	.cache/develop-static-entry.js	/^    postBodyComponents = postBodyComponents.concat(components)$/;"	P
+bodyProps	.cache/develop-static-entry.js	/^    bodyProps = merge({}, bodyProps, props)$/;"	P
+headComponents	.cache/develop-static-entry.js	/^    headComponents = components$/;"	P
+preBodyComponents	.cache/develop-static-entry.js	/^    preBodyComponents = components$/;"	P
+postBodyComponents	.cache/develop-static-entry.js	/^    postBodyComponents = components$/;"	P
+body	.cache/develop-static-entry.js	/^    body: ``,$/;"	P
+headComponents	.cache/develop-static-entry.js	/^    headComponents: headComponents.concat([$/;"	P
+postBodyComponents	.cache/develop-static-entry.js	/^    postBodyComponents: postBodyComponents.concat([$/;"	P
+htmlStr	.cache/develop-static-entry.js	/^  htmlStr = renderToStaticMarkup(htmlElement)$/;"	P
+htmlStr	.cache/develop-static-entry.js	/^  htmlStr = `<!DOCTYPE html>${htmlStr}`$/;"	P
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpFixed = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpFixedTracedSVG = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpFixedPreferWebp = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpFixedPreferWebpTracedSVG = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpFixedNoBase64 = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpFixedPreferWebpNoBase64 = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpFluid = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpFluidTracedSVG = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpFluidPreferWebp = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpFluidPreferWebpTracedSVG = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpFluidNoBase64 = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpFluidPreferWebpNoBase64 = graphql`$/;"	E
+TODO	.cache/fragments/image-sharp-fragments.js	/^\/\/ TODO: in v3 remove these legacy fragments$/;"	T
+TODO	.cache/fragments/image-sharp-fragments.js	/^\/\/ TODO: in v3 remove these legacy fragments$/;"	T
+TODO	.cache/fragments/image-sharp-fragments.js	/^\/\/ TODO: in v3 remove these legacy fragments$/;"	T
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpResolutions = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpResolutionsTracedSVG = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpResolutionsPreferWebp = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpResolutionsPreferWebpTracedSVG = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpResolutionsNoBase64 = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpResolutionsPreferWebpNoBase64 = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpSizes = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpSizesTracedSVG = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpSizesPreferWebp = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpSizesPreferWebpTracedSVG = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpSizesNoBase64 = graphql`$/;"	E
+gatsby	.cache/fragments/image-sharp-fragments.js	/^export const gatsbyImageSharpSizesPreferWebpNoBase64 = graphql`$/;"	E
+Dev404Page	.cache/dev-404-page.js	/^class Dev404Page extends React.Component {$/;"	C
+pages	.cache/dev-404-page.js	/^    pages: PropTypes.arrayOf(PropTypes.object),$/;"	P
+custom404	.cache/dev-404-page.js	/^    custom404: PropTypes.element,$/;"	P
+location	.cache/dev-404-page.js	/^    location: PropTypes.object,$/;"	P
+constructor	.cache/dev-404-page.js	/^  constructor(props) {$/;"	M
+state	.cache/dev-404-page.js	/^    this.state = { showCustom404: false }$/;"	P
+showCustom404	.cache/dev-404-page.js	/^    this.showCustom404 = this.showCustom404.bind(this)$/;"	P
+showCustom404	.cache/dev-404-page.js	/^  showCustom404() {$/;"	M
+render	.cache/dev-404-page.js	/^  render() {$/;"	M
+p	.cache/dev-404-page.js	/^      p => !\/^\\\/dev-404-page\\\/$\/.test(p.path)$/;"	P
+if	.cache/dev-404-page.js	/^    if (pathname === `\/`) {$/;"	M
+newFilePath	.cache/dev-404-page.js	/^      newFilePath = `src\/pages\/index.js`$/;"	P
+newFilePath	.cache/dev-404-page.js	/^      newFilePath = `src\/pages${pathname.slice(0, -1)}.js`$/;"	P
+newFilePath	.cache/dev-404-page.js	/^      newFilePath = `src\/pages${pathname}.js`$/;"	P
+if	.cache/api-runner-browser.js	/^  if (process.env.CYPRESS_SUPPORT) {$/;"	M
+if	.cache/api-runner-browser.js	/^    if (window.___apiHandler) {$/;"	M
+if	.cache/api-runner-browser.js	/^    if (!plugin.plugin[api]) {$/;"	M
+if	.cache/api-runner-browser.js	/^    if (result && argTransform) {$/;"	M
+args	.cache/api-runner-browser.js	/^      args = argTransform({ args, result, plugin })$/;"	P
+results	.cache/api-runner-browser.js	/^  results = results.filter(result => typeof result !== `undefined`)$/;"	P
+if	.cache/api-runner-browser.js	/^  if (results.length > 0) {$/;"	M
+plugins	.cache/api-runner-ssr.js	/^var plugins = [{$/;"	A
+plugin	.cache/api-runner-ssr.js	/^      plugin: require('\/Users\/leo\/dev\/tmp\/gatsby-bootstrap-landing-page\/node_modules\/gatsby-plugin-manifest\/gatsby-ssr'),$/;"	P
+options	.cache/api-runner-ssr.js	/^      options: {"plugins":[],"name":"Gatstrap","short_name":"Gatstrap","description":"Gatsby starter for bootstrap a blog","homepage_url":"https:\/\/gatstrap.netlify.com","start_url":"\/","background_color":"#fff","theme_color":"#673ab7","display":"standalone","icons":[{"src":"\/img\/android-chrome-192x192.png","sizes":"192x192","type":"image\/png"},{"src":"\/img\/android-chrome-512x512.png","sizes":"512x512","type":"image\/png"}]},$/;"	P
+plugin	.cache/api-runner-ssr.js	/^      plugin: require('\/Users\/leo\/dev\/tmp\/gatsby-bootstrap-landing-page\/node_modules\/gatsby-plugin-google-analytics\/gatsby-ssr'),$/;"	P
+options	.cache/api-runner-ssr.js	/^      options: {"plugins":[],"trackingId":""},$/;"	P
+plugin	.cache/api-runner-ssr.js	/^      plugin: require('\/Users\/leo\/dev\/tmp\/gatsby-bootstrap-landing-page\/node_modules\/gatsby-plugin-react-helmet\/gatsby-ssr'),$/;"	P
+options	.cache/api-runner-ssr.js	/^      options: {"plugins":[]},$/;"	P
+plugin	.cache/api-runner-ssr.js	/^      plugin: require('\/Users\/leo\/dev\/tmp\/gatsby-bootstrap-landing-page\/node_modules\/gatsby-plugin-sitemap\/gatsby-ssr'),$/;"	P
+options	.cache/api-runner-ssr.js	/^      options: {"plugins":[]},$/;"	P
+if	.cache/api-runner-ssr.js	/^  if (!apis[api]) {$/;"	M
+if	.cache/api-runner-ssr.js	/^    if (!plugin.plugin[api]) {$/;"	M
+if	.cache/api-runner-ssr.js	/^    if (result && argTransform) {$/;"	M
+args	.cache/api-runner-ssr.js	/^      args = argTransform({ args, result })$/;"	P
+results	.cache/api-runner-ssr.js	/^  results = results.filter(result => typeof result !== `undefined`)$/;"	P
+if	.cache/api-runner-ssr.js	/^  if (results.length > 0) {$/;"	M
+ErrorOverlay	.cache/error-overlay-handler.js	/^import * as ErrorOverlay from "react-error-overlay"$/;"	I
+onError	.cache/error-overlay-handler.js	/^  onError: () => {},$/;"	P
+filename	.cache/error-overlay-handler.js	/^  filename: `\/commons.js`,$/;"	P
+errorMap	.cache/error-overlay-handler.js	/^const errorMap = {}$/;"	O
+if	.cache/error-overlay-handler.js	/^  if (errors.length > 0) {$/;"	M
+clear	.cache/error-overlay-handler.js	/^export const clearError = errorID => {$/;"	E
+report	.cache/error-overlay-handler.js	/^export const reportError = (errorID, error) => {$/;"	E
+error	.cache/error-overlay-handler.js	/^export const reportError = (errorID, error) => {$/;"	E
+if	.cache/error-overlay-handler.js	/^  if (error) {$/;"	M
+PageRenderer	.cache/page-renderer.js	/^class PageRenderer extends React.Component {$/;"	C
+render	.cache/page-renderer.js	/^  render() {$/;"	M
+props	.cache/page-renderer.js	/^    const props = {$/;"	O
+pathContext	.cache/page-renderer.js	/^      pathContext: this.props.pageContext,$/;"	P
+props	.cache/page-renderer.js	/^      props: this.props,$/;"	P
+loader	.cache/page-renderer.js	/^      loader: publicLoader,$/;"	P
+key	.cache/page-renderer.js	/^        key: this.props.pageResources.page.path,$/;"	P
+location	.cache/page-renderer.js	/^  location: PropTypes.object.isRequired,$/;"	P
+pageResources	.cache/page-renderer.js	/^  pageResources: PropTypes.object.isRequired,$/;"	P
+data	.cache/page-renderer.js	/^  data: PropTypes.object,$/;"	P
+pageContext	.cache/page-renderer.js	/^  pageContext: PropTypes.object.isRequired,$/;"	P
+name	.cache/default-html.js	/^          name="viewport"$/;"	P
+content	.cache/default-html.js	/^          content="width=device-width, initial-scale=1, shrink-to-fit=no"$/;"	P
+key	.cache/default-html.js	/^          key={`body`}$/;"	P
+id	.cache/default-html.js	/^          id="___gatsby"$/;"	P
+dangerouslySetInnerHTML	.cache/default-html.js	/^          dangerouslySetInnerHTML={{ __html: props.body }}$/;"	P
+htmlAttributes	.cache/default-html.js	/^  htmlAttributes: PropTypes.object,$/;"	P
+headComponents	.cache/default-html.js	/^  headComponents: PropTypes.array,$/;"	P
+bodyAttributes	.cache/default-html.js	/^  bodyAttributes: PropTypes.object,$/;"	P
+preBodyComponents	.cache/default-html.js	/^  preBodyComponents: PropTypes.array,$/;"	P
+body	.cache/default-html.js	/^  body: PropTypes.string,$/;"	P
+postBodyComponents	.cache/default-html.js	/^  postBodyComponents: PropTypes.array,$/;"	P
+pathname	.cache/public-page-renderer-prod.js	/^    pathname: PropTypes.string.isRequired,$/;"	P
+plugin	.cache/api-runner-browser-plugins.js	/^      plugin: require('\/Users\/leo\/dev\/tmp\/gatsby-bootstrap-landing-page\/node_modules\/gatsby-remark-images\/gatsby-browser.js'),$/;"	P
+options	.cache/api-runner-browser-plugins.js	/^      options: {"plugins":[],"maxWidth":750,"linkImagesToOriginal":false,"wrapperStyle":"margin-bottom: 1.0725rem;"},$/;"	P
+plugin	.cache/api-runner-browser-plugins.js	/^      plugin: require('\/Users\/leo\/dev\/tmp\/gatsby-bootstrap-landing-page\/node_modules\/gatsby-plugin-google-analytics\/gatsby-browser.js'),$/;"	P
+options	.cache/api-runner-browser-plugins.js	/^      options: {"plugins":[],"trackingId":""},$/;"	P
+plugin	.cache/api-runner-browser-plugins.js	/^      plugin: require('\/Users\/leo\/dev\/tmp\/gatsby-bootstrap-landing-page\/node_modules\/gatsby-plugin-catch-links\/gatsby-browser.js'),$/;"	P
+options	.cache/api-runner-browser-plugins.js	/^      options: {"plugins":[]},$/;"	P
+plugin	.cache/api-runner-browser-plugins.js	/^      plugin: require('\/Users\/leo\/dev\/tmp\/gatsby-bootstrap-landing-page\/node_modules\/gatsby-plugin-offline\/gatsby-browser.js'),$/;"	P
+options	.cache/api-runner-browser-plugins.js	/^      options: {"plugins":[]},$/;"	P
+plugin	.cache/api-runner-browser-plugins.js	/^      plugin: require('\/Users\/leo\/dev\/tmp\/gatsby-bootstrap-landing-page\/node_modules\/gatsby-plugin-react-next\/gatsby-browser.js'),$/;"	P
+options	.cache/api-runner-browser-plugins.js	/^      options: {"plugins":[]},$/;"	P
+plugin	.cache/api-runner-browser-plugins.js	/^      plugin: require('\/Users\/leo\/dev\/tmp\/gatsby-bootstrap-landing-page\/node_modules\/gatsby-plugin-twitter\/gatsby-browser.js'),$/;"	P
+options	.cache/api-runner-browser-plugins.js	/^      options: {"plugins":[]},$/;"	P
+if	.cache/json-store.js	/^if (process.env.NODE_ENV === `production`) {$/;"	M
+JSONStore	.cache/json-store.js	/^class JSONStore extends React.Component {$/;"	C
+constructor	.cache/json-store.js	/^  constructor(props) {$/;"	M
+state	.cache/json-store.js	/^    this.state = {$/;"	M
+staticQueryData	.cache/json-store.js	/^      staticQueryData: getStaticQueryData(),$/;"	P
+pageQueryData	.cache/json-store.js	/^      pageQueryData: getPageQueryData(),$/;"	P
+path	.cache/json-store.js	/^      path: null,$/;"	P
+staticQueryData	.cache/json-store.js	/^      staticQueryData: getStaticQueryData(),$/;"	P
+pageQueryData	.cache/json-store.js	/^      pageQueryData: getPageQueryData(),$/;"	P
+componentDidMount	.cache/json-store.js	/^  componentDidMount() {$/;"	M
+componentWillUnmount	.cache/json-store.js	/^  componentWillUnmount() {$/;"	M
+getDerivedStateFromProps	.cache/json-store.js	/^  static getDerivedStateFromProps(props, state) {$/;"	M
+if	.cache/json-store.js	/^    if (newPath !== state.path) {$/;"	M
+path	.cache/json-store.js	/^        path: newPath,$/;"	P
+shouldComponentUpdate	.cache/json-store.js	/^  shouldComponentUpdate(nextProps, nextState) {$/;"	M
+render	.cache/json-store.js	/^  render() {$/;"	M
+if	.cache/json-store.js	/^    if (!data) {$/;"	M
+if	.cache/root.js	/^if (window.__webpack_hot_middleware_reporter__ !== undefined) {$/;"	M
+showProblems	.cache/root.js	/^    showProblems(type, obj) {$/;"	M
+if	.cache/root.js	/^      if (type !== `errors`) {$/;"	M
+clear	.cache/root.js	/^    clear() {$/;"	M
+RouteHandler	.cache/root.js	/^class RouteHandler extends React.Component {$/;"	C
+render	.cache/root.js	/^  render() {$/;"	M
+if	.cache/root.js	/^    if (page) {$/;"	M
+location	.cache/root.js	/^                location={location}$/;"	P
+shouldUpdateScroll	.cache/root.js	/^                shouldUpdateScroll={shouldUpdateScroll}$/;"	P
+pages	.cache/root.js	/^                  pages={pages}$/;"	P
+if	.cache/root.js	/^      if (!loader.getPage(`\/404.html`)) {$/;"	M
+pages	.cache/root.js	/^                pages={pages}$/;"	P
+pages	.cache/root.js	/^                    pages={pages}$/;"	P
+basepath	.cache/root.js	/^      basepath: __PATH_PREFIX__,$/;"	P
+reachNavigate	.cache/navigation.js	/^import { navigate as reachNavigate } from "@reach\/router"$/;"	I
+maybeRedirect	.cache/navigation.js	/^function maybeRedirect(pathname) {$/;"	F
+if	.cache/navigation.js	/^  if (redirect != null) {$/;"	M
+if	.cache/navigation.js	/^    if (process.env.NODE_ENV !== `production`) {$/;"	M
+if	.cache/navigation.js	/^      if (pageResources != null) {$/;"	M
+if	.cache/navigation.js	/^  if (!maybeRedirect(location.pathname)) {$/;"	M
+if	.cache/navigation.js	/^  if (!maybeRedirect(location.pathname)) {$/;"	M
+if	.cache/navigation.js	/^  if (!options.replace) {$/;"	M
+if	.cache/navigation.js	/^  if (redirect) {$/;"	M
+to	.cache/navigation.js	/^    to = redirect.toPath$/;"	P
+pathname	.cache/navigation.js	/^    pathname = parsePath(to).pathname$/;"	P
+if	.cache/navigation.js	/^  if (window.___swUpdated) {$/;"	M
+location	.cache/navigation.js	/^      location: window.location,$/;"	P
+shouldUpdateScroll	.cache/navigation.js	/^function shouldUpdateScroll(prevRouterProps, { location }) {$/;"	F
+routerProps	.cache/navigation.js	/^    routerProps: { location },$/;"	P
+getSavedScrollPosition	.cache/navigation.js	/^    getSavedScrollPosition: args => this._stateStorage.read(args),$/;"	P
+if	.cache/navigation.js	/^  if (results.length > 0) {$/;"	M
+if	.cache/navigation.js	/^  if (prevRouterProps) {$/;"	M
+location	.cache/navigation.js	/^      location: { pathname: oldPathname },$/;"	P
+if	.cache/navigation.js	/^    if (oldPathname === pathname) {$/;"	M
+init	.cache/navigation.js	/^function init() {$/;"	F
+RouteUpdates	.cache/navigation.js	/^class RouteUpdates extends React.Component {$/;"	C
+constructor	.cache/navigation.js	/^  constructor(props) {$/;"	M
+componentDidMount	.cache/navigation.js	/^  componentDidMount() {$/;"	M
+componentDidUpdate	.cache/navigation.js	/^  componentDidUpdate(prevProps, prevState, shouldFireRouteUpdate) {$/;"	M
+if	.cache/navigation.js	/^    if (shouldFireRouteUpdate) {$/;"	M
+getSnapshotBeforeUpdate	.cache/navigation.js	/^  getSnapshotBeforeUpdate(prevProps) {$/;"	M
+if	.cache/navigation.js	/^    if (this.props.location.pathname !== prevProps.location.pathname) {$/;"	M
+render	.cache/navigation.js	/^  render() {$/;"	M
+location	.cache/navigation.js	/^  location: PropTypes.object.isRequired,$/;"	P
+version	.cache/__tests__/static-entry.js	/^    version: `2.0.0`,$/;"	P
+dataPaths	.cache/__tests__/static-entry.js	/^      dataPaths: [$/;"	P
+pages	.cache/__tests__/static-entry.js	/^      pages: [$/;"	P
+path	.cache/__tests__/static-entry.js	/^          path: `\/about\/`,$/;"	P
+componentChunkName	.cache/__tests__/static-entry.js	/^          componentChunkName: `page-component---src-pages-test-js`,$/;"	P
+jsonName	.cache/__tests__/static-entry.js	/^          jsonName: `about.json`,$/;"	P
+MOCK_FILE_INFO	.cache/__tests__/static-entry.js	/^const MOCK_FILE_INFO = {$/;"	O
+reverseHeadersPlugin	.cache/__tests__/static-entry.js	/^const reverseHeadersPlugin = {$/;"	O
+fakeStylesPlugin	.cache/__tests__/static-entry.js	/^const fakeStylesPlugin = {$/;"	O
+onRenderBody	.cache/__tests__/static-entry.js	/^    onRenderBody: ({ setHeadComponents }) =>$/;"	P
+args	.cache/__tests__/minimal-config.js	/^  const args = [$/;"	A
+ErrorOverlay	.cache/__tests__/error-overlay-handler.js	/^import * as ErrorOverlay from "react-error-overlay"$/;"	I
+reportBuildError	.cache/__tests__/error-overlay-handler.js	/^    reportBuildError: jest.fn(),$/;"	P
+dismissBuildError	.cache/__tests__/error-overlay-handler.js	/^    dismissBuildError: jest.fn(),$/;"	P
+startReportingRuntimeErrors	.cache/__tests__/error-overlay-handler.js	/^    startReportingRuntimeErrors: jest.fn(),$/;"	P
+setEditorHandler	.cache/__tests__/error-overlay-handler.js	/^    setEditorHandler: jest.fn(),$/;"	P
+newPages	.cache/__tests__/find-page.js	/^    const newPages = [$/;"	A
+path	.cache/__tests__/find-page.js	/^        path: `\/about\/`,$/;"	P
+componentChunkName	.cache/__tests__/find-page.js	/^        componentChunkName: `page-component---src-pages-test-js`,$/;"	P
+jsonName	.cache/__tests__/find-page.js	/^        jsonName: `about.json`,$/;"	P
+path	.cache/__tests__/find-page.js	/^        path: `\/about\/me\/`,$/;"	P
+componentChunkName	.cache/__tests__/find-page.js	/^        componentChunkName: `page-component---src-pages-test-js`,$/;"	P
+jsonName	.cache/__tests__/find-page.js	/^        jsonName: `about-me.json`,$/;"	P
+path	.cache/__tests__/find-page.js	/^        path: `\/about\/the best\/`,$/;"	P
+componentChunkName	.cache/__tests__/find-page.js	/^        componentChunkName: `page-component---src-pages-test-js`,$/;"	P
+jsonName	.cache/__tests__/find-page.js	/^        jsonName: `the-best.json`,$/;"	P
+path	.cache/__tests__/find-page.js	/^        path: `\/app\/`,$/;"	P
+matchPath	.cache/__tests__/find-page.js	/^        matchPath: `\/app\/*`,$/;"	P
+componentChunkName	.cache/__tests__/find-page.js	/^        componentChunkName: `page-component---src-pages-app-js`,$/;"	P
+jsonName	.cache/__tests__/find-page.js	/^        jsonName: `app.json`,$/;"	P
+findPage	.cache/__tests__/find-page.js	/^    findPage = pageFinderFactory(newPages)$/;"	P
+newPages	.cache/__tests__/find-page.js	/^    const newPages = [$/;"	A
+path	.cache/__tests__/find-page.js	/^        path: `\/about\/`,$/;"	P
+componentChunkName	.cache/__tests__/find-page.js	/^        componentChunkName: `page-component---src-pages-test-js`,$/;"	P
+jsonName	.cache/__tests__/find-page.js	/^        jsonName: `about.json`,$/;"	P
+if	.cache/public-page-renderer.js	/^if (process.env.BUILD_STAGE === `develop`) {$/;"	M
+staticQueryData	.cache/socketIo.js	/^let staticQueryData = {}$/;"	O
+pageQueryData	.cache/socketIo.js	/^let pageQueryData = {}$/;"	O
+get	.cache/socketIo.js	/^export const getStaticQueryData = () => staticQueryData$/;"	E
+get	.cache/socketIo.js	/^export const getPageQueryData = () => pageQueryData$/;"	E
+get	.cache/socketIo.js	/^export const getIsInitialized = () => isInitialized$/;"	E
+if	.cache/socketIo.js	/^  if (process.env.NODE_ENV !== `production`) {$/;"	M
+if	.cache/socketIo.js	/^    if (!socket) {$/;"	M
+socket	.cache/socketIo.js	/^        socket = io()$/;"	P
+if	.cache/socketIo.js	/^          if (msg.type === `staticQueryResult`) {$/;"	M
+if	.cache/socketIo.js	/^            if (didDataChange(msg, staticQueryData)) {$/;"	M
+if	.cache/socketIo.js	/^            if (didDataChange(msg, pageQueryData)) {$/;"	M
+if	.cache/socketIo.js	/^            if (msg.payload.message) {$/;"	M
+if	.cache/socketIo.js	/^          if (msg.type && msg.payload) {$/;"	M
+inFlightGetPageDataPromiseCache	.cache/socketIo.js	/^const inFlightGetPageDataPromiseCache = {}$/;"	O
+getPageData	.cache/socketIo.js	/^function getPageData(pathname) {$/;"	F
+if	.cache/socketIo.js	/^  if (inFlightGetPageDataPromiseCache[pathname]) {$/;"	M
+if	.cache/socketIo.js	/^      if (pageQueryData[pathname]) {$/;"	M
+if	.cache/socketIo.js	/^          if (msg.type === `pageQueryResult` && msg.payload.id === pathname) {$/;"	M
+registerPath	.cache/socketIo.js	/^function registerPath(path) {$/;"	F
+unregisterPath	.cache/socketIo.js	/^function unregisterPath(path) {$/;"	F
+switch	.cache/register-service-worker.js	/^          switch (installingWorker.state) {$/;"	M
+if	.cache/register-service-worker.js	/^              if (navigator.serviceWorker.controller) {$/;"	M
+if	.cache/register-service-worker.js	/^                if (window.___failedResources) {$/;"	M
+support	.cache/prefetch.js	/^const support = function(feature) {$/;"	F
+if	.cache/prefetch.js	/^  if (typeof document === `undefined`) {$/;"	M
+if	.cache/prefetch.js	/^    if (fakeLink.relList && typeof fakeLink.relList.supports === `function`) {$/;"	M
+linkPrefetchStrategy	.cache/prefetch.js	/^const linkPrefetchStrategy = function(url) {$/;"	F
+if	.cache/prefetch.js	/^    if (typeof document === `undefined`) {$/;"	M
+xhrPrefetchStrategy	.cache/prefetch.js	/^const xhrPrefetchStrategy = function(url) {$/;"	F
+if	.cache/prefetch.js	/^      if (req.status === 200) {$/;"	M
+preFetched	.cache/prefetch.js	/^const preFetched = {}$/;"	O
+prefetch	.cache/prefetch.js	/^const prefetch = function(url) {$/;"	F
+if	.cache/prefetch.js	/^    if (preFetched[url]) {$/;"	M
+pathname	.cache/public-page-renderer-dev.js	/^    pathname: PropTypes.string.isRequired,$/;"	P
+_interopRequireDefault	.cache/commonjs/static-entry.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_extends2	.cache/commonjs/static-entry.js	/^var _extends2 = _interopRequireDefault(require("@babel\/runtime\/helpers\/extends"));$/;"	V
+React	.cache/commonjs/static-entry.js	/^const React = require(`react`);$/;"	V
+fs	.cache/commonjs/static-entry.js	/^const fs = require(`fs`);$/;"	V
+join	.cache/commonjs/static-entry.js	/^      join = _require.join;$/;"	P
+renderToString	.cache/commonjs/static-entry.js	/^      renderToString = _require2.renderToString,$/;"	P
+renderToStaticMarkup	.cache/commonjs/static-entry.js	/^      renderToStaticMarkup = _require2.renderToStaticMarkup;$/;"	P
+ServerLocation	.cache/commonjs/static-entry.js	/^      ServerLocation = _require3.ServerLocation,$/;"	P
+Router	.cache/commonjs/static-entry.js	/^      Router = _require3.Router,$/;"	P
+isRedirect	.cache/commonjs/static-entry.js	/^      isRedirect = _require3.isRedirect;$/;"	P
+get	.cache/commonjs/static-entry.js	/^      get = _require4.get,$/;"	P
+merge	.cache/commonjs/static-entry.js	/^      merge = _require4.merge,$/;"	P
+isObject	.cache/commonjs/static-entry.js	/^      isObject = _require4.isObject,$/;"	P
+flatten	.cache/commonjs/static-entry.js	/^      flatten = _require4.flatten,$/;"	P
+uniqBy	.cache/commonjs/static-entry.js	/^      uniqBy = _require4.uniqBy;$/;"	P
+apiRunner	.cache/commonjs/static-entry.js	/^const apiRunner = require(`.\/api-runner-ssr`);$/;"	V
+syncRequires	.cache/commonjs/static-entry.js	/^const syncRequires = require(`.\/sync-requires`);$/;"	V
+dataPaths	.cache/commonjs/static-entry.js	/^      dataPaths = _require5.dataPaths,$/;"	P
+pages	.cache/commonjs/static-entry.js	/^      pages = _require5.pages;$/;"	P
+gatsbyVersion	.cache/commonjs/static-entry.js	/^      gatsbyVersion = _require6.version; \/\/ Speed up looking up pages.$/;"	P
+pagesObjectMap	.cache/commonjs/static-entry.js	/^const pagesObjectMap = new Map();$/;"	V
+Html	.cache/commonjs/static-entry.js	/^  Html = require(`..\/src\/html`);$/;"	P
+if	.cache/commonjs/static-entry.js	/^  if (testRequireError(`..\/src\/html`, err)) {$/;"	M
+Html	.cache/commonjs/static-entry.js	/^    Html = require(`.\/default-html`);$/;"	P
+Html	.cache/commonjs/static-entry.js	/^Html = Html && Html.__esModule ? Html.default : Html;$/;"	P
+getPage	.cache/commonjs/static-entry.js	/^const getPage = path => pagesObjectMap.get(path);$/;"	V
+createElement	.cache/commonjs/static-entry.js	/^const createElement = React.createElement;$/;"	V
+bodyHtml	.cache/commonjs/static-entry.js	/^  let bodyHtml = ``;$/;"	V
+headComponents	.cache/commonjs/static-entry.js	/^  let headComponents = [React.createElement("meta", {$/;"	A
+name	.cache/commonjs/static-entry.js	/^    name: "generator",$/;"	P
+content	.cache/commonjs/static-entry.js	/^    content: `Gatsby ${gatsbyVersion}`,$/;"	P
+key	.cache/commonjs/static-entry.js	/^    key: `generator-${gatsbyVersion}`$/;"	P
+htmlAttributes	.cache/commonjs/static-entry.js	/^  let htmlAttributes = {};$/;"	O
+bodyAttributes	.cache/commonjs/static-entry.js	/^  let bodyAttributes = {};$/;"	O
+preBodyComponents	.cache/commonjs/static-entry.js	/^  let preBodyComponents = [];$/;"	A
+postBodyComponents	.cache/commonjs/static-entry.js	/^  let postBodyComponents = [];$/;"	A
+bodyProps	.cache/commonjs/static-entry.js	/^  let bodyProps = {};$/;"	O
+bodyHtml	.cache/commonjs/static-entry.js	/^    bodyHtml = body;$/;"	P
+headComponents	.cache/commonjs/static-entry.js	/^    headComponents = headComponents.concat(components);$/;"	P
+htmlAttributes	.cache/commonjs/static-entry.js	/^    htmlAttributes = merge(htmlAttributes, attributes);$/;"	P
+bodyAttributes	.cache/commonjs/static-entry.js	/^    bodyAttributes = merge(bodyAttributes, attributes);$/;"	P
+preBodyComponents	.cache/commonjs/static-entry.js	/^    preBodyComponents = preBodyComponents.concat(components);$/;"	P
+postBodyComponents	.cache/commonjs/static-entry.js	/^    postBodyComponents = postBodyComponents.concat(components);$/;"	P
+bodyProps	.cache/commonjs/static-entry.js	/^    bodyProps = merge({}, bodyProps, props);$/;"	P
+getHeadComponents	.cache/commonjs/static-entry.js	/^  const getHeadComponents = () => headComponents;$/;"	V
+headComponents	.cache/commonjs/static-entry.js	/^    headComponents = components;$/;"	P
+getPreBodyComponents	.cache/commonjs/static-entry.js	/^  const getPreBodyComponents = () => preBodyComponents;$/;"	V
+preBodyComponents	.cache/commonjs/static-entry.js	/^    preBodyComponents = components;$/;"	P
+getPostBodyComponents	.cache/commonjs/static-entry.js	/^  const getPostBodyComponents = () => postBodyComponents;$/;"	V
+postBodyComponents	.cache/commonjs/static-entry.js	/^    postBodyComponents = components;$/;"	P
+page	.cache/commonjs/static-entry.js	/^  const page = getPage(pagePath);$/;"	V
+dataAndContext	.cache/commonjs/static-entry.js	/^  let dataAndContext = {};$/;"	O
+if	.cache/commonjs/static-entry.js	/^  if (page.jsonName in dataPaths) {$/;"	M
+dataAndContext	.cache/commonjs/static-entry.js	/^      dataAndContext = JSON.parse(fs.readFileSync(`${process.cwd()}\/public\/static\/d\/${dataPaths[page.jsonName]}.json`));$/;"	P
+RouteHandler	.cache/commonjs/static-entry.js	/^  class RouteHandler extends React.Component {$/;"	C
+render	.cache/commonjs/static-entry.js	/^    render() {$/;"	M
+pathContext	.cache/commonjs/static-entry.js	/^        pathContext: dataAndContext.pageContext$/;"	P
+element	.cache/commonjs/static-entry.js	/^        element: pageElement,$/;"	P
+element	.cache/commonjs/static-entry.js	/^          element: result,$/;"	P
+url	.cache/commonjs/static-entry.js	/^    url: `${__PATH_PREFIX__}${pagePath}`$/;"	P
+baseuri	.cache/commonjs/static-entry.js	/^    baseuri: `${__PATH_PREFIX__}`$/;"	P
+path	.cache/commonjs/static-entry.js	/^    path: `\/*`$/;"	P
+element	.cache/commonjs/static-entry.js	/^    element: routerElement,$/;"	P
+pathname	.cache/commonjs/static-entry.js	/^    pathname: pagePath$/;"	P
+element	.cache/commonjs/static-entry.js	/^      element: result,$/;"	P
+pathname	.cache/commonjs/static-entry.js	/^      pathname: pagePath$/;"	P
+pathname	.cache/commonjs/static-entry.js	/^    pathname: pagePath,$/;"	P
+pathPrefix	.cache/commonjs/static-entry.js	/^    pathPrefix: __PATH_PREFIX__$/;"	P
+if	.cache/commonjs/static-entry.js	/^  if (!bodyHtml) {$/;"	M
+bodyHtml	.cache/commonjs/static-entry.js	/^      bodyHtml = renderToString(bodyComponent);$/;"	P
+chunks	.cache/commonjs/static-entry.js	/^    let chunks = get(stats, fetchKey);$/;"	V
+namedChunkGroups	.cache/commonjs/static-entry.js	/^    let namedChunkGroups = get(stats, `namedChunkGroups`);$/;"	V
+if	.cache/commonjs/static-entry.js	/^    if (!chunks) {$/;"	M
+if	.cache/commonjs/static-entry.js	/^      if (chunk === `\/`) {$/;"	M
+rel	.cache/commonjs/static-entry.js	/^        rel: `preload`,$/;"	P
+name	.cache/commonjs/static-entry.js	/^        name: chunk$/;"	P
+rel	.cache/commonjs/static-entry.js	/^      rel: `preload`,$/;"	P
+name	.cache/commonjs/static-entry.js	/^      name: asset$/;"	P
+for	.cache/commonjs/static-entry.js	/^    for (const rel in childAssets) {$/;"	M
+name	.cache/commonjs/static-entry.js	/^          name: chunk$/;"	P
+scriptsAndStyles	.cache/commonjs/static-entry.js	/^  scriptsAndStyles = uniqBy(scriptsAndStyles, item => item.name);$/;"	P
+scripts	.cache/commonjs/static-entry.js	/^  const scripts = scriptsAndStyles.filter(script => script.name && script.name.endsWith(`.js`));$/;"	V
+styles	.cache/commonjs/static-entry.js	/^  const styles = scriptsAndStyles.filter(style => style.name && style.name.endsWith(`.css`));$/;"	V
+pathname	.cache/commonjs/static-entry.js	/^    pathname: pagePath,$/;"	P
+pathPrefix	.cache/commonjs/static-entry.js	/^    pathPrefix: __PATH_PREFIX__$/;"	P
+as	.cache/commonjs/static-entry.js	/^      as: "script",$/;"	P
+rel	.cache/commonjs/static-entry.js	/^      rel: script.rel,$/;"	P
+key	.cache/commonjs/static-entry.js	/^      key: script.name,$/;"	P
+href	.cache/commonjs/static-entry.js	/^      href: `${__PATH_PREFIX__}\/${script.name}`$/;"	P
+if	.cache/commonjs/static-entry.js	/^  if (page.jsonName in dataPaths) {$/;"	M
+as	.cache/commonjs/static-entry.js	/^      as: "fetch",$/;"	P
+rel	.cache/commonjs/static-entry.js	/^      rel: "preload",$/;"	P
+key	.cache/commonjs/static-entry.js	/^      key: dataPath,$/;"	P
+href	.cache/commonjs/static-entry.js	/^      href: dataPath,$/;"	P
+crossOrigin	.cache/commonjs/static-entry.js	/^      crossOrigin: "use-credentials"$/;"	P
+if	.cache/commonjs/static-entry.js	/^    if (style.rel === `prefetch`) {$/;"	M
+as	.cache/commonjs/static-entry.js	/^        as: "style",$/;"	P
+rel	.cache/commonjs/static-entry.js	/^        rel: style.rel,$/;"	P
+key	.cache/commonjs/static-entry.js	/^        key: style.name,$/;"	P
+href	.cache/commonjs/static-entry.js	/^        href: `${__PATH_PREFIX__}\/${style.name}`$/;"	P
+__html	.cache/commonjs/static-entry.js	/^          __html: fs.readFileSync(join(process.cwd(), `public`, style.name), `utf-8`)$/;"	P
+key	.cache/commonjs/static-entry.js	/^    key: `script-loader`,$/;"	P
+id	.cache/commonjs/static-entry.js	/^    id: `gatsby-script-loader`,$/;"	P
+__html	.cache/commonjs/static-entry.js	/^      __html: windowData$/;"	P
+key	.cache/commonjs/static-entry.js	/^    key: `chunk-mapping`,$/;"	P
+id	.cache/commonjs/static-entry.js	/^    id: `gatsby-chunk-mapping`,$/;"	P
+__html	.cache/commonjs/static-entry.js	/^      __html: scriptChunkMapping$/;"	P
+key	.cache/commonjs/static-entry.js	/^      key: scriptPath,$/;"	P
+src	.cache/commonjs/static-entry.js	/^      src: scriptPath,$/;"	P
+async	.cache/commonjs/static-entry.js	/^      async: true$/;"	P
+pathname	.cache/commonjs/static-entry.js	/^    pathname: pagePath,$/;"	P
+pathPrefix	.cache/commonjs/static-entry.js	/^    pathPrefix: __PATH_PREFIX__$/;"	P
+headComponents	.cache/commonjs/static-entry.js	/^    headComponents: headComponents,$/;"	P
+htmlAttributes	.cache/commonjs/static-entry.js	/^    htmlAttributes: htmlAttributes,$/;"	P
+bodyAttributes	.cache/commonjs/static-entry.js	/^    bodyAttributes: bodyAttributes,$/;"	P
+preBodyComponents	.cache/commonjs/static-entry.js	/^    preBodyComponents: preBodyComponents,$/;"	P
+postBodyComponents	.cache/commonjs/static-entry.js	/^    postBodyComponents: postBodyComponents,$/;"	P
+body	.cache/commonjs/static-entry.js	/^    body: bodyHtml,$/;"	P
+path	.cache/commonjs/static-entry.js	/^    path: pagePath$/;"	P
+_interopRequireDefault	.cache/commonjs/ensure-resources.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_react	.cache/commonjs/ensure-resources.js	/^var _react = _interopRequireDefault(require("react"));$/;"	V
+_propTypes	.cache/commonjs/ensure-resources.js	/^var _propTypes = _interopRequireDefault(require("prop-types"));$/;"	V
+_loader	.cache/commonjs/ensure-resources.js	/^var _loader = _interopRequireDefault(require(".\/loader"));$/;"	V
+_shallowCompare	.cache/commonjs/ensure-resources.js	/^var _shallowCompare = _interopRequireDefault(require("shallow-compare"));$/;"	V
+EnsureResources	.cache/commonjs/ensure-resources.js	/^class EnsureResources extends _react.default.Component {$/;"	C
+constructor	.cache/commonjs/ensure-resources.js	/^  constructor(props) {$/;"	M
+location	.cache/commonjs/ensure-resources.js	/^    let location = props.location;$/;"	V
+state	.cache/commonjs/ensure-resources.js	/^    this.state = {$/;"	M
+location	.cache/commonjs/ensure-resources.js	/^      location: Object.assign({}, location),$/;"	P
+pageResources	.cache/commonjs/ensure-resources.js	/^      pageResources: _loader.default.getResourcesForPathnameSync(location.pathname)$/;"	P
+reloadPage	.cache/commonjs/ensure-resources.js	/^  reloadPage(prevHref) {$/;"	M
+href	.cache/commonjs/ensure-resources.js	/^    const href = window.location.href;$/;"	V
+getDerivedStateFromProps	.cache/commonjs/ensure-resources.js	/^  static getDerivedStateFromProps({$/;"	M
+if	.cache/commonjs/ensure-resources.js	/^    if (prevState.location !== location) {$/;"	M
+pageResources	.cache/commonjs/ensure-resources.js	/^      const pageResources = _loader.default.getResourcesForPathnameSync(location.pathname);$/;"	V
+location	.cache/commonjs/ensure-resources.js	/^        location: Object.assign({}, location)$/;"	P
+hasResources	.cache/commonjs/ensure-resources.js	/^  hasResources(pageResources) {$/;"	M
+if	.cache/commonjs/ensure-resources.js	/^    if (pageResources && pageResources.json) {$/;"	M
+if	.cache/commonjs/ensure-resources.js	/^    if (pageResources && process.env.NODE_ENV !== `production`) {$/;"	M
+retryResources	.cache/commonjs/ensure-resources.js	/^  retryResources(nextProps) {$/;"	M
+pathname	.cache/commonjs/ensure-resources.js	/^    const pathname = nextProps.location.pathname;$/;"	V
+if	.cache/commonjs/ensure-resources.js	/^    if (!_loader.default.getResourcesForPathnameSync(pathname)) {$/;"	M
+prevLocation	.cache/commonjs/ensure-resources.js	/^      const prevLocation = this.props.location;$/;"	V
+nextLocation	.cache/commonjs/ensure-resources.js	/^      this.nextLocation = nextProps.location; \/\/ Page resources won't be set in cases where the browser back button$/;"	P
+if	.cache/commonjs/ensure-resources.js	/^        if (this.nextLocation !== nextProps.location) {$/;"	M
+if	.cache/commonjs/ensure-resources.js	/^        if (this.hasResources(pageResources)) {$/;"	M
+location	.cache/commonjs/ensure-resources.js	/^            location: Object.assign({}, window.location),$/;"	P
+shouldComponentUpdate	.cache/commonjs/ensure-resources.js	/^  shouldComponentUpdate(nextProps, nextState) {$/;"	M
+if	.cache/commonjs/ensure-resources.js	/^    if (!this.hasResources(nextState.pageResources)) {$/;"	M
+if	.cache/commonjs/ensure-resources.js	/^    if (this.state.pageResources !== nextState.pageResources) {$/;"	M
+if	.cache/commonjs/ensure-resources.js	/^    if (this.state.pageResources.component !== nextState.pageResources.component) {$/;"	M
+if	.cache/commonjs/ensure-resources.js	/^    if (this.state.pageResources.json !== nextState.pageResources.json) {$/;"	M
+if	.cache/commonjs/ensure-resources.js	/^    if (this.state.location.key !== nextState.location.key && nextState.pageResources.page && (nextState.pageResources.page.matchPath || nextState.pageResources.page.path)) {$/;"	M
+render	.cache/commonjs/ensure-resources.js	/^  render() {$/;"	M
+if	.cache/commonjs/ensure-resources.js	/^    if (!this.hasResources(this.state.pageResources) && isInitialRender) {$/;"	M
+isInitialRender	.cache/commonjs/ensure-resources.js	/^    isInitialRender = false;$/;"	P
+location	.cache/commonjs/ensure-resources.js	/^  location: _propTypes.default.object.isRequired,$/;"	P
+pageResources	.cache/commonjs/ensure-resources.js	/^  pageResources: _propTypes.default.object$/;"	P
+_default	.cache/commonjs/ensure-resources.js	/^var _default = EnsureResources;$/;"	V
+_interopRequireDefault	.cache/commonjs/develop-static-entry.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_react	.cache/commonjs/develop-static-entry.js	/^var _react = _interopRequireDefault(require("react"));$/;"	V
+_server	.cache/commonjs/develop-static-entry.js	/^var _server = require("react-dom\/server");$/;"	V
+_lodash	.cache/commonjs/develop-static-entry.js	/^var _lodash = require("lodash");$/;"	V
+_apiRunnerSsr	.cache/commonjs/develop-static-entry.js	/^var _apiRunnerSsr = _interopRequireDefault(require(".\/api-runner-ssr"));$/;"	V
+Html	.cache/commonjs/develop-static-entry.js	/^  Html = require(`..\/src\/html`);$/;"	P
+if	.cache/commonjs/develop-static-entry.js	/^  if (testRequireError(`..\/src\/html`, err)) {$/;"	M
+Html	.cache/commonjs/develop-static-entry.js	/^    Html = require(`.\/default-html`);$/;"	P
+Html	.cache/commonjs/develop-static-entry.js	/^Html = Html && Html.__esModule ? Html.default : Html;$/;"	P
+headComponents	.cache/commonjs/develop-static-entry.js	/^  let headComponents = [];$/;"	A
+htmlAttributes	.cache/commonjs/develop-static-entry.js	/^  let htmlAttributes = {};$/;"	O
+bodyAttributes	.cache/commonjs/develop-static-entry.js	/^  let bodyAttributes = {};$/;"	O
+preBodyComponents	.cache/commonjs/develop-static-entry.js	/^  let preBodyComponents = [];$/;"	A
+postBodyComponents	.cache/commonjs/develop-static-entry.js	/^  let postBodyComponents = [];$/;"	A
+bodyProps	.cache/commonjs/develop-static-entry.js	/^  let bodyProps = {};$/;"	O
+headComponents	.cache/commonjs/develop-static-entry.js	/^    headComponents = headComponents.concat(components);$/;"	P
+htmlAttributes	.cache/commonjs/develop-static-entry.js	/^    htmlAttributes = (0, _lodash.merge)(htmlAttributes, attributes);$/;"	P
+bodyAttributes	.cache/commonjs/develop-static-entry.js	/^    bodyAttributes = (0, _lodash.merge)(bodyAttributes, attributes);$/;"	P
+preBodyComponents	.cache/commonjs/develop-static-entry.js	/^    preBodyComponents = preBodyComponents.concat(components);$/;"	P
+postBodyComponents	.cache/commonjs/develop-static-entry.js	/^    postBodyComponents = postBodyComponents.concat(components);$/;"	P
+bodyProps	.cache/commonjs/develop-static-entry.js	/^    bodyProps = (0, _lodash.merge)({}, bodyProps, props);$/;"	P
+getHeadComponents	.cache/commonjs/develop-static-entry.js	/^  const getHeadComponents = () => headComponents;$/;"	V
+headComponents	.cache/commonjs/develop-static-entry.js	/^    headComponents = components;$/;"	P
+getPreBodyComponents	.cache/commonjs/develop-static-entry.js	/^  const getPreBodyComponents = () => preBodyComponents;$/;"	V
+preBodyComponents	.cache/commonjs/develop-static-entry.js	/^    preBodyComponents = components;$/;"	P
+getPostBodyComponents	.cache/commonjs/develop-static-entry.js	/^  const getPostBodyComponents = () => postBodyComponents;$/;"	V
+postBodyComponents	.cache/commonjs/develop-static-entry.js	/^    postBodyComponents = components;$/;"	P
+body	.cache/commonjs/develop-static-entry.js	/^    body: ``,$/;"	P
+key	.cache/commonjs/develop-static-entry.js	/^      key: `io`,$/;"	P
+src	.cache/commonjs/develop-static-entry.js	/^      src: "\/socket.io\/socket.io.js"$/;"	P
+key	.cache/commonjs/develop-static-entry.js	/^      key: `commons`,$/;"	P
+src	.cache/commonjs/develop-static-entry.js	/^      src: "\/commons.js"$/;"	P
+htmlStr	.cache/commonjs/develop-static-entry.js	/^  htmlStr = (0, _server.renderToStaticMarkup)(htmlElement);$/;"	P
+htmlStr	.cache/commonjs/develop-static-entry.js	/^  htmlStr = `<!DOCTYPE html>${htmlStr}`;$/;"	P
+plugins	.cache/commonjs/api-runner-browser.js	/^const plugins = require(`.\/api-runner-browser-plugins`);$/;"	V
+getResourcesForPathname	.cache/commonjs/api-runner-browser.js	/^      getResourcesForPathname = _require$publicLoader.getResourcesForPathname,$/;"	P
+getResourcesForPathnameSync	.cache/commonjs/api-runner-browser.js	/^      getResourcesForPathnameSync = _require$publicLoader.getResourcesForPathnameSync,$/;"	P
+getResourceURLsForPathname	.cache/commonjs/api-runner-browser.js	/^      getResourceURLsForPathname = _require$publicLoader.getResourceURLsForPathname;$/;"	P
+if	.cache/commonjs/api-runner-browser.js	/^  if (process.env.CYPRESS_SUPPORT) {$/;"	M
+if	.cache/commonjs/api-runner-browser.js	/^    if (window.___apiHandler) {$/;"	M
+if	.cache/commonjs/api-runner-browser.js	/^    if (!plugin.plugin[api]) {$/;"	M
+if	.cache/commonjs/api-runner-browser.js	/^    if (result && argTransform) {$/;"	M
+results	.cache/commonjs/api-runner-browser.js	/^  results = results.filter(result => typeof result !== `undefined`);$/;"	P
+if	.cache/commonjs/api-runner-browser.js	/^  if (results.length > 0) {$/;"	M
+if	.cache/commonjs/api-runner-ssr.js	/^  if (!apis[api]) {$/;"	M
+if	.cache/commonjs/api-runner-ssr.js	/^    if (!plugin.plugin[api]) {$/;"	M
+if	.cache/commonjs/api-runner-ssr.js	/^    if (result && argTransform) {$/;"	M
+results	.cache/commonjs/api-runner-ssr.js	/^  results = results.filter(result => typeof result !== `undefined`);$/;"	P
+if	.cache/commonjs/api-runner-ssr.js	/^  if (results.length > 0) {$/;"	M
+_interopRequireWildcard	.cache/commonjs/error-overlay-handler.js	/^var _interopRequireWildcard = require("@babel\/runtime\/helpers\/interopRequireWildcard");$/;"	V
+ErrorOverlay	.cache/commonjs/error-overlay-handler.js	/^var ErrorOverlay = _interopRequireWildcard(require("react-error-overlay"));$/;"	V
+onError	.cache/commonjs/error-overlay-handler.js	/^  onError: () => {},$/;"	P
+filename	.cache/commonjs/error-overlay-handler.js	/^  filename: `\/commons.js`$/;"	P
+errorMap	.cache/commonjs/error-overlay-handler.js	/^const errorMap = {};$/;"	O
+errors	.cache/commonjs/error-overlay-handler.js	/^  const errors = Object.values(errorMap);$/;"	V
+if	.cache/commonjs/error-overlay-handler.js	/^  if (errors.length > 0) {$/;"	M
+if	.cache/commonjs/error-overlay-handler.js	/^  if (error) {$/;"	M
+_interopRequireDefault	.cache/commonjs/page-renderer.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_interopRequireWildcard	.cache/commonjs/page-renderer.js	/^var _interopRequireWildcard = require("@babel\/runtime\/helpers\/interopRequireWildcard");$/;"	V
+_react	.cache/commonjs/page-renderer.js	/^var _react = _interopRequireWildcard(require("react"));$/;"	V
+_propTypes	.cache/commonjs/page-renderer.js	/^var _propTypes = _interopRequireDefault(require("prop-types"));$/;"	V
+_loader	.cache/commonjs/page-renderer.js	/^var _loader = require(".\/loader");$/;"	V
+_apiRunnerBrowser	.cache/commonjs/page-renderer.js	/^var _apiRunnerBrowser = require(".\/api-runner-browser");$/;"	V
+PageRenderer	.cache/commonjs/page-renderer.js	/^class PageRenderer extends _react.default.Component {$/;"	C
+render	.cache/commonjs/page-renderer.js	/^  render() {$/;"	M
+pathContext	.cache/commonjs/page-renderer.js	/^      pathContext: this.props.pageContext$/;"	P
+props	.cache/commonjs/page-renderer.js	/^      props: this.props,$/;"	P
+loader	.cache/commonjs/page-renderer.js	/^      loader: _loader.publicLoader$/;"	P
+replacementElement	.cache/commonjs/page-renderer.js	/^          replacementElement = _apiRunner[0];$/;"	P
+key	.cache/commonjs/page-renderer.js	/^      key: this.props.pageResources.page.path$/;"	P
+element	.cache/commonjs/page-renderer.js	/^      element: pageElement,$/;"	P
+element	.cache/commonjs/page-renderer.js	/^        element: result,$/;"	P
+location	.cache/commonjs/page-renderer.js	/^  location: _propTypes.default.object.isRequired,$/;"	P
+pageResources	.cache/commonjs/page-renderer.js	/^  pageResources: _propTypes.default.object.isRequired,$/;"	P
+data	.cache/commonjs/page-renderer.js	/^  data: _propTypes.default.object,$/;"	P
+pageContext	.cache/commonjs/page-renderer.js	/^  pageContext: _propTypes.default.object.isRequired$/;"	P
+_default	.cache/commonjs/page-renderer.js	/^var _default = PageRenderer;$/;"	V
+_interopRequireDefault	.cache/commonjs/create-react-context.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_react	.cache/commonjs/create-react-context.js	/^var _react = _interopRequireDefault(require("react"));$/;"	V
+_default	.cache/commonjs/create-react-context.js	/^var _default = _react.default.createContext;$/;"	V
+_interopRequireDefault	.cache/commonjs/default-html.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_react	.cache/commonjs/default-html.js	/^var _react = _interopRequireDefault(require("react"));$/;"	V
+_propTypes	.cache/commonjs/default-html.js	/^var _propTypes = _interopRequireDefault(require("prop-types"));$/;"	V
+HTML	.cache/commonjs/default-html.js	/^function HTML(props) {$/;"	F
+charSet	.cache/commonjs/default-html.js	/^    charSet: "utf-8"$/;"	P
+httpEquiv	.cache/commonjs/default-html.js	/^    httpEquiv: "x-ua-compatible",$/;"	P
+content	.cache/commonjs/default-html.js	/^    content: "ie=edge"$/;"	P
+name	.cache/commonjs/default-html.js	/^    name: "viewport",$/;"	P
+content	.cache/commonjs/default-html.js	/^    content: "width=device-width, initial-scale=1, shrink-to-fit=no"$/;"	P
+key	.cache/commonjs/default-html.js	/^    key: "noscript",$/;"	P
+id	.cache/commonjs/default-html.js	/^    id: "gatsby-noscript"$/;"	P
+key	.cache/commonjs/default-html.js	/^    key: `body`,$/;"	P
+id	.cache/commonjs/default-html.js	/^    id: "___gatsby",$/;"	P
+__html	.cache/commonjs/default-html.js	/^      __html: props.body$/;"	P
+htmlAttributes	.cache/commonjs/default-html.js	/^  htmlAttributes: _propTypes.default.object,$/;"	P
+headComponents	.cache/commonjs/default-html.js	/^  headComponents: _propTypes.default.array,$/;"	P
+bodyAttributes	.cache/commonjs/default-html.js	/^  bodyAttributes: _propTypes.default.object,$/;"	P
+preBodyComponents	.cache/commonjs/default-html.js	/^  preBodyComponents: _propTypes.default.array,$/;"	P
+body	.cache/commonjs/default-html.js	/^  body: _propTypes.default.string,$/;"	P
+postBodyComponents	.cache/commonjs/default-html.js	/^  postBodyComponents: _propTypes.default.array$/;"	P
+_interopRequireDefault	.cache/commonjs/public-page-renderer-prod.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_react	.cache/commonjs/public-page-renderer-prod.js	/^var _react = _interopRequireDefault(require("react"));$/;"	V
+_propTypes	.cache/commonjs/public-page-renderer-prod.js	/^var _propTypes = _interopRequireDefault(require("prop-types"));$/;"	V
+_pageRenderer	.cache/commonjs/public-page-renderer-prod.js	/^var _pageRenderer = _interopRequireDefault(require(".\/page-renderer"));$/;"	V
+_loader	.cache/commonjs/public-page-renderer-prod.js	/^var _loader = _interopRequireDefault(require(".\/loader"));$/;"	V
+pageResources	.cache/commonjs/public-page-renderer-prod.js	/^  const pageResources = _loader.default.getResourcesForPathnameSync(location.pathname);$/;"	V
+pathname	.cache/commonjs/public-page-renderer-prod.js	/^    pathname: _propTypes.default.string.isRequired$/;"	P
+_default	.cache/commonjs/public-page-renderer-prod.js	/^var _default = ProdPageRenderer;$/;"	V
+_interopRequireDefault	.cache/commonjs/json-store.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_extends2	.cache/commonjs/json-store.js	/^var _extends2 = _interopRequireDefault(require("@babel\/runtime\/helpers\/extends"));$/;"	V
+_objectWithoutPropertiesLoose2	.cache/commonjs/json-store.js	/^var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel\/runtime\/helpers\/objectWithoutPropertiesLoose"));$/;"	V
+_defineProperty2	.cache/commonjs/json-store.js	/^var _defineProperty2 = _interopRequireDefault(require("@babel\/runtime\/helpers\/defineProperty"));$/;"	V
+_react	.cache/commonjs/json-store.js	/^var _react = _interopRequireDefault(require("react"));$/;"	V
+_pageRenderer	.cache/commonjs/json-store.js	/^var _pageRenderer = _interopRequireDefault(require(".\/page-renderer"));$/;"	V
+_gatsby	.cache/commonjs/json-store.js	/^var _gatsby = require("gatsby");$/;"	V
+_socketIo	.cache/commonjs/json-store.js	/^var _socketIo = require(".\/socketIo");$/;"	V
+if	.cache/commonjs/json-store.js	/^if (process.env.NODE_ENV === `production`) {$/;"	M
+getPathFromProps	.cache/commonjs/json-store.js	/^const getPathFromProps = props => props.pageResources && props.pageResources.page ? props.pageResources.page.path : undefined;$/;"	V
+JSONStore	.cache/commonjs/json-store.js	/^class JSONStore extends _react.default.Component {$/;"	C
+constructor	.cache/commonjs/json-store.js	/^  constructor(props) {$/;"	M
+staticQueryData	.cache/commonjs/json-store.js	/^        staticQueryData: (0, _socketIo.getStaticQueryData)(),$/;"	P
+pageQueryData	.cache/commonjs/json-store.js	/^        pageQueryData: (0, _socketIo.getPageQueryData)()$/;"	P
+state	.cache/commonjs/json-store.js	/^    this.state = {$/;"	M
+staticQueryData	.cache/commonjs/json-store.js	/^      staticQueryData: (0, _socketIo.getStaticQueryData)(),$/;"	P
+pageQueryData	.cache/commonjs/json-store.js	/^      pageQueryData: (0, _socketIo.getPageQueryData)(),$/;"	P
+path	.cache/commonjs/json-store.js	/^      path: null$/;"	P
+componentDidMount	.cache/commonjs/json-store.js	/^  componentDidMount() {$/;"	M
+componentWillUnmount	.cache/commonjs/json-store.js	/^  componentWillUnmount() {$/;"	M
+getDerivedStateFromProps	.cache/commonjs/json-store.js	/^  static getDerivedStateFromProps(props, state) {$/;"	M
+newPath	.cache/commonjs/json-store.js	/^    const newPath = getPathFromProps(props);$/;"	V
+if	.cache/commonjs/json-store.js	/^    if (newPath !== state.path) {$/;"	M
+path	.cache/commonjs/json-store.js	/^        path: newPath$/;"	P
+shouldComponentUpdate	.cache/commonjs/json-store.js	/^  shouldComponentUpdate(nextProps, nextState) {$/;"	M
+render	.cache/commonjs/json-store.js	/^  render() {$/;"	M
+pages	.cache/commonjs/json-store.js	/^          pages = _this$props.pages,$/;"	P
+propsWithoutPages	.cache/commonjs/json-store.js	/^          propsWithoutPages = (0, _objectWithoutPropertiesLoose2.default)(_this$props, ["pages"]);$/;"	P
+if	.cache/commonjs/json-store.js	/^    if (!data) {$/;"	M
+value	.cache/commonjs/json-store.js	/^      value: this.state.staticQueryData$/;"	P
+_default	.cache/commonjs/json-store.js	/^var _default = JSONStore;$/;"	V
+_interopRequireDefault	.cache/commonjs/emitter.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_mitt	.cache/commonjs/emitter.js	/^var _mitt = _interopRequireDefault(require("mitt"));$/;"	V
+emitter	.cache/commonjs/emitter.js	/^const emitter = (0, _mitt.default)();$/;"	V
+_default	.cache/commonjs/emitter.js	/^var _default = emitter;$/;"	V
+_interopRequireWildcard	.cache/commonjs/root.js	/^var _interopRequireWildcard = require("@babel\/runtime\/helpers\/interopRequireWildcard");$/;"	V
+_interopRequireDefault	.cache/commonjs/root.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_extends2	.cache/commonjs/root.js	/^var _extends2 = _interopRequireDefault(require("@babel\/runtime\/helpers\/extends"));$/;"	V
+_react	.cache/commonjs/root.js	/^var _react = _interopRequireWildcard(require("react"));$/;"	V
+_router	.cache/commonjs/root.js	/^var _router = require("@reach\/router");$/;"	V
+_gatsbyReactRouterScroll	.cache/commonjs/root.js	/^var _gatsbyReactRouterScroll = require("gatsby-react-router-scroll");$/;"	V
+_navigation	.cache/commonjs/root.js	/^var _navigation = require(".\/navigation");$/;"	V
+_apiRunnerBrowser	.cache/commonjs/root.js	/^var _apiRunnerBrowser = require(".\/api-runner-browser");$/;"	V
+_syncRequires	.cache/commonjs/root.js	/^var _syncRequires = _interopRequireDefault(require(".\/sync-requires"));$/;"	V
+_pages	.cache/commonjs/root.js	/^var _pages = _interopRequireDefault(require(".\/pages.json"));$/;"	V
+_loader	.cache/commonjs/root.js	/^var _loader = _interopRequireDefault(require(".\/loader"));$/;"	V
+_jsonStore	.cache/commonjs/root.js	/^var _jsonStore = _interopRequireDefault(require(".\/json-store"));$/;"	V
+_ensureResources	.cache/commonjs/root.js	/^var _ensureResources = _interopRequireDefault(require(".\/ensure-resources"));$/;"	V
+_errorOverlayHandler	.cache/commonjs/root.js	/^var _errorOverlayHandler = require(".\/error-overlay-handler");$/;"	V
+if	.cache/commonjs/root.js	/^if (window.__webpack_hot_middleware_reporter__ !== undefined) {$/;"	M
+showProblems	.cache/commonjs/root.js	/^    showProblems(type, obj) {$/;"	M
+if	.cache/commonjs/root.js	/^      if (type !== `errors`) {$/;"	M
+clear	.cache/commonjs/root.js	/^    clear() {$/;"	M
+RouteHandler	.cache/commonjs/root.js	/^class RouteHandler extends _react.default.Component {$/;"	C
+render	.cache/commonjs/root.js	/^  render() {$/;"	M
+page	.cache/commonjs/root.js	/^    let page = _loader.default.getPage(location.pathname);$/;"	V
+if	.cache/commonjs/root.js	/^    if (page) {$/;"	M
+location	.cache/commonjs/root.js	/^        location: location$/;"	P
+location	.cache/commonjs/root.js	/^        location: location$/;"	P
+location	.cache/commonjs/root.js	/^        location: location,$/;"	P
+shouldUpdateScroll	.cache/commonjs/root.js	/^        shouldUpdateScroll: _navigation.shouldUpdateScroll$/;"	P
+pages	.cache/commonjs/root.js	/^        pages: _pages.default$/;"	P
+if	.cache/commonjs/root.js	/^      if (!_loader.default.getPage(`\/404.html`)) {$/;"	M
+location	.cache/commonjs/root.js	/^          location: location$/;"	P
+pages	.cache/commonjs/root.js	/^          pages: _pages.default$/;"	P
+location	.cache/commonjs/root.js	/^        location: location$/;"	P
+location	.cache/commonjs/root.js	/^        location: location$/;"	P
+pages	.cache/commonjs/root.js	/^        pages: _pages.default,$/;"	P
+pages	.cache/commonjs/root.js	/^          pages: _pages.default$/;"	P
+basepath	.cache/commonjs/root.js	/^  basepath: __PATH_PREFIX__$/;"	P
+path	.cache/commonjs/root.js	/^  path: `\/*`$/;"	P
+element	.cache/commonjs/root.js	/^  element: _react.default.createElement(Root, null)$/;"	P
+element	.cache/commonjs/root.js	/^    element: result$/;"	P
+_default	.cache/commonjs/root.js	/^var _default = () => WrappedRoot;$/;"	V
+_interopRequireDefault	.cache/commonjs/navigation.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_react	.cache/commonjs/navigation.js	/^var _react = _interopRequireDefault(require("react"));$/;"	V
+_propTypes	.cache/commonjs/navigation.js	/^var _propTypes = _interopRequireDefault(require("prop-types"));$/;"	V
+_loader	.cache/commonjs/navigation.js	/^var _loader = _interopRequireDefault(require(".\/loader"));$/;"	V
+_redirects	.cache/commonjs/navigation.js	/^var _redirects = _interopRequireDefault(require(".\/redirects.json"));$/;"	V
+_apiRunnerBrowser	.cache/commonjs/navigation.js	/^var _apiRunnerBrowser = require(".\/api-runner-browser");$/;"	V
+_emitter	.cache/commonjs/navigation.js	/^var _emitter = _interopRequireDefault(require(".\/emitter"));$/;"	V
+_router	.cache/commonjs/navigation.js	/^var _router = require("@reach\/router");$/;"	V
+_gatsbyLink	.cache/commonjs/navigation.js	/^var _gatsbyLink = require("gatsby-link");$/;"	V
+maybeRedirect	.cache/commonjs/navigation.js	/^function maybeRedirect(pathname) {$/;"	F
+if	.cache/commonjs/navigation.js	/^  if (redirect != null) {$/;"	M
+if	.cache/commonjs/navigation.js	/^    if (process.env.NODE_ENV !== `production`) {$/;"	M
+pageResources	.cache/commonjs/navigation.js	/^      const pageResources = _loader.default.getResourcesForPathnameSync(pathname);$/;"	V
+if	.cache/commonjs/navigation.js	/^      if (pageResources != null) {$/;"	M
+if	.cache/commonjs/navigation.js	/^  if (!maybeRedirect(location.pathname)) {$/;"	M
+if	.cache/commonjs/navigation.js	/^  if (!maybeRedirect(location.pathname)) {$/;"	M
+if	.cache/commonjs/navigation.js	/^  if (!options.replace) {$/;"	M
+pathname	.cache/commonjs/navigation.js	/^      pathname = _parsePath.pathname;$/;"	P
+if	.cache/commonjs/navigation.js	/^  if (redirect) {$/;"	M
+to	.cache/commonjs/navigation.js	/^    to = redirect.toPath;$/;"	P
+pathname	.cache/commonjs/navigation.js	/^    pathname = (0, _gatsbyLink.parsePath)(to).pathname;$/;"	P
+if	.cache/commonjs/navigation.js	/^  if (window.___swUpdated) {$/;"	M
+location	.cache/commonjs/navigation.js	/^      location: window.location$/;"	P
+shouldUpdateScroll	.cache/commonjs/navigation.js	/^function shouldUpdateScroll(prevRouterProps, {$/;"	F
+hash	.cache/commonjs/navigation.js	/^        hash = location.hash;$/;"	P
+getSavedScrollPosition	.cache/commonjs/navigation.js	/^    getSavedScrollPosition: args => this._stateStorage.read(args)$/;"	P
+if	.cache/commonjs/navigation.js	/^  if (results.length > 0) {$/;"	M
+if	.cache/commonjs/navigation.js	/^  if (prevRouterProps) {$/;"	M
+oldPathname	.cache/commonjs/navigation.js	/^    const oldPathname = prevRouterProps.location.pathname;$/;"	V
+if	.cache/commonjs/navigation.js	/^    if (oldPathname === pathname) {$/;"	M
+init	.cache/commonjs/navigation.js	/^function init() {$/;"	F
+replace	.cache/commonjs/navigation.js	/^    replace: false$/;"	P
+replace	.cache/commonjs/navigation.js	/^    replace: true$/;"	P
+RouteUpdates	.cache/commonjs/navigation.js	/^class RouteUpdates extends _react.default.Component {$/;"	C
+constructor	.cache/commonjs/navigation.js	/^  constructor(props) {$/;"	M
+componentDidMount	.cache/commonjs/navigation.js	/^  componentDidMount() {$/;"	M
+componentDidUpdate	.cache/commonjs/navigation.js	/^  componentDidUpdate(prevProps, prevState, shouldFireRouteUpdate) {$/;"	M
+if	.cache/commonjs/navigation.js	/^    if (shouldFireRouteUpdate) {$/;"	M
+getSnapshotBeforeUpdate	.cache/commonjs/navigation.js	/^  getSnapshotBeforeUpdate(prevProps) {$/;"	M
+if	.cache/commonjs/navigation.js	/^    if (this.props.location.pathname !== prevProps.location.pathname) {$/;"	M
+render	.cache/commonjs/navigation.js	/^  render() {$/;"	M
+location	.cache/commonjs/navigation.js	/^  location: _propTypes.default.object.isRequired$/;"	P
+preferDefault	.cache/commonjs/public-page-renderer.js	/^const preferDefault = m => m && m.default || m;$/;"	V
+if	.cache/commonjs/public-page-renderer.js	/^if (process.env.BUILD_STAGE === `develop`) {$/;"	M
+_errorOverlayHandler	.cache/commonjs/socketIo.js	/^var _errorOverlayHandler = require(".\/error-overlay-handler");$/;"	V
+socket	.cache/commonjs/socketIo.js	/^let socket = null;$/;"	V
+staticQueryData	.cache/commonjs/socketIo.js	/^let staticQueryData = {};$/;"	O
+pageQueryData	.cache/commonjs/socketIo.js	/^let pageQueryData = {};$/;"	O
+isInitialized	.cache/commonjs/socketIo.js	/^let isInitialized = false;$/;"	V
+getStaticQueryData	.cache/commonjs/socketIo.js	/^const getStaticQueryData = () => staticQueryData;$/;"	V
+getPageQueryData	.cache/commonjs/socketIo.js	/^const getPageQueryData = () => pageQueryData;$/;"	V
+getIsInitialized	.cache/commonjs/socketIo.js	/^const getIsInitialized = () => isInitialized;$/;"	V
+socketIo	.cache/commonjs/socketIo.js	/^function socketIo() {$/;"	F
+if	.cache/commonjs/socketIo.js	/^  if (process.env.NODE_ENV !== `production`) {$/;"	M
+if	.cache/commonjs/socketIo.js	/^    if (!socket) {$/;"	M
+socket	.cache/commonjs/socketIo.js	/^        socket = io();$/;"	P
+if	.cache/commonjs/socketIo.js	/^          if (msg.type === `staticQueryResult`) {$/;"	M
+if	.cache/commonjs/socketIo.js	/^            if (didDataChange(msg, staticQueryData)) {$/;"	M
+if	.cache/commonjs/socketIo.js	/^            if (didDataChange(msg, pageQueryData)) {$/;"	M
+if	.cache/commonjs/socketIo.js	/^            if (msg.payload.message) {$/;"	M
+if	.cache/commonjs/socketIo.js	/^          if (msg.type && msg.payload) {$/;"	M
+inFlightGetPageDataPromiseCache	.cache/commonjs/socketIo.js	/^const inFlightGetPageDataPromiseCache = {};$/;"	O
+getPageData	.cache/commonjs/socketIo.js	/^function getPageData(pathname) {$/;"	F
+if	.cache/commonjs/socketIo.js	/^  if (inFlightGetPageDataPromiseCache[pathname]) {$/;"	M
+if	.cache/commonjs/socketIo.js	/^      if (pageQueryData[pathname]) {$/;"	M
+if	.cache/commonjs/socketIo.js	/^          if (msg.type === `pageQueryResult` && msg.payload.id === pathname) {$/;"	M
+registerPath	.cache/commonjs/socketIo.js	/^function registerPath(path) {$/;"	F
+unregisterPath	.cache/commonjs/socketIo.js	/^function unregisterPath(path) {$/;"	F
+_apiRunnerBrowser	.cache/commonjs/register-service-worker.js	/^var _apiRunnerBrowser = require(".\/api-runner-browser");$/;"	V
+if	.cache/commonjs/register-service-worker.js	/^if (window.location.protocol !== `https:` && window.location.hostname !== `localhost`) {$/;"	M
+serviceWorker	.cache/commonjs/register-service-worker.js	/^        serviceWorker: reg$/;"	P
+installingWorker	.cache/commonjs/register-service-worker.js	/^      const installingWorker = reg.installing;$/;"	V
+switch	.cache/commonjs/register-service-worker.js	/^        switch (installingWorker.state) {$/;"	M
+if	.cache/commonjs/register-service-worker.js	/^            if (navigator.serviceWorker.controller) {$/;"	M
+serviceWorker	.cache/commonjs/register-service-worker.js	/^                serviceWorker: reg$/;"	P
+if	.cache/commonjs/register-service-worker.js	/^              if (window.___failedResources) {$/;"	M
+serviceWorker	.cache/commonjs/register-service-worker.js	/^                serviceWorker: reg$/;"	P
+serviceWorker	.cache/commonjs/register-service-worker.js	/^              serviceWorker: reg$/;"	P
+serviceWorker	.cache/commonjs/register-service-worker.js	/^              serviceWorker: reg$/;"	P
+support	.cache/commonjs/prefetch.js	/^const support = function support(feature) {$/;"	F
+if	.cache/commonjs/prefetch.js	/^  if (typeof document === `undefined`) {$/;"	M
+fakeLink	.cache/commonjs/prefetch.js	/^  const fakeLink = document.createElement(`link`);$/;"	V
+if	.cache/commonjs/prefetch.js	/^    if (fakeLink.relList && typeof fakeLink.relList.supports === `function`) {$/;"	M
+linkPrefetchStrategy	.cache/commonjs/prefetch.js	/^const linkPrefetchStrategy = function linkPrefetchStrategy(url) {$/;"	F
+if	.cache/commonjs/prefetch.js	/^    if (typeof document === `undefined`) {$/;"	M
+link	.cache/commonjs/prefetch.js	/^    const link = document.createElement(`link`);$/;"	V
+xhrPrefetchStrategy	.cache/commonjs/prefetch.js	/^const xhrPrefetchStrategy = function xhrPrefetchStrategy(url) {$/;"	F
+req	.cache/commonjs/prefetch.js	/^    const req = new XMLHttpRequest();$/;"	V
+if	.cache/commonjs/prefetch.js	/^      if (req.status === 200) {$/;"	M
+supportedPrefetchStrategy	.cache/commonjs/prefetch.js	/^const supportedPrefetchStrategy = support(`prefetch`) ? linkPrefetchStrategy : xhrPrefetchStrategy;$/;"	V
+preFetched	.cache/commonjs/prefetch.js	/^const preFetched = {};$/;"	O
+prefetch	.cache/commonjs/prefetch.js	/^const prefetch = function prefetch(url) {$/;"	F
+if	.cache/commonjs/prefetch.js	/^    if (preFetched[url]) {$/;"	M
+_default	.cache/commonjs/prefetch.js	/^var _default = prefetch;$/;"	V
+_interopRequireDefault	.cache/commonjs/public-page-renderer-dev.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_react	.cache/commonjs/public-page-renderer-dev.js	/^var _react = _interopRequireDefault(require("react"));$/;"	V
+_propTypes	.cache/commonjs/public-page-renderer-dev.js	/^var _propTypes = _interopRequireDefault(require("prop-types"));$/;"	V
+_pages	.cache/commonjs/public-page-renderer-dev.js	/^var _pages = _interopRequireDefault(require(".\/pages.json"));$/;"	V
+_loader	.cache/commonjs/public-page-renderer-dev.js	/^var _loader = _interopRequireDefault(require(".\/loader"));$/;"	V
+_jsonStore	.cache/commonjs/public-page-renderer-dev.js	/^var _jsonStore = _interopRequireDefault(require(".\/json-store"));$/;"	V
+pageResources	.cache/commonjs/public-page-renderer-dev.js	/^  const pageResources = _loader.default.getResourcesForPathnameSync(location.pathname);$/;"	V
+pages	.cache/commonjs/public-page-renderer-dev.js	/^    pages: _pages.default,$/;"	P
+pathname	.cache/commonjs/public-page-renderer-dev.js	/^    pathname: _propTypes.default.string.isRequired$/;"	P
+_default	.cache/commonjs/public-page-renderer-dev.js	/^var _default = DevPageRenderer;$/;"	V
+_interopRequireWildcard	.cache/commonjs/production-app.js	/^var _interopRequireWildcard = require("@babel\/runtime\/helpers\/interopRequireWildcard");$/;"	V
+_interopRequireDefault	.cache/commonjs/production-app.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_extends2	.cache/commonjs/production-app.js	/^var _extends2 = _interopRequireDefault(require("@babel\/runtime\/helpers\/extends"));$/;"	V
+_apiRunnerBrowser	.cache/commonjs/production-app.js	/^var _apiRunnerBrowser = require(".\/api-runner-browser");$/;"	V
+_react	.cache/commonjs/production-app.js	/^var _react = _interopRequireWildcard(require("react"));$/;"	V
+_reactDom	.cache/commonjs/production-app.js	/^var _reactDom = _interopRequireDefault(require("react-dom"));$/;"	V
+_router	.cache/commonjs/production-app.js	/^var _router = require("@reach\/router");$/;"	V
+_utils	.cache/commonjs/production-app.js	/^var _utils = require("@reach\/router\/lib\/utils");$/;"	V
+_gatsbyReactRouterScroll	.cache/commonjs/production-app.js	/^var _gatsbyReactRouterScroll = require("gatsby-react-router-scroll");$/;"	V
+_domready	.cache/commonjs/production-app.js	/^var _domready = _interopRequireDefault(require("domready"));$/;"	V
+_navigation	.cache/commonjs/production-app.js	/^var _navigation = require(".\/navigation");$/;"	V
+_emitter	.cache/commonjs/production-app.js	/^var _emitter = _interopRequireDefault(require(".\/emitter"));$/;"	V
+_pageRenderer	.cache/commonjs/production-app.js	/^var _pageRenderer = _interopRequireDefault(require(".\/page-renderer"));$/;"	V
+_asyncRequires	.cache/commonjs/production-app.js	/^var _asyncRequires = _interopRequireDefault(require(".\/async-requires"));$/;"	V
+_loader	.cache/commonjs/production-app.js	/^var _loader = _interopRequireWildcard(require(".\/loader"));$/;"	V
+_ensureResources	.cache/commonjs/production-app.js	/^var _ensureResources = _interopRequireDefault(require(".\/ensure-resources"));$/;"	V
+if	.cache/commonjs/production-app.js	/^  if ((0, _apiRunnerBrowser.apiRunner)(`registerServiceWorker`).length > 0) {$/;"	M
+RouteHandler	.cache/commonjs/production-app.js	/^  class RouteHandler extends _react.default.Component {$/;"	C
+render	.cache/commonjs/production-app.js	/^    render() {$/;"	M
+location	.cache/commonjs/production-app.js	/^      let location = this.props.location;$/;"	V
+location	.cache/commonjs/production-app.js	/^        location: location$/;"	P
+location	.cache/commonjs/production-app.js	/^        location: location$/;"	P
+location	.cache/commonjs/production-app.js	/^        location: location,$/;"	P
+shouldUpdateScroll	.cache/commonjs/production-app.js	/^        shouldUpdateScroll: _navigation.shouldUpdateScroll$/;"	P
+location	.cache/commonjs/production-app.js	/^        location: location,$/;"	P
+pageResources	.cache/commonjs/production-app.js	/^        pageResources: pageResources$/;"	P
+page	.cache/commonjs/production-app.js	/^        page = _window.page,$/;"	P
+browserLoc	.cache/commonjs/production-app.js	/^        browserLoc = _window.location;$/;"	P
+replace	.cache/commonjs/production-app.js	/^      replace: true$/;"	P
+basepath	.cache/commonjs/production-app.js	/^      basepath: __PATH_PREFIX__$/;"	P
+path	.cache/commonjs/production-app.js	/^      path: `\/*`$/;"	P
+element	.cache/commonjs/production-app.js	/^      element: _react.default.createElement(Root, null)$/;"	P
+element	.cache/commonjs/production-app.js	/^        element: result$/;"	P
+NewRoot	.cache/commonjs/production-app.js	/^    let NewRoot = () => WrappedRoot;$/;"	V
+_interopRequireWildcard	.cache/commonjs/app.js	/^var _interopRequireWildcard = require("@babel\/runtime\/helpers\/interopRequireWildcard");$/;"	V
+_interopRequireDefault	.cache/commonjs/app.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_react	.cache/commonjs/app.js	/^var _react = _interopRequireDefault(require("react"));$/;"	V
+_reactDom	.cache/commonjs/app.js	/^var _reactDom = _interopRequireDefault(require("react-dom"));$/;"	V
+_domready	.cache/commonjs/app.js	/^var _domready = _interopRequireDefault(require("domready"));$/;"	V
+_socketIo	.cache/commonjs/app.js	/^var _socketIo = _interopRequireDefault(require(".\/socketIo"));$/;"	V
+_emitter	.cache/commonjs/app.js	/^var _emitter = _interopRequireDefault(require(".\/emitter"));$/;"	V
+_apiRunnerBrowser	.cache/commonjs/app.js	/^var _apiRunnerBrowser = require(".\/api-runner-browser");$/;"	V
+_loader	.cache/commonjs/app.js	/^var _loader = _interopRequireWildcard(require(".\/loader"));$/;"	V
+_syncRequires	.cache/commonjs/app.js	/^var _syncRequires = _interopRequireDefault(require(".\/sync-requires"));$/;"	V
+_pages	.cache/commonjs/app.js	/^var _pages = _interopRequireDefault(require(".\/pages.json"));$/;"	V
+socket	.cache/commonjs/app.js	/^  const socket = (0, _socketIo.default)();$/;"	V
+if	.cache/commonjs/app.js	/^  if (socket) {$/;"	M
+if	.cache/commonjs/app.js	/^  if (supportsServiceWorkers(location, navigator)) {$/;"	M
+for	.cache/commonjs/app.js	/^      for (var _iterator = registrations, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : _iterator[Symbol.iterator]();;) {$/;"	M
+if	.cache/commonjs/app.js	/^        if (_isArray) {$/;"	M
+_ref	.cache/commonjs/app.js	/^          _ref = _iterator[_i++];$/;"	P
+_i	.cache/commonjs/app.js	/^          _i = _iterator.next();$/;"	P
+_ref	.cache/commonjs/app.js	/^          _ref = _i.value;$/;"	P
+registration	.cache/commonjs/app.js	/^        let registration = _ref;$/;"	V
+rootElement	.cache/commonjs/app.js	/^  const rootElement = document.getElementById(`___gatsby`);$/;"	V
+preferDefault	.cache/commonjs/app.js	/^    const preferDefault = m => m && m.default || m;$/;"	V
+Root	.cache/commonjs/app.js	/^    let Root = preferDefault(require(`.\/root`));$/;"	V
+supportsServiceWorkers	.cache/commonjs/app.js	/^function supportsServiceWorkers(location, navigator) {$/;"	F
+if	.cache/commonjs/app.js	/^  if (location.hostname === `localhost` || location.protocol === `https:`) {$/;"	M
+_interopRequireWildcard	.cache/commonjs/gatsby-browser-entry.js	/^var _interopRequireWildcard = require("@babel\/runtime\/helpers\/interopRequireWildcard");$/;"	V
+_interopRequireDefault	.cache/commonjs/gatsby-browser-entry.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_react	.cache/commonjs/gatsby-browser-entry.js	/^var _react = _interopRequireDefault(require("react"));$/;"	V
+_propTypes	.cache/commonjs/gatsby-browser-entry.js	/^var _propTypes = _interopRequireDefault(require("prop-types"));$/;"	V
+_gatsbyLink	.cache/commonjs/gatsby-browser-entry.js	/^var _gatsbyLink = _interopRequireWildcard(require("gatsby-link"));$/;"	V
+_publicPageRenderer	.cache/commonjs/gatsby-browser-entry.js	/^var _publicPageRenderer = _interopRequireDefault(require(".\/public-page-renderer"));$/;"	V
+if	.cache/commonjs/gatsby-browser-entry.js	/^  if (props.data || staticQueryData[props.query] && staticQueryData[props.query].data) {$/;"	M
+if	.cache/commonjs/gatsby-browser-entry.js	/^  if (typeof _react.default.useContext !== `function` && process.env.NODE_ENV === `development`) {$/;"	M
+context	.cache/commonjs/gatsby-browser-entry.js	/^  const context = _react.default.useContext(StaticQueryContext);$/;"	V
+if	.cache/commonjs/gatsby-browser-entry.js	/^  if (context[query] && context[query].data) {$/;"	M
+data	.cache/commonjs/gatsby-browser-entry.js	/^  data: _propTypes.default.object,$/;"	P
+query	.cache/commonjs/gatsby-browser-entry.js	/^  query: _propTypes.default.string.isRequired,$/;"	P
+render	.cache/commonjs/gatsby-browser-entry.js	/^  render: _propTypes.default.func,$/;"	P
+children	.cache/commonjs/gatsby-browser-entry.js	/^  children: _propTypes.default.func$/;"	P
+graphql	.cache/commonjs/gatsby-browser-entry.js	/^function graphql() {$/;"	F
+_interopRequireDefault	.cache/commonjs/loader.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_findPage	.cache/commonjs/loader.js	/^var _findPage = _interopRequireDefault(require(".\/find-page"));$/;"	V
+_emitter	.cache/commonjs/loader.js	/^var _emitter = _interopRequireDefault(require(".\/emitter"));$/;"	V
+_prefetch	.cache/commonjs/loader.js	/^var _prefetch = _interopRequireDefault(require(".\/prefetch"));$/;"	V
+preferDefault	.cache/commonjs/loader.js	/^const preferDefault = m => m && m.default || m;$/;"	V
+inInitialRender	.cache/commonjs/loader.js	/^let inInitialRender = true;$/;"	V
+hasFetched	.cache/commonjs/loader.js	/^let hasFetched = Object.create(null);$/;"	V
+syncRequires	.cache/commonjs/loader.js	/^let syncRequires = {};$/;"	O
+asyncRequires	.cache/commonjs/loader.js	/^let asyncRequires = {};$/;"	O
+jsonDataPaths	.cache/commonjs/loader.js	/^let jsonDataPaths = {};$/;"	O
+fetchHistory	.cache/commonjs/loader.js	/^let fetchHistory = [];$/;"	A
+fetchingPageResourceMapPromise	.cache/commonjs/loader.js	/^let fetchingPageResourceMapPromise = null;$/;"	V
+fetchedPageResourceMap	.cache/commonjs/loader.js	/^let fetchedPageResourceMap = false;$/;"	V
+hasPageResourceMap	.cache/commonjs/loader.js	/^let hasPageResourceMap = process.env.NODE_ENV !== `production`;$/;"	V
+failedPaths	.cache/commonjs/loader.js	/^const failedPaths = {};$/;"	O
+MAX_HISTORY	.cache/commonjs/loader.js	/^const MAX_HISTORY = 5;$/;"	V
+jsonPromiseStore	.cache/commonjs/loader.js	/^const jsonPromiseStore = {};$/;"	O
+if	.cache/commonjs/loader.js	/^if (process.env.NODE_ENV !== `production`) {$/;"	M
+devGetPageData	.cache/commonjs/loader.js	/^  devGetPageData = require(`.\/socketIo`).getPageData;$/;"	P
+if	.cache/commonjs/loader.js	/^  if (!fetchingPageResourceMapPromise) {$/;"	M
+TODO	.cache/commonjs/loader.js	/^        \/\/ TODO — expose proper way to access this data from plugins.$/;"	T
+TODO	.cache/commonjs/loader.js	/^        \/\/ TODO — expose proper way to access this data from plugins.$/;"	T
+TODO	.cache/commonjs/loader.js	/^        \/\/ TODO — expose proper way to access this data from plugins.$/;"	T
+hasPageResourceMap	.cache/commonjs/loader.js	/^        hasPageResourceMap = true;$/;"	P
+if	.cache/commonjs/loader.js	/^  if (resourceName.slice(0, 12) === `component---`) {$/;"	M
+resourceFunction	.cache/commonjs/loader.js	/^    resourceFunction = asyncRequires.components[resourceName];$/;"	P
+if	.cache/commonjs/loader.js	/^    if (resourceName in jsonPromiseStore) {$/;"	M
+resourceFunction	.cache/commonjs/loader.js	/^      resourceFunction = () => jsonPromiseStore[resourceName];$/;"	P
+req	.cache/commonjs/loader.js	/^          const req = new XMLHttpRequest();$/;"	V
+if	.cache/commonjs/loader.js	/^            if (req.readyState == 4) {$/;"	M
+if	.cache/commonjs/loader.js	/^              if (req.status === 200) {$/;"	M
+fetchPromise	.cache/commonjs/loader.js	/^    const fetchPromise = resourceFunction();$/;"	V
+failed	.cache/commonjs/loader.js	/^    let failed = false;$/;"	V
+failed	.cache/commonjs/loader.js	/^      failed = true;$/;"	P
+resource	.cache/commonjs/loader.js	/^        resource: resourceName,$/;"	P
+succeeded	.cache/commonjs/loader.js	/^        succeeded: !failed$/;"	P
+fetchHistory	.cache/commonjs/loader.js	/^      fetchHistory = fetchHistory.slice(-MAX_HISTORY);$/;"	P
+if	.cache/commonjs/loader.js	/^  if (resourceName.slice(0, 12) === `component---`) {$/;"	M
+getResourceModule	.cache/commonjs/loader.js	/^const getResourceModule = resourceName => fetchResource(resourceName).then(preferDefault);$/;"	V
+isOnLine	.cache/commonjs/loader.js	/^  const isOnLine = navigator.onLine;$/;"	V
+if	.cache/commonjs/loader.js	/^  if (typeof isOnLine === `boolean`) {$/;"	M
+succeededFetch	.cache/commonjs/loader.js	/^  const succeededFetch = fetchHistory.find(entry => entry.succeeded);$/;"	V
+if	.cache/commonjs/loader.js	/^  if (!failedPaths[path]) {$/;"	M
+if	.cache/commonjs/loader.js	/^  if (appearsOnLine() && window.location.pathname.replace(\/\\\/$\/g, ``) !== path.replace(\/\\\/$\/g, ``)) {$/;"	M
+if	.cache/commonjs/loader.js	/^  if (!prefetchTriggered[pathname]) {$/;"	M
+if	.cache/commonjs/loader.js	/^  if (!prefetchCompleted[pathname]) {$/;"	M
+pathScriptsCache	.cache/commonjs/loader.js	/^let pathScriptsCache = {};$/;"	O
+prefetchTriggered	.cache/commonjs/loader.js	/^let prefetchTriggered = {};$/;"	O
+prefetchCompleted	.cache/commonjs/loader.js	/^let prefetchCompleted = {};$/;"	O
+disableCorePrefetching	.cache/commonjs/loader.js	/^let disableCorePrefetching = false;$/;"	V
+queue	.cache/commonjs/loader.js	/^const queue = {$/;"	O
+findPage	.cache/commonjs/loader.js	/^    findPage = (0, _findPage.default)(newPages, __PATH_PREFIX__);$/;"	P
+syncRequires	.cache/commonjs/loader.js	/^    syncRequires = devRequires;$/;"	P
+asyncRequires	.cache/commonjs/loader.js	/^    asyncRequires = prodRequires;$/;"	P
+jsonDataPaths	.cache/commonjs/loader.js	/^    jsonDataPaths = dataPaths;$/;"	P
+if	.cache/commonjs/loader.js	/^    if (`connection` in navigator) {$/;"	M
+if	.cache/commonjs/loader.js	/^      if ((navigator.connection.effectiveType || ``).includes(`2g`)) {$/;"	M
+if	.cache/commonjs/loader.js	/^      if (navigator.connection.saveData) {$/;"	M
+if	.cache/commonjs/loader.js	/^    if (disableCorePrefetching.some(a => a)) {$/;"	M
+if	.cache/commonjs/loader.js	/^    if (process.env.NODE_ENV === `production` && !page && !fetchedPageResourceMap) {$/;"	M
+if	.cache/commonjs/loader.js	/^    if (!page) {$/;"	M
+if	.cache/commonjs/loader.js	/^    if (process.env.NODE_ENV !== `production` && process.env.NODE_ENV !== `test`) {$/;"	M
+if	.cache/commonjs/loader.js	/^    if (process.env.NODE_ENV === `production`) {$/;"	M
+getPage	.cache/commonjs/loader.js	/^  getPage: pathname => findPage(pathname),$/;"	P
+page	.cache/commonjs/loader.js	/^    const page = findPage(path);$/;"	V
+if	.cache/commonjs/loader.js	/^    if (page) {$/;"	M
+page	.cache/commonjs/loader.js	/^    const page = findPage(path);$/;"	V
+if	.cache/commonjs/loader.js	/^    if (page) {$/;"	M
+if	.cache/commonjs/loader.js	/^    if (failedPaths[path]) {$/;"	M
+if	.cache/commonjs/loader.js	/^    if (!page && !fetchedPageResourceMap && process.env.NODE_ENV === `production`) {$/;"	M
+if	.cache/commonjs/loader.js	/^    if (!page) {$/;"	M
+if	.cache/commonjs/loader.js	/^      if (shouldFallbackTo404Resources(path)) {$/;"	M
+path	.cache/commonjs/loader.js	/^    path = page.path; \/\/ Check if it's in the cache already.$/;"	P
+if	.cache/commonjs/loader.js	/^    if (pathScriptsCache[path]) {$/;"	M
+pageResources	.cache/commonjs/loader.js	/^        pageResources: pathScriptsCache[path]$/;"	P
+if	.cache/commonjs/loader.js	/^    if (process.env.NODE_ENV !== `production`) {$/;"	M
+pageResources	.cache/commonjs/loader.js	/^      const pageResources = {$/;"	O
+component	.cache/commonjs/loader.js	/^        component: syncRequires.components[page.componentChunkName],$/;"	P
+if	.cache/commonjs/loader.js	/^        if (!(component && json)) {$/;"	M
+pageResources	.cache/commonjs/loader.js	/^        const pageResources = {$/;"	O
+inInitialRender	.cache/commonjs/loader.js	/^  inInitialRender = false;$/;"	P
+if	.cache/commonjs/loader.js	/^  if (process.env.NODE_ENV === `production`) {$/;"	M
+apiRunner	.cache/commonjs/loader.js	/^  apiRunner = runner;$/;"	P
+disableCorePrefetching	.cache/commonjs/loader.js	/^  disableCorePrefetching = apiRunner(`disableCorePrefetching`);$/;"	P
+publicLoader	.cache/commonjs/loader.js	/^const publicLoader = {$/;"	O
+getResourcesForPathname	.cache/commonjs/loader.js	/^  getResourcesForPathname: queue.getResourcesForPathname,$/;"	P
+getResourceURLsForPathname	.cache/commonjs/loader.js	/^  getResourceURLsForPathname: queue.getResourceURLsForPathname,$/;"	P
+getResourcesForPathnameSync	.cache/commonjs/loader.js	/^  getResourcesForPathnameSync: queue.getResourcesForPathnameSync$/;"	P
+_default	.cache/commonjs/loader.js	/^var _default = queue;$/;"	V
+_interopRequireDefault	.cache/commonjs/find-page.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	V
+_utils	.cache/commonjs/find-page.js	/^var _utils = require("@reach\/router\/lib\/utils");$/;"	V
+_stripPrefix	.cache/commonjs/find-page.js	/^var _stripPrefix = _interopRequireDefault(require(".\/strip-prefix"));$/;"	V
+TODO	.cache/commonjs/find-page.js	/^\/\/ TODO add tests especially for handling prefixed links.$/;"	T
+TODO	.cache/commonjs/find-page.js	/^\/\/ TODO add tests especially for handling prefixed links.$/;"	T
+TODO	.cache/commonjs/find-page.js	/^\/\/ TODO add tests especially for handling prefixed links.$/;"	T
+pageCache	.cache/commonjs/find-page.js	/^const pageCache = {};$/;"	O
+if	.cache/commonjs/find-page.js	/^  if (trimmedPathname.split(`#`).length > 1) {$/;"	M
+trimmedPathname	.cache/commonjs/find-page.js	/^    trimmedPathname = trimmedPathname.split(`#`).slice(0, -1).join(``);$/;"	P
+if	.cache/commonjs/find-page.js	/^  if (trimmedPathname.split(`?`).length > 1) {$/;"	M
+trimmedPathname	.cache/commonjs/find-page.js	/^    trimmedPathname = trimmedPathname.split(`?`).slice(0, -1).join(``);$/;"	P
+if	.cache/commonjs/find-page.js	/^  if (pageCache[trimmedPathname]) {$/;"	M
+pathToMatch	.cache/commonjs/find-page.js	/^    let pathToMatch = page.matchPath ? page.matchPath : page.path;$/;"	V
+if	.cache/commonjs/find-page.js	/^    if ((0, _utils.match)(pathToMatch, trimmedPathname)) {$/;"	M
+foundPage	.cache/commonjs/find-page.js	/^      foundPage = page;$/;"	P
+if	.cache/commonjs/find-page.js	/^    if ((0, _utils.match)(`${page.path}index.html`, trimmedPathname)) {$/;"	M
+foundPage	.cache/commonjs/find-page.js	/^      foundPage = page;$/;"	P
+if	.cache/production-app.js	/^  if (apiRunner(`registerServiceWorker`).length > 0) {$/;"	M
+RouteHandler	.cache/production-app.js	/^  class RouteHandler extends React.Component {$/;"	C
+render	.cache/production-app.js	/^    render() {$/;"	M
+location	.cache/production-app.js	/^                location={location}$/;"	P
+shouldUpdateScroll	.cache/production-app.js	/^                shouldUpdateScroll={shouldUpdateScroll}$/;"	P
+location	.cache/production-app.js	/^                  location={location}$/;"	P
+pageResources	.cache/production-app.js	/^                  pageResources={pageResources}$/;"	P
+basepath	.cache/production-app.js	/^          basepath: __PATH_PREFIX__,$/;"	P
+if	.cache/app.js	/^  if (socket) {$/;"	M
+if	.cache/app.js	/^  if (supportsServiceWorkers(location, navigator)) {$/;"	M
+for	.cache/app.js	/^      for (let registration of registrations) {$/;"	M
+supportsServiceWorkers	.cache/app.js	/^function supportsServiceWorkers(location, navigator) {$/;"	F
+if	.cache/app.js	/^  if (location.hostname === `localhost` || location.protocol === `https:`) {$/;"	M
+if	.cache/gatsby-browser-entry.js	/^  if (context[query] && context[query].data) {$/;"	M
+data	.cache/gatsby-browser-entry.js	/^  data: PropTypes.object,$/;"	P
+query	.cache/gatsby-browser-entry.js	/^  query: PropTypes.string.isRequired,$/;"	P
+render	.cache/gatsby-browser-entry.js	/^  render: PropTypes.func,$/;"	P
+children	.cache/gatsby-browser-entry.js	/^  children: PropTypes.func,$/;"	P
+graphql	.cache/gatsby-browser-entry.js	/^function graphql() {$/;"	F
+TODO	.cache/gatsby-browser-entry.js	/^  push, \/\/ TODO replace for v3$/;"	T
+TODO	.cache/gatsby-browser-entry.js	/^  push, \/\/ TODO replace for v3$/;"	T
+TODO	.cache/gatsby-browser-entry.js	/^  push, \/\/ TODO replace for v3$/;"	T
+TODO	.cache/gatsby-browser-entry.js	/^  replace, \/\/ TODO remove replace for v3$/;"	T
+TODO	.cache/gatsby-browser-entry.js	/^  replace, \/\/ TODO remove replace for v3$/;"	T
+TODO	.cache/gatsby-browser-entry.js	/^  replace, \/\/ TODO remove replace for v3$/;"	T
+TODO	.cache/gatsby-browser-entry.js	/^  navigateTo, \/\/ TODO: remove navigateTo for v3$/;"	T
+TODO	.cache/gatsby-browser-entry.js	/^  navigateTo, \/\/ TODO: remove navigateTo for v3$/;"	T
+TODO	.cache/gatsby-browser-entry.js	/^  navigateTo, \/\/ TODO: remove navigateTo for v3$/;"	T
+syncRequires	.cache/loader.js	/^let syncRequires = {}$/;"	O
+asyncRequires	.cache/loader.js	/^let asyncRequires = {}$/;"	O
+jsonDataPaths	.cache/loader.js	/^let jsonDataPaths = {}$/;"	O
+fetchHistory	.cache/loader.js	/^let fetchHistory = []$/;"	A
+failedPaths	.cache/loader.js	/^const failedPaths = {}$/;"	O
+jsonPromiseStore	.cache/loader.js	/^const jsonPromiseStore = {}$/;"	O
+if	.cache/loader.js	/^if (process.env.NODE_ENV !== `production`) {$/;"	M
+devGetPageData	.cache/loader.js	/^  devGetPageData = require(`.\/socketIo`).getPageData$/;"	P
+if	.cache/loader.js	/^  if (!fetchingPageResourceMapPromise) {$/;"	M
+TODO	.cache/loader.js	/^          \/\/ TODO — expose proper way to access this data from plugins.$/;"	T
+TODO	.cache/loader.js	/^          \/\/ TODO — expose proper way to access this data from plugins.$/;"	T
+TODO	.cache/loader.js	/^          \/\/ TODO — expose proper way to access this data from plugins.$/;"	T
+hasPageResourceMap	.cache/loader.js	/^          hasPageResourceMap = true$/;"	P
+chunk	.cache/loader.js	/^    chunk => __PATH_PREFIX__ + chunk$/;"	P
+if	.cache/loader.js	/^  if (resourceName.slice(0, 12) === `component---`) {$/;"	M
+resourceFunction	.cache/loader.js	/^    resourceFunction = asyncRequires.components[resourceName]$/;"	P
+if	.cache/loader.js	/^    if (resourceName in jsonPromiseStore) {$/;"	M
+resourceFunction	.cache/loader.js	/^      resourceFunction = () => jsonPromiseStore[resourceName]$/;"	P
+if	.cache/loader.js	/^            if (req.readyState == 4) {$/;"	M
+if	.cache/loader.js	/^              if (req.status === 200) {$/;"	M
+failed	.cache/loader.js	/^        failed = true$/;"	P
+resource	.cache/loader.js	/^          resource: resourceName,$/;"	P
+succeeded	.cache/loader.js	/^          succeeded: !failed,$/;"	P
+fetchHistory	.cache/loader.js	/^        fetchHistory = fetchHistory.slice(-MAX_HISTORY)$/;"	P
+if	.cache/loader.js	/^  if (resourceName.slice(0, 12) === `component---`) {$/;"	M
+if	.cache/loader.js	/^  if (typeof isOnLine === `boolean`) {$/;"	M
+if	.cache/loader.js	/^  if (!failedPaths[path]) {$/;"	M
+if	.cache/loader.js	/^  if (!prefetchTriggered[pathname]) {$/;"	M
+if	.cache/loader.js	/^  if (!prefetchCompleted[pathname]) {$/;"	M
+pathScriptsCache	.cache/loader.js	/^let pathScriptsCache = {}$/;"	O
+prefetchTriggered	.cache/loader.js	/^let prefetchTriggered = {}$/;"	O
+prefetchCompleted	.cache/loader.js	/^let prefetchCompleted = {}$/;"	O
+queue	.cache/loader.js	/^const queue = {$/;"	O
+findPage	.cache/loader.js	/^    findPage = pageFinderFactory(newPages, __PATH_PREFIX__)$/;"	P
+syncRequires	.cache/loader.js	/^    syncRequires = devRequires$/;"	P
+asyncRequires	.cache/loader.js	/^    asyncRequires = prodRequires$/;"	P
+jsonDataPaths	.cache/loader.js	/^    jsonDataPaths = dataPaths$/;"	P
+if	.cache/loader.js	/^    if (`connection` in navigator) {$/;"	M
+if	.cache/loader.js	/^      if ((navigator.connection.effectiveType || ``).includes(`2g`)) {$/;"	M
+if	.cache/loader.js	/^      if (navigator.connection.saveData) {$/;"	M
+if	.cache/loader.js	/^    if (disableCorePrefetching.some(a => a)) {$/;"	M
+if	.cache/loader.js	/^    if (!page) {$/;"	M
+if	.cache/loader.js	/^    if (process.env.NODE_ENV === `production`) {$/;"	M
+getPage	.cache/loader.js	/^  getPage: pathname => findPage(pathname),$/;"	P
+if	.cache/loader.js	/^    if (page) {$/;"	M
+if	.cache/loader.js	/^    if (page) {$/;"	M
+getResourcesForPathname	.cache/loader.js	/^  getResourcesForPathname: path =>$/;"	P
+if	.cache/loader.js	/^      if (failedPaths[path]) {$/;"	M
+if	.cache/loader.js	/^      if (!page) {$/;"	M
+if	.cache/loader.js	/^        if (shouldFallbackTo404Resources(path)) {$/;"	M
+path	.cache/loader.js	/^      path = page.path$/;"	P
+if	.cache/loader.js	/^      if (pathScriptsCache[path]) {$/;"	M
+pageResources	.cache/loader.js	/^          pageResources: pathScriptsCache[path],$/;"	P
+if	.cache/loader.js	/^      if (process.env.NODE_ENV !== `production`) {$/;"	M
+pageResources	.cache/loader.js	/^        const pageResources = {$/;"	O
+component	.cache/loader.js	/^          component: syncRequires.components[page.componentChunkName],$/;"	P
+if	.cache/loader.js	/^          if (!(component && json)) {$/;"	M
+pageResources	.cache/loader.js	/^          const pageResources = {$/;"	O
+post	.cache/loader.js	/^export const postInitialRenderWork = () => {$/;"	E
+inInitialRender	.cache/loader.js	/^  inInitialRender = false$/;"	P
+if	.cache/loader.js	/^  if (process.env.NODE_ENV === `production`) {$/;"	M
+setApi	.cache/loader.js	/^export const setApiRunnerForLoader = runner => {$/;"	E
+apiRunner	.cache/loader.js	/^  apiRunner = runner$/;"	P
+disableCorePrefetching	.cache/loader.js	/^  disableCorePrefetching = apiRunner(`disableCorePrefetching`)$/;"	P
+public	.cache/loader.js	/^export const publicLoader = {$/;"	E
+getResourcesForPathname	.cache/loader.js	/^  getResourcesForPathname: queue.getResourcesForPathname,$/;"	P
+getResourceURLsForPathname	.cache/loader.js	/^  getResourceURLsForPathname: queue.getResourceURLsForPathname,$/;"	P
+getResourcesForPathnameSync	.cache/loader.js	/^  getResourcesForPathnameSync: queue.getResourcesForPathnameSync,$/;"	P
+TODO	.cache/find-page.js	/^\/\/ TODO add tests especially for handling prefixed links.$/;"	T
+TODO	.cache/find-page.js	/^\/\/ TODO add tests especially for handling prefixed links.$/;"	T
+TODO	.cache/find-page.js	/^\/\/ TODO add tests especially for handling prefixed links.$/;"	T
+matchPath	.cache/find-page.js	/^import { match as matchPath } from "@reach\/router\/lib\/utils"$/;"	I
+pageCache	.cache/find-page.js	/^const pageCache = {}$/;"	O
+if	.cache/find-page.js	/^  if (trimmedPathname.split(`#`).length > 1) {$/;"	M
+trimmedPathname	.cache/find-page.js	/^    trimmedPathname = trimmedPathname$/;"	P
+if	.cache/find-page.js	/^  if (trimmedPathname.split(`?`).length > 1) {$/;"	M
+trimmedPathname	.cache/find-page.js	/^    trimmedPathname = trimmedPathname$/;"	P
+if	.cache/find-page.js	/^  if (pageCache[trimmedPathname]) {$/;"	M
+if	.cache/find-page.js	/^    if (matchPath(pathToMatch, trimmedPathname)) {$/;"	M
+foundPage	.cache/find-page.js	/^      foundPage = page$/;"	P
+if	.cache/find-page.js	/^    if (matchPath(`${page.path}index.html`, trimmedPathname)) {$/;"	M
+foundPage	.cache/find-page.js	/^      foundPage = page$/;"	P
+render	src/html.js	/^  render() {$/;"	M
+name	src/html.js	/^            name="viewport"$/;"	P
+content	src/html.js	/^            content="width=device-width, initial-scale=1.0"$/;"	P
+href	src/html.js	/^            href="\/img\/apple-touch-icon.png"$/;"	P
+rel	src/html.js	/^            rel="apple-touch-icon"$/;"	P
+sizes	src/html.js	/^            sizes="180x180"$/;"	P
+id	src/html.js	/^            id="___gatsby"$/;"	P
+dangerouslySetInnerHTML	src/html.js	/^            dangerouslySetInnerHTML={{ __html: this.props.body }}$/;"	P
+src	src/html.js	/^            src="\/\/pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js"$/;"	P
+call-to-action	src/scss/_call-to-action.scss	/^.call-to-action {$/;"	c
+overlay	src/scss/_call-to-action.scss	/^  .overlay {$/;"	c
+headings	src/scss/_fonts.scss	/^\/\/ Font, line-height, and color for body text, headings, and more.$/;"	t
+font-family-sans-serif	src/scss/_fonts.scss	/^$font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !default;$/;"	v
+sans-serif	src/scss/_fonts.scss	/^$font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !default;$/;"	t
+font-family-monospace	src/scss/_fonts.scss	/^$font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace !default;$/;"	v
+Consolas	src/scss/_fonts.scss	/^$font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace !default;$/;"	t
+font-family-base	src/scss/_fonts.scss	/^$font-family-base: $font-family-sans-serif !default;$/;"	v
+font-size-base	src/scss/_fonts.scss	/^$font-size-base: 1rem !default; \/\/ Assumes the browser default, typically `16px`$/;"	v
+font-size-lg	src/scss/_fonts.scss	/^$font-size-lg: 1.25rem !default;$/;"	v
+font-size-sm	src/scss/_fonts.scss	/^$font-size-sm: 0.875rem !default;$/;"	v
+font-size-xs	src/scss/_fonts.scss	/^$font-size-xs: 0.75rem !default;$/;"	v
+font-weight-normal	src/scss/_fonts.scss	/^$font-weight-normal: normal !default;$/;"	v
+font-weight-bold	src/scss/_fonts.scss	/^$font-weight-bold: bold !default;$/;"	v
+font-weight-base	src/scss/_fonts.scss	/^$font-weight-base: $font-weight-normal !default;$/;"	v
+line-height-base	src/scss/_fonts.scss	/^$line-height-base: 1.5 !default;$/;"	v
+h1-font-size	src/scss/_fonts.scss	/^$h1-font-size: 1.8rem !default;$/;"	v
+h2-font-size	src/scss/_fonts.scss	/^$h2-font-size: 1.4rem !default;$/;"	v
+h3-font-size	src/scss/_fonts.scss	/^$h3-font-size: 1.2rem !default;$/;"	v
+h4-font-size	src/scss/_fonts.scss	/^$h4-font-size: 1.1rem !default;$/;"	v
+h5-font-size	src/scss/_fonts.scss	/^$h5-font-size: 1.05rem !default;$/;"	v
+h6-font-size	src/scss/_fonts.scss	/^$h6-font-size: 1rem !default;$/;"	v
+headings-font-family	src/scss/_fonts.scss	/^$headings-font-family: inherit !default;$/;"	v
+headings-font-weight	src/scss/_fonts.scss	/^$headings-font-weight: 800 !default;$/;"	v
+headings-line-height	src/scss/_fonts.scss	/^$headings-line-height: 1.5 !default;$/;"	v
+headings-color	src/scss/_fonts.scss	/^$headings-color: inherit !default;$/;"	v
+display1-size	src/scss/_fonts.scss	/^$display1-size: 6rem !default;$/;"	v
+display2-size	src/scss/_fonts.scss	/^$display2-size: 5.5rem !default;$/;"	v
+display3-size	src/scss/_fonts.scss	/^$display3-size: 4.5rem !default;$/;"	v
+display4-size	src/scss/_fonts.scss	/^$display4-size: 3.5rem !default;$/;"	v
+white	src/scss/_variables.scss	/^$white: #fff !default;$/;"	v
+gray-100	src/scss/_variables.scss	/^$gray-100: #f8f9fa !default;$/;"	v
+gray-200	src/scss/_variables.scss	/^$gray-200: #e9ecef !default;$/;"	v
+gray-300	src/scss/_variables.scss	/^$gray-300: #dee2e6 !default;$/;"	v
+gray-400	src/scss/_variables.scss	/^$gray-400: #ced4da !default;$/;"	v
+gray-500	src/scss/_variables.scss	/^$gray-500: #adb5bd !default;$/;"	v
+gray-600	src/scss/_variables.scss	/^$gray-600: #868e96 !default;$/;"	v
+gray-700	src/scss/_variables.scss	/^$gray-700: #495057 !default;$/;"	v
+gray-800	src/scss/_variables.scss	/^$gray-800: #343a40 !default;$/;"	v
+gray-900	src/scss/_variables.scss	/^$gray-900: #212529 !default;$/;"	v
+black	src/scss/_variables.scss	/^$black: #000 !default;$/;"	v
+blue	src/scss/_variables.scss	/^$blue: #007bff !default;$/;"	v
+indigo	src/scss/_variables.scss	/^$indigo: #6610f2 !default;$/;"	v
+purple	src/scss/_variables.scss	/^$purple: #6f42c1 !default;$/;"	v
+pink	src/scss/_variables.scss	/^$pink: #e83e8c !default;$/;"	v
+red	src/scss/_variables.scss	/^$red: #dc3545 !default;$/;"	v
+orange	src/scss/_variables.scss	/^$orange: #fd7e14 !default;$/;"	v
+yellow	src/scss/_variables.scss	/^$yellow: #ffc107 !default;$/;"	v
+green	src/scss/_variables.scss	/^$green: #28a745 !default;$/;"	v
+teal	src/scss/_variables.scss	/^$teal: #20c997 !default;$/;"	v
+cyan	src/scss/_variables.scss	/^$cyan: #17a2b8 !default;$/;"	v
+primary	src/scss/_variables.scss	/^$primary: $blue !default;$/;"	v
+secondary	src/scss/_variables.scss	/^$secondary: $gray-600 !default;$/;"	v
+success	src/scss/_variables.scss	/^$success: $green !default;$/;"	v
+info	src/scss/_variables.scss	/^$info: $cyan !default;$/;"	v
+warning	src/scss/_variables.scss	/^$warning: $yellow !default;$/;"	v
+danger	src/scss/_variables.scss	/^$danger: $red !default;$/;"	v
+light	src/scss/_variables.scss	/^$light: $gray-100 !default;$/;"	v
+dark	src/scss/_variables.scss	/^$dark: $gray-800 !default;$/;"	v
+theme-colors	src/scss/index.scss	/^$theme-colors: ($/;"	v
+enable-rounded	src/scss/index.scss	/^$enable-rounded: true !default;$/;"	v
+enable-shadows	src/scss/index.scss	/^$enable-shadows: true !default;$/;"	v
+enable-gradients	src/scss/index.scss	/^$enable-gradients: false !default;$/;"	v
+enable-transitions	src/scss/index.scss	/^$enable-transitions: false !default;$/;"	v
+enable-hover-media-query	src/scss/index.scss	/^$enable-hover-media-query: false !default;$/;"	v
+enable-grid-classes	src/scss/index.scss	/^$enable-grid-classes: true !default;$/;"	v
+enable-print-styles	src/scss/index.scss	/^$enable-print-styles: true !default;$/;"	v
+container-max-widths	src/scss/index.scss	/^$container-max-widths: ($/;"	v
+body-bg	src/scss/index.scss	/^$body-bg: $white !default;$/;"	v
+body-color	src/scss/index.scss	/^$body-color: $gray-700 !default;$/;"	v
+inverse-bg	src/scss/index.scss	/^$inverse-bg: $gray-900 !default;$/;"	v
+inverse-color	src/scss/index.scss	/^$inverse-color: $gray-600 !default;$/;"	v
+link-decoration	src/scss/index.scss	/^$link-decoration: none !default;$/;"	v
+link-hover-decoration	src/scss/index.scss	/^$link-hover-decoration: none !default;$/;"	v
+html	src/scss/index.scss	/^html,$/;"	t
+body	src/scss/index.scss	/^body {$/;"	t
+p	src/scss/index.scss	/^p {$/;"	t
+img	src/scss/index.scss	/^img {$/;"	t
+testimonials	src/scss/_testimonials.scss	/^.testimonials {$/;"	c
+testimonial-item	src/scss/_testimonials.scss	/^  .testimonial-item {$/;"	c
+img	src/scss/_testimonials.scss	/^    img {$/;"	t
+body	src/scss/_global.scss	/^body {$/;"	t
+h1	src/scss/_global.scss	/^h1,$/;"	t
+h2	src/scss/_global.scss	/^h2,$/;"	t
+h3	src/scss/_global.scss	/^h3,$/;"	t
+h4	src/scss/_global.scss	/^h4,$/;"	t
+h5	src/scss/_global.scss	/^h5,$/;"	t
+h6	src/scss/_global.scss	/^h6 {$/;"	t
+showcase	src/scss/_showcase.scss	/^.showcase {$/;"	c
+showcase-text	src/scss/_showcase.scss	/^  .showcase-text {$/;"	c
+showcase-img	src/scss/_showcase.scss	/^  .showcase-img {$/;"	c
+768px	src/scss/_showcase.scss	/^  @media (min-width: 768px) {$/;"	t
+showcase-text	src/scss/_showcase.scss	/^    .showcase-text {$/;"	c
+background-cover	src/scss/_mixins.scss	/^@mixin background-cover {$/;"	m
+body-font	src/scss/_mixins.scss	/^@mixin body-font {$/;"	m
+Arial	src/scss/_mixins.scss	/^  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;$/;"	t
+footer	src/scss/_footer.scss	/^footer.footer {$/;"	c
+masthead	src/scss/_masthead.scss	/^header.masthead {$/;"	c
+overlay	src/scss/_masthead.scss	/^  .overlay {$/;"	c
+h1	src/scss/_masthead.scss	/^  h1 {$/;"	t
+768px	src/scss/_masthead.scss	/^  @media (min-width: 768px) {$/;"	t
+h1	src/scss/_masthead.scss	/^    h1 {$/;"	t
+features-icons	src/scss/_icons.scss	/^.features-icons {$/;"	c
+features-icons-item	src/scss/_icons.scss	/^  .features-icons-item {$/;"	c
+features-icons-icon	src/scss/_icons.scss	/^    .features-icons-icon {$/;"	c
+i	src/scss/_icons.scss	/^      i {$/;"	t
+features-icons-icon	src/scss/_icons.scss	/^      .features-icons-icon {$/;"	c
+i	src/scss/_icons.scss	/^        i {$/;"	t
+footer	src/components/Footer/style.scss	/^.footer {$/;"	c
+hr	src/components/Footer/style.scss	/^  hr {$/;"	t
+Layout	src/components/Layout/index.js	/^class Layout extends React.Component {$/;"	C
+componentDidMount	src/components/Layout/index.js	/^  componentDidMount() {$/;"	M
+componentDidUpdate	src/components/Layout/index.js	/^  componentDidUpdate() {$/;"	M
+render	src/components/Layout/index.js	/^  render() {$/;"	M
+title	src/components/Meta/index.js	/^  title = title ? `${title} | ${siteTitle}` : siteTitle$/;"	P
+title	src/components/Meta/index.js	/^      title={title}$/;"	P
+meta	src/components/Meta/index.js	/^      meta={[$/;"	P
+name	src/components/Meta/index.js	/^          name: 'twitter:site',$/;"	P
+content	src/components/Meta/index.js	/^          content: `@${get(site, 'twitter')}`,$/;"	P
+property	src/components/Meta/index.js	/^          property: 'og:description',$/;"	P
+content	src/components/Meta/index.js	/^          content: get(site, 'description'),$/;"	P
+property	src/components/Meta/index.js	/^          property: 'og:url',$/;"	P
+content	src/components/Meta/index.js	/^          content: `${get(site, 'siteUrl')}\/profile`,$/;"	P
+property	src/components/Meta/index.js	/^          property: 'og:image',$/;"	P
+content	src/components/Meta/index.js	/^          content: `${get(site, 'siteUrl')}\/img\/profile.jpg`,$/;"	P
+Navi	src/components/Navi/index.js	/^class Navi extends React.Component {$/;"	C
+render	src/components/Navi/index.js	/^  render() {$/;"	M
+src	src/components/Navi/index.js	/^            src="http:\/\/pocoexpress.com.vn\/wp-content\/uploads\/2016\/05\/xlogo-poco.png.pagespeed.ic.aIMUc3KO3L.webp"$/;"	P
+alt	src/components/Navi/index.js	/^            alt="Sea Freight, Air Freight, Multimodal transport, Logistics services"$/;"	P
+className	src/components/Navi/index.js	/^            className="logo"$/;"	P
+href	src/components/Navi/index.js	/^              href="\/"$/;"	P
+active	src/components/Navi/index.js	/^              active={location.pathname === '\/' ? true : false}$/;"	P
+href	src/components/Navi/index.js	/^              href="\/profile"$/;"	P
+active	src/components/Navi/index.js	/^              active={location.pathname === '\/profile' ? true : false}$/;"	P
+href	src/components/Navi/index.js	/^              href="\/profile"$/;"	P
+active	src/components/Navi/index.js	/^              active={location.pathname === '\/profile' ? true : false}$/;"	P
+href	src/components/Navi/index.js	/^              href="\/profile"$/;"	P
+active	src/components/Navi/index.js	/^              active={location.pathname === '\/profile' ? true : false}$/;"	P
+href	src/components/Navi/index.js	/^              href="\/profile"$/;"	P
+active	src/components/Navi/index.js	/^              active={location.pathname === '\/profile' ? true : false}$/;"	P
+href	src/components/Navi/index.js	/^              href="\/profile"$/;"	P
+active	src/components/Navi/index.js	/^              active={location.pathname === '\/profile' ? true : false}$/;"	P
+header	src/components/Navi/style.scss	/^.header {$/;"	c
+navbar-nav	src/components/Navi/style.scss	/^  .navbar-nav {$/;"	c
+nav-item	src/components/Navi/style.scss	/^    .nav-item {$/;"	c
+active	src/components/Navi/style.scss	/^      &.active {$/;"	c
+nav-link	src/components/Navi/style.scss	/^        .nav-link {$/;"	c
+nav-link	src/components/Navi/style.scss	/^      .nav-link {$/;"	c
+logo	src/components/Navi/style.scss	/^  .logo {$/;"	c
+Adsense	src/components/Adsense/index.js	/^class Adsense extends React.Component {$/;"	C
+componentDidMount	src/components/Adsense/index.js	/^  componentDidMount() {$/;"	M
+if	src/components/Adsense/index.js	/^    if (clientId) {$/;"	M
+render	src/components/Adsense/index.js	/^  render() {$/;"	M
+className	src/components/Adsense/index.js	/^          className="adsbygoogle"$/;"	P
+style	src/components/Adsense/index.js	/^          style={{ display: 'block' }}$/;"	P
+ad	src/components/Adsense/style.scss	/^.ad {$/;"	c
+icon	src/components/Icon/style.scss	/^.icon {$/;"	c
+svg	src/components/Icon/style.scss	/^  svg {$/;"	t
+section	src/templates/Page/style.scss	/^section {$/;"	t
+jumboimage	src/templates/Page/style.scss	/^  &.jumboimage {$/;"	c
+0	src/templates/Page/style.scss	/^    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(51, 51, 51) 50%);$/;"	t
+51	src/templates/Page/style.scss	/^    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(51, 51, 51) 50%);$/;"	t
+cover-image	src/templates/Page/style.scss	/^  .cover-image {$/;"	c
+cover-over	src/templates/Page/style.scss	/^  .cover-over {$/;"	c
+hr	src/templates/Page/style.scss	/^  hr {$/;"	t
+light	src/templates/Page/style.scss	/^    &.light {$/;"	c
+section-heading	src/templates/Page/style.scss	/^  .section-heading {$/;"	c
+slide-left	src/templates/Page/style.scss	/^  .slide-left {$/;"	c
+slide-right	src/templates/Page/style.scss	/^  .slide-right {$/;"	c
+className	src/templates/Post/index.js	/^          className="content"$/;"	P
+__html	src/templates/Post/index.js	/^            __html: isMore ? getDescription(html) : html,$/;"	P
+body	src/templates/Post/index.js	/^  body = body.replace(\/<blockquote>\/g, '<blockquote class="blockquote">')$/;"	P
+if	src/templates/Post/index.js	/^  if (body.match('<!--more-->')) {$/;"	M
+body	src/templates/Post/index.js	/^    body = body.split('<!--more-->')$/;"	P
+if	src/templates/Post/index.js	/^    if (typeof body[0] !== 'undefined') {$/;"	M
+className	src/templates/Post/index.js	/^        className={`badge ${primary ? 'badge-primary' : 'badge-secondary'}`}$/;"	P
+key	src/templates/Post/index.js	/^        key={i}$/;"	P
+article	src/templates/Post/style.scss	/^.article {$/;"	c
+info	src/templates/Post/style.scss	/^  .info {$/;"	c
+h1	src/templates/Post/style.scss	/^    h1 {$/;"	t
+badge	src/templates/Post/style.scss	/^    .badge {$/;"	c
+time	src/templates/Post/style.scss	/^    time {$/;"	t
+content	src/templates/Post/style.scss	/^  .content {$/;"	c
+h2	src/templates/Post/style.scss	/^    h2 {$/;"	t
+p	src/templates/Post/style.scss	/^    p {$/;"	t
+blockquote	src/templates/Post/style.scss	/^    blockquote {$/;"	t
+a	src/templates/Post/style.scss	/^      a {$/;"	t
+title	src/templates/index.js	/^        title={get(data, 'post.frontmatter.title')}$/;"	P
+site	src/templates/index.js	/^        site={get(data, 'site.meta')}$/;"	P
+data	src/templates/index.js	/^          data={get(data, 'post')}$/;"	P
+isIndex	src/templates/index.js	/^            isIndex: false,$/;"	P
+adsense	src/templates/index.js	/^            adsense: get(data, 'site.meta.adsense'),$/;"	P
+page	src/templates/index.js	/^export const pageQuery = graphql`$/;"	E
+url	src/templates/index.js	/^        url: siteUrl$/;"	P
+fixed	src/templates/index.js	/^            fixed(width: 500) {$/;"	M
+Profile	src/pages/profile.js	/^class Profile extends React.Component {$/;"	C
+render	src/pages/profile.js	/^  render() {$/;"	M
+ref	src/pages/profile.js	/^                  ref="twButton"$/;"	P
+href	src/pages/profile.js	/^                  href="https:\/\/twitter.com\/jaxx2104"$/;"	P
+className	src/pages/profile.js	/^                  className="twitter-follow-button"$/;"	P
+className	src/pages/profile.js	/^            className="bg-primary text-white text-center color-inverse"$/;"	P
+id	src/pages/profile.js	/^            id="concept"$/;"	P
+query	src/pages/profile.js	/^export const query = graphql`$/;"	E
+fixed	src/pages/profile.js	/^        fixed(width: 120, height: 120) {$/;"	M
+sizes	src/pages/profile.js	/^        sizes(quality: 100) {$/;"	M
+sizes	src/pages/profile.js	/^        sizes(quality: 100) {$/;"	M
+sizes	src/pages/profile.js	/^        sizes(quality: 100) {$/;"	M
+sizes	src/pages/profile.js	/^        sizes(quality: 100) {$/;"	M
+sizes	src/pages/profile.js	/^        sizes(quality: 100) {$/;"	M
+type	src/pages/index.js	/^                      type="email"$/;"	P
+className	src/pages/index.js	/^                      className="form-control form-control-lg"$/;"	P
+placeholder	src/pages/index.js	/^                      placeholder="Enter your email..."$/;"	P
+type	src/pages/index.js	/^                      type="submit"$/;"	P
+className	src/pages/index.js	/^                      className="btn btn-block btn-lg btn-primary"$/;"	P
+page	src/pages/index.js	/^export const pageQuery = graphql`$/;"	E
+url	src/pages/index.js	/^        url: siteUrl$/;"	P
+remark	src/pages/index.js	/^    remark: allMarkdownRemark($/;"	P
+sort	src/pages/index.js	/^      sort: { fields: [frontmatter___date], order: DESC }$/;"	P
+fixed	src/pages/index.js	/^                fixed(width: 500) {$/;"	M

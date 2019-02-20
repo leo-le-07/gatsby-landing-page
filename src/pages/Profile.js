@@ -24,16 +24,16 @@ class Profile extends React.Component {
           <section className="text-center">
             <div className="container">
               <Img fixed={profile} className="rounded-circle" />
-              <h1>jaxx2104</h1>
+              <h1>Mr.Leo</h1>
               <p className="lead text-muted">Front-end engineer.</p>
               <div>
                 <a
                   ref="twButton"
-                  href="https://twitter.com/jaxx2104"
+                  href="https://twitter.com/Mr.Leo"
                   className="twitter-follow-button"
                   data-show-count="false"
                 >
-                  Follow @jaxx2104
+                  Follow @Mr.Leo
                 </a>
               </div>
             </div>
@@ -132,7 +132,7 @@ class Profile extends React.Component {
                   <h2 className="section-heading">Repositories</h2>
                   <p>
                     リポジトリは
-                    <a href="https://github.com/jaxx2104/">こちら</a>
+                    <a href="https://github.com/Mr.Leo/">こちら</a>
                   </p>
                 </div>
               </div>
@@ -146,7 +146,7 @@ class Profile extends React.Component {
                   <h2 className="section-heading">Degree Works</h2>
                   <p>
                     過去の制作は
-                    <a className="text-white" href="https://old.jaxx2104.info/">
+                    <a className="text-white" href="https://old.Mr.Leo.info/">
                       こちら
                     </a>
                   </p>
