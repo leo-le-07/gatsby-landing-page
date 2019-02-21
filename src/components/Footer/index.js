@@ -1,4 +1,5 @@
 import React from 'react'
+import { withPrefix } from 'gatsby'
 import { Container, Row, Col, Figure } from 'react-bootstrap'
 import './style.scss'
 
@@ -14,8 +15,8 @@ const Footer = ({ author, title }) => (
                 <Figure.Image
                   width={171}
                   height={180}
-                  alt="171x180"
-                  src="http://pocoexpress.com.vn/wp-content/uploads/2016/05/xlogo-poco.png.pagespeed.ic.aIMUc3KO3L.webp"
+                  alt="Skyline Logistics"
+                  src={withPrefix('/img/logo.jpg')}
                 />
                 <Figure.Caption>
                   Transport offers a host of logistic management services and

@@ -4,13 +4,18 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 import './style.scss'
 
 const Testimonials = () => (
-  <section className="testimonials text-center">
-    <h1 className="mb-5">What people are saying...</h1>
+  <section className="testimonials text-center text-white">
+    <div className="overlay" />
     <Container>
+      <Row>
+        <Col lg={12}>
+          <h1 className="mb-5">What people are saying...</h1>
+        </Col>
+      </Row>
       <Row>
         <Col lg={4} className="testimonial-item mx-auto">
           <Image
-            src={withPrefix('/img/testimonials-1.jpg')}
+            src={withPrefix('/img/testimonials/example-1.jpg')}
             alt="testimonials-1"
             roundedCircle
           />
@@ -21,7 +26,7 @@ const Testimonials = () => (
         </Col>
         <Col lg={4} className="testimonial-item mx-auto">
           <Image
-            src={withPrefix('/img/testimonials-2.jpg')}
+            src={withPrefix('/img/testimonials/example-2.jpg')}
             alt="testimonials-2"
             roundedCircle
           />
@@ -33,7 +38,7 @@ const Testimonials = () => (
         </Col>
         <Col lg={4} className="testimonial-item mx-auto">
           <Image
-            src={withPrefix('/img/testimonials-3.jpg')}
+            src={withPrefix('/img/testimonials/example-3.jpg')}
             alt="testimonials-3"
             roundedCircle
           />

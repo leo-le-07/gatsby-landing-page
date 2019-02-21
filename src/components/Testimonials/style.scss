@@ -1,0 +1,28 @@
+@import 'scss/_variables.scss';
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-color: $gray-900;
+  background: url('../../../static/img/testimonials/bg-example-1.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+
+  .testimonial-item {
+    max-width: 18rem;
+    img {
+      max-width: 12rem;
+      box-shadow: 0px 5px 5px 0px $gray-500;
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .8;
+  }
+}

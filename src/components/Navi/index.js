@@ -1,4 +1,5 @@
 import React from 'react'
+import { withPrefix } from 'gatsby'
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'
 import { Link } from 'gatsby'
 import './style.scss'
@@ -11,8 +12,8 @@ class Navi extends React.Component {
         <Navbar expand="md" className="header">
           <Navbar.Brand href="/">
             <img
-              src="http://pocoexpress.com.vn/wp-content/uploads/2016/05/xlogo-poco.png.pagespeed.ic.aIMUc3KO3L.webp"
-              alt="Sea Freight, Air Freight, Multimodal transport, Logistics services"
+              src={withPrefix('/img/logo.jpg')}
+              alt="Skyline Logistics"
               className="logo"
             />
           </Navbar.Brand>

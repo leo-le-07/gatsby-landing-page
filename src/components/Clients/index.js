@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 import './style.scss'
 
 const Clients = () => (
-  <section className="testimonials text-center bg-light">
+  <section className="text-center bg-light">
     <h1 className="mb-5">Our Clients</h1>
     <Container>
       <Row>

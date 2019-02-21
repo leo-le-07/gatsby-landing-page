@@ -1,4 +1,5 @@
 import React from 'react'
+import { withPrefix } from 'gatsby'
 import { Carousel } from 'react-bootstrap'
 import './style.scss'
 
@@ -7,7 +8,7 @@ const Slides = () => (
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="http://pocoexpress.com.vn/wp-content/uploads/2016/05/xslide-02.jpg.pagespeed.ic.CNXiWRovo2.webp"
+        src={withPrefix('/img/landing_carousel/example-1.jpg')}
         alt="First slide"
       />
       <Carousel.Caption>
@@ -18,7 +19,7 @@ const Slides = () => (
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="http://pocoexpress.com.vn/wp-content/uploads/2016/05/xslide-03.jpg.pagespeed.ic.wyxQ41yyud.webp"
+        src={withPrefix('/img/landing_carousel/example-2.png')}
         alt="Third slide"
       />
 
@@ -30,7 +31,7 @@ const Slides = () => (
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="http://pocoexpress.com.vn/wp-content/uploads/2016/05/xslide-01.jpg.pagespeed.ic.abh-JAOD8E.webp"
+        src={withPrefix('/img/landing_carousel/example-3.jpg')}
         alt="Third slide"
       />
 

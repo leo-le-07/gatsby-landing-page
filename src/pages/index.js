@@ -9,6 +9,7 @@ import Slides from 'components/Slides'
 import LandingServices from 'components/LandingServices'
 import Testimonials from 'components/Testimonials'
 import Clients from 'components/Clients'
+import ContactForm from 'components/ContactForm'
 
 const BlogIndex = ({ data, location }) => {
   const posts = get(data, 'remark.posts')
@@ -17,6 +18,7 @@ const BlogIndex = ({ data, location }) => {
       <Meta site={get(data, 'site.meta')} />
       <Slides />
       <LandingServices />
+      <ContactForm />
       <Testimonials />
       <Clients />
     </Layout>

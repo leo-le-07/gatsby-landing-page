@@ -1,14 +1,16 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
+import { withPrefix } from 'gatsby'
 import './style.scss'
 
 const LandingServices = () => (
-  <section className="features-icons bg-light text-left">
+  <section className="services bg-light text-left">
     <Container>
       <Row>
         <Col lg={4}>
           <Image
-            src="http://pocoexpress.com.vn/wp-content/uploads/2015/06/640x427ximage_900x600_07.jpg.pagespeed.ic.4n8X2Sa1va.webp"
+            className="img-thumbnail"
+            src={withPrefix('/img/services/example-1.jpg')}
             rounded
           />
           <h3>About Transport</h3>
@@ -19,7 +21,8 @@ const LandingServices = () => (
         </Col>
         <Col lg={4}>
           <Image
-            src="http://pocoexpress.com.vn/wp-content/uploads/2015/06/640x427ximage_900x600_03.jpg.pagespeed.ic.bZZOylo5Qo.webp"
+            className="img-thumbnail"
+            src={withPrefix('/img/services/example-2.jpg')}
             rounded
           />
           <h3>Best Warehousing</h3>
@@ -30,7 +33,8 @@ const LandingServices = () => (
         </Col>
         <Col lg={4}>
           <Image
-            src="http://pocoexpress.com.vn/wp-content/uploads/2015/06/640x427ximage_900x600_06.jpg.pagespeed.ic.06zTOkEhV6.webp"
+            className="img-thumbnail"
+            src={withPrefix('/img/services/example-3.jpg')}
             rounded
           />
           <h3>Why Choose Us?</h3>
