@@ -11,3 +11,8 @@ h6 {
   @include body-font;
   font-weight: 700;
 }
+
+section {
+  padding: 50px 0;
+    min-height: 300px;
+}
