@@ -28,8 +28,12 @@ class ContactForm extends React.Component {
 
     return (
       <section className="contact text-center">
-        <h1 className="mb-5">Request A Quick Quote</h1>
         <Container>
+          <Row>
+            <Col lg={12}>
+              <h1 className="mb-5">Request A Quick Quote</h1>
+            </Col>
+          </Row>
           <Row>
             <Col md={{ offset: 2, span: 8, offset: 2 }}>
               <Form noValidate onSubmit={this.handleSubmit}>
