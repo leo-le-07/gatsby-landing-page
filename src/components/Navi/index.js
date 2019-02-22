@@ -30,15 +30,15 @@ class Navi extends React.Component {
               </Nav.Link>
               <Nav.Link
                 className="px-4"
-                href="/profile"
-                active={location.pathname === '/profile' ? true : false}
+                href="/about"
+                active={location.pathname === '/about' ? true : false}
               >
                 About Us
               </Nav.Link>
               <Nav.Link
                 className="px-4"
-                href="/profile"
-                active={location.pathname === '/profile' ? true : false}
+                href="/services"
+                active={location.pathname === '/services' ? true : false}
               >
                 Our Services
               </Nav.Link>

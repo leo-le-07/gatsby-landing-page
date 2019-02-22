@@ -26,7 +26,7 @@ const LandingAbout = ({ siteMetadata }) => (
             {siteMetadata.email} for customized solution and services to your
             business requirement
           </p>
-          <Button variant="primary" href="/profile">
+          <Button variant="primary" href="/about">
             Read More
           </Button>
         </Col>

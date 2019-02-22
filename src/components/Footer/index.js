@@ -1,5 +1,5 @@
 import React from 'react'
-import { withPrefix } from 'gatsby'
+import { withPrefix, Link } from 'gatsby'
 import { Container, Row, Col, Figure } from 'react-bootstrap'
 import './style.scss'
 
@@ -64,22 +64,22 @@ const Footer = ({ siteMetadata }) => (
             <div className="information">
               <ul className="list-unstyled information-menu">
                 <li className="menu-item">
-                  <a href="#!">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li className="menu-item">
-                  <a href="#!">About Us</a>
+                  <Link to="/about">About Us</Link>
                 </li>
                 <li className="menu-item">
-                  <a href="#!">Our Services</a>
+                  <Link to="/services">Our Services</Link>
                 </li>
                 <li className="menu-item">
-                  <a href="#!">News</a>
+                  <Link to="/">News</Link>
                 </li>
                 <li className="menu-item">
-                  <a href="#!">Tracking</a>
+                  <Link to="/">Tracking</Link>
                 </li>
                 <li className="menu-item">
-                  <a href="#!">Contact</a>
+                  <Link to="/">Contact</Link>
                 </li>
               </ul>
             </div>
