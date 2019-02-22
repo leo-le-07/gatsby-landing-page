@@ -1,10 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatstrap',
-    description: 'Gatsby starter for bootstrap a blog',
+    title: 'Skyline Logistics',
+    companyName: 'Skyline',
+    companyFullName: 'Skyline Logistics',
+    address:
+      '283 Dien Bien Phu, Ward 15, Binh Thanh District, Ho Chi Minh City, Vietnam.',
+    email: 'kenny@pocoexpress.com.vn',
+    phone: '(+84 8) 6681 9528',
+    tax: '0312 705 904',
+    workingTime: 'Mon - Sat: 9:00 - 18:00',
+    description: 'Skyline Logistics company',
     siteUrl: 'https://gatstrap.netlify.com',
-    author: 'jaxx2104',
-    twitter: 'jaxx2104',
+    author: 'Mr. Leo',
+    twitter: 'leole1509',
     adsense: '',
   },
   pathPrefix: '/',

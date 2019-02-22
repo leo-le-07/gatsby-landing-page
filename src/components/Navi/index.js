@@ -6,14 +6,15 @@ import './style.scss'
 
 class Navi extends React.Component {
   render() {
-    const { location, title } = this.props
+    const { location, siteMetadata } = this.props
+    const { companyName } = siteMetadata
     return (
       <Container>
         <Navbar expand="md" className="header">
           <Navbar.Brand href="/">
             <img
               src={withPrefix('/img/logo.jpg')}
-              alt="Skyline Logistics"
+              alt={companyName}
               className="logo"
             />
           </Navbar.Brand>

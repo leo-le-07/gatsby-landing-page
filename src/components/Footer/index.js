@@ -3,7 +3,7 @@ import { withPrefix } from 'gatsby'
 import { Container, Row, Col, Figure } from 'react-bootstrap'
 import './style.scss'
 
-const Footer = ({ author, title }) => (
+const Footer = ({ siteMetadata }) => (
   <div className="footer">
     <Container>
       <Row>
@@ -87,28 +87,29 @@ const Footer = ({ author, title }) => (
         </Col>
         <Col md={4}>
           <aside>
-            <h3 className="widget-title">Poco Express Office</h3>
+            <h3 className="widget-title">
+              {siteMetadata.companyFullName} Office
+            </h3>
             <div className="address">
               <p>
                 <i className="fa fa-map-marker fa-2x fa-fw" />
-                283 Dien Bien Phu, Ward 15, Binh Thanh District, Ho Chi Minh
-                City, Vietnam.
+                {siteMetadata.address}
               </p>
               <p>
                 <i className="fa fa-phone fa-2x fa-fw" />
-                (+84 8) 6681 9528
+                {siteMetadata.phone}
               </p>
               <p>
                 <i className="fa fa-envelope fa-2x fa-fw" />
-                kenny@pocoexpress.com.vn
+                {siteMetadata.email}
               </p>
               <p>
                 <i className="fa fa-fax fa-2x fa-fw" />
-                0312 705 904
+                {siteMetadata.tax}
               </p>
               <p>
                 <i className="fa fa-clock-o fa-2x fa-fw" />
-                Mon - Sat: 9:00 - 18:00
+                {siteMetadata.workingTime}
               </p>
             </div>
           </aside>
