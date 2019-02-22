@@ -1,21 +1,14 @@
 @import 'scss/_variables.scss';
 
-.header {
-  // background-color: $white;
-
+.navigation {
   .navbar-nav {
-    .nav-item {
-      &.active {
-        .nav-link {
-          color: $red;
-        }
-      }
+    .nav-link {
+      color: $gray-900;
+      padding-right: 1.5rem;
+      padding-left: 0.5rem;
 
-      .nav-link {
-        color: $gray-900;
-        &:hover {
-          color: $red;
-        }
+      &:hover {
+        color: $red;
       }
     }
   }
