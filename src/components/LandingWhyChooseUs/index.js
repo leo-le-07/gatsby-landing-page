@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 import { withPrefix } from 'gatsby'
 import './style.scss'
 
-const LandingServices = () => (
+const LandingWhyChooseUs = () => (
   <section className="services bg-light text-left">
     <Container>
       <Row>
@@ -48,4 +48,4 @@ const LandingServices = () => (
   </section>
 )
 
-export default LandingServices
+export default LandingWhyChooseUs
