@@ -11,6 +11,7 @@ import Testimonials from 'components/Testimonials'
 import Clients from 'components/Clients'
 import ContactForm from 'components/ContactForm'
 import LandingAbout from 'components/LandingAbout'
+import LandingServices from 'components/LandingServices'
 
 const BlogIndex = ({ data, location }) => {
   const posts = get(data, 'remark.posts')
@@ -20,6 +21,7 @@ const BlogIndex = ({ data, location }) => {
       <Meta site={siteMetadata} />
       <Slides />
       <LandingWhyChooseUs />
+      <LandingServices />
       <ContactForm />
       <LandingAbout siteMetadata={siteMetadata} />
       <Testimonials />

@@ -4,7 +4,7 @@ import { withPrefix } from 'gatsby'
 import './style.scss'
 
 const LandingWhyChooseUs = () => (
-  <section className="services bg-light text-left">
+  <section className="whychooseus bg-light text-left">
     <Container>
       <Row>
         <Col lg={4}>
