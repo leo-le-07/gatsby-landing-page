@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Form, Button, Modal } from 'react-bootstrap'
-import './style.scss'
+import styles from './styles.module.scss'
 
 class ContactForm extends React.Component {
   constructor(...props) {
@@ -27,7 +27,7 @@ class ContactForm extends React.Component {
     const { validated, showConfirm } = this.state
 
     return (
-      <section className="contact text-center">
+      <section className={styles.container + ' text-center'}>
         <Container>
           <Row>
             <Col lg={12}>
@@ -39,24 +39,41 @@ class ContactForm extends React.Component {
               <Form noValidate onSubmit={this.handleSubmit}>
                 <Form.Row>
                   <Form.Group as={Col} md="6">
-                    <Form.Control type="text" placeholder="Name" />
+                    <Form.Control
+                      className={styles.formControl}
+                      type="text"
+                      placeholder="Name"
+                    />
                   </Form.Group>
                   <Form.Group as={Col} md="6">
-                    <Form.Control type="text" placeholder="Subject" />
+                    <Form.Control
+                      className={styles.formControl}
+                      type="text"
+                      placeholder="Subject"
+                    />
                   </Form.Group>
                 </Form.Row>
                 <Form.Row>
                   <Form.Group as={Col} md="6">
-                    <Form.Control type="email" placeholder="Email" />
+                    <Form.Control
+                      className={styles.formControl}
+                      type="email"
+                      placeholder="Email"
+                    />
                   </Form.Group>
                   <Form.Group as={Col} md="6">
-                    <Form.Control type="text" placeholder="Phone" />
+                    <Form.Control
+                      className={styles.formControl}
+                      type="text"
+                      placeholder="Phone"
+                    />
                   </Form.Group>
                 </Form.Row>
                 <Form.Row>
                   <Form.Group as={Col} md="12">
                     <Form.Control
-                      className="text-area"
+                      className={styles.formControl}
+                      className={styles.textArea}
                       as="textarea"
                       rows="40"
                       placeholder="Message"

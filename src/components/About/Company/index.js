@@ -1,13 +1,13 @@
 import React from 'react'
 import { withPrefix } from 'gatsby'
 import { Container, Row, Col, Breadcrumb } from 'react-bootstrap'
-import './style.scss'
+import styles from './styles.module.scss'
 
 const Company = ({ siteMetadata }) => (
-  <section className="company">
+  <section className={styles.container}>
     <Container>
       <Row className="">
-        <Col lg={6} className="feature-image py-5 px-4 px-md-5" />
+        <Col lg={6} className={styles.featureImage + ' py-5 px-4 px-md-5'} />
         <Col lg={6} className="py-5 px-4 px-md-5">
           <h1 className="mb-5 text-primary">Our Company</h1>
           <p className="text-justify">

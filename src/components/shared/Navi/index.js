@@ -2,20 +2,20 @@ import React from 'react'
 import { withPrefix } from 'gatsby'
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'
 import { Link } from 'gatsby'
-import './style.scss'
+import styles from './styles.module.scss'
 
 class Navi extends React.Component {
   render() {
     const { location, siteMetadata } = this.props
     const { companyName } = siteMetadata
     return (
-      <Container>
+      <Container className={styles.container}>
         <Navbar expand="md" className="navigation">
           <Navbar.Brand href="/">
             <img
               src={withPrefix('/img/logo.jpg')}
               alt={companyName}
-              className="logo"
+              className={styles.logo}
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

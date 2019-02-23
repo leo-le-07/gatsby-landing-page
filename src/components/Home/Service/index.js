@@ -1,11 +1,11 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { withPrefix } from 'gatsby'
-import './style.scss'
+import styles from './styles.module.scss'
 
 const LandingServices = () => (
-  <section className="services text-center text-white">
-    <div className="overlay" />
+  <section className={styles.container + ' text-center text-white'}>
+    <div className={styles.overlay} />
     <Container>
       <Row>
         <Col lg={12}>
@@ -14,12 +14,12 @@ const LandingServices = () => (
       </Row>
       <Row>
         <Col lg={6}>
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
+          <div className={styles.feature + ' mx-auto mb-5 mb-lg-0 mb-lg-3'}>
+            <div className={styles.featureIcon + ' d-flex'}>
               <i className="fa fa-ship m-auto" />
             </div>
             <h2>Sea Freight</h2>
-            <p class="mb-0 text-left">
+            <p className="mb-0 text-left">
               <small>
                 With good agent systems in main sea ports all over the world and
                 good partners in famous shipping lines, POCO EXPRESS provides
@@ -31,12 +31,12 @@ const LandingServices = () => (
           </div>
         </Col>
         <Col lg={6}>
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
+          <div className={styles.feature + ' mx-auto mb-5 mb-lg-0 mb-lg-3'}>
+            <div className={styles.featureIcon + ' d-flex'}>
               <i className="fa fa-plane m-auto" />
             </div>
             <h2>Air Freight</h2>
-            <p class="mb-0 text-left">
+            <p className="mb-0 text-left">
               <small>
                 Timing is the essence of Air Freight and our experienced
                 Customer Service Team can response quickly to all your air
@@ -48,12 +48,12 @@ const LandingServices = () => (
       </Row>
       <Row>
         <Col lg={6}>
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
+          <div className={styles.feature + ' mx-auto mb-5 mb-lg-0 mb-lg-3'}>
+            <div className={styles.featureIcon + ' d-flex'}>
               <i className="fa fa-truck m-auto" />
             </div>
             <h2>Multimodal Transport</h2>
-            <p class="mb-0 text-left">
+            <p className="mb-0 text-left">
               <small>
                 We choose the most cost-effective combination transport modes
                 for your destination.
@@ -62,12 +62,12 @@ const LandingServices = () => (
           </div>
         </Col>
         <Col lg={6}>
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
+          <div className={styles.feature + ' mx-auto mb-5 mb-lg-0 mb-lg-3'}>
+            <div className={styles.featureIcon + ' d-flex'}>
               <i className="fa fa-fighter-jet m-auto" />
             </div>
             <h2>Logistics Services</h2>
-            <p class="mb-0 text-left">
+            <p className="mb-0 text-left">
               <small>
                 You give us the places, we make the move. It’s that simple.
               </small>

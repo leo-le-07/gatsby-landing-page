@@ -1,10 +1,10 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 import { withPrefix } from 'gatsby'
-import './style.scss'
+import styles from './styles.module.scss'
 
 const About = ({ siteMetadata }) => (
-  <section className="about bg-light text-left">
+  <section className={styles.container + ' bg-light text-left'}>
     <Container>
       <Row>
         <Col lg={12}>

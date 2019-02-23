@@ -1,7 +1,7 @@
 import React from 'react'
 import { withPrefix } from 'gatsby'
 import { Carousel } from 'react-bootstrap'
-import './style.scss'
+import styles from './styles.module.scss'
 
 const Slides = () => (
   <Carousel>

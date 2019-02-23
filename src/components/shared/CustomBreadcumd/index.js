@@ -1,11 +1,11 @@
 import React from 'react'
 import { withPrefix } from 'gatsby'
 import { Container, Row, Col, Breadcrumb } from 'react-bootstrap'
-import './style.scss'
+import styles from './styles.module.scss'
 
 const CustomBreadcumd = ({ title, breadcrumbs }) => (
-  <section className="header text-center">
-    <div className="overlay" />
+  <section className={styles.container + ' text-center'}>
+    <div className={styles.overlay} />
     <Container>
       <Row>
         <Col lg={12}>
@@ -14,9 +14,10 @@ const CustomBreadcumd = ({ title, breadcrumbs }) => (
       </Row>
       <Row>
         <Col lg={12}>
-          <Breadcrumb>
-            {Object.entries(breadcrumbs).map(element => (
+          <Breadcrumb className={styles.breadcrumb}>
+            {Object.entries(breadcrumbs).map((element, index) => (
               <Breadcrumb.Item
+                key={index}
                 active={element[1]['active']}
                 href={element[1]['link']}
               >

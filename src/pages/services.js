@@ -5,6 +5,7 @@ import get from 'lodash/get'
 import Meta from 'components/shared/Meta'
 import Layout from 'components/shared/Layout'
 import CustomBreadcumd from 'components/shared/CustomBreadcumd'
+import Summary from 'components/Services/Summary'
 
 const Services = ({ data, location }) => {
   const siteMetadata = get(data, 'site.meta')
@@ -26,6 +27,7 @@ const Services = ({ data, location }) => {
     <Layout location={location}>
       <Meta site={siteMetadata} />
       <CustomBreadcumd title={title} breadcrumbs={breadcrumbs} />
+      <Summary />
     </Layout>
   )
 }

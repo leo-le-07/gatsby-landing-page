@@ -1,22 +1,18 @@
 @import 'scss/_variables.scss';
 
-.services {
+.container {
   padding: 50px 0;
   min-height: 300px;
   background-color: $gray-900;
-  background: url('../../../../static/img/services/example-6.jpg') no-repeat center center;
+  background: url('../../../../static/img/testimonials/bg-example-1.jpg') no-repeat center center;
   background-size: cover;
   position: relative;
 
-  .features-icons-item {
-    max-width: 20rem;
-  }
-
-  .features-icons-icon {
-    height: 7rem;
-
-    i {
-      font-size: 4.5rem;
+  .item {
+    max-width: 18rem;
+    img {
+      max-width: 12rem;
+      box-shadow: 0px 5px 5px 0px $gray-500;
     }
   }
 

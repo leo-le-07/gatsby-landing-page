@@ -1,10 +1,10 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import { withPrefix } from 'gatsby'
-import './style.scss'
+import styles from './styles.module.scss'
 
 const WhyUs = () => (
-  <section className="whyus bg-light text-left">
+  <section className={styles.container + ' bg-light text-left'}>
     <Container>
       <Row>
         <Col lg={4}>

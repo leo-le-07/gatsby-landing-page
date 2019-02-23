@@ -1,6 +1,7 @@
 import React from 'react'
 import { withPrefix, Link } from 'gatsby'
 import { Container, Row, Col, Figure } from 'react-bootstrap'
+import ContactInfo from 'components/shared/ContactInfo'
 import './style.scss'
 
 const Footer = ({ siteMetadata }) => (
@@ -90,28 +91,7 @@ const Footer = ({ siteMetadata }) => (
             <h3 className="widget-title">
               {siteMetadata.companyFullName} Office
             </h3>
-            <div className="address">
-              <p>
-                <i className="fa fa-map-marker fa-2x fa-fw" />
-                {siteMetadata.address}
-              </p>
-              <p>
-                <i className="fa fa-phone fa-2x fa-fw" />
-                {siteMetadata.phone}
-              </p>
-              <p>
-                <i className="fa fa-envelope fa-2x fa-fw" />
-                {siteMetadata.email}
-              </p>
-              <p>
-                <i className="fa fa-fax fa-2x fa-fw" />
-                {siteMetadata.tax}
-              </p>
-              <p>
-                <i className="fa fa-clock-o fa-2x fa-fw" />
-                {siteMetadata.workingTime}
-              </p>
-            </div>
+            <ContactInfo siteMetadata={siteMetadata} />
           </aside>
         </Col>
       </Row>

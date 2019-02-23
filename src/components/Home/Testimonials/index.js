@@ -1,11 +1,11 @@
 import React from 'react'
 import { withPrefix } from 'gatsby'
 import { Container, Row, Col, Image } from 'react-bootstrap'
-import './style.scss'
+import styles from './styles.module.scss'
 
 const Testimonials = () => (
-  <section className="testimonials text-center text-white">
-    <div className="overlay" />
+  <section className={styles.container + ' text-center text-white'}>
+    <div className={styles.overlay} />
     <Container>
       <Row>
         <Col lg={12}>
@@ -13,7 +13,7 @@ const Testimonials = () => (
         </Col>
       </Row>
       <Row>
-        <Col lg={4} className="testimonial-item mx-auto">
+        <Col lg={4} className={styles.item + ' mx-auto'}>
           <Image
             src={withPrefix('/img/testimonials/example-1.jpg')}
             alt="testimonials-1"
@@ -24,7 +24,7 @@ const Testimonials = () => (
             "This is fantastic! Thanks so much guys!"
           </p>
         </Col>
-        <Col lg={4} className="testimonial-item mx-auto">
+        <Col lg={4} className={styles.item + ' mx-auto'}>
           <Image
             src={withPrefix('/img/testimonials/example-2.jpg')}
             alt="testimonials-2"
@@ -36,7 +36,7 @@ const Testimonials = () => (
             nice landing pages."
           </p>
         </Col>
-        <Col lg={4} className="testimonial-item mx-auto">
+        <Col lg={4} className={styles.item + ' mx-auto'}>
           <Image
             src={withPrefix('/img/testimonials/example-3.jpg')}
             alt="testimonials-3"
