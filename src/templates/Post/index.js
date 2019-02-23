@@ -4,8 +4,8 @@ import React from 'react'
 import map from 'lodash/map'
 import Img from 'gatsby-image'
 
-import Adsense from 'components/Adsense'
-import Footer from 'components/Footer'
+import Adsense from 'components/shared/Adsense'
+import Footer from 'components/shared/Footer'
 import './style.scss'
 
 const Post = ({ data, options }) => {

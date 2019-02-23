@@ -3,8 +3,8 @@ import { withPrefix } from 'gatsby'
 import { Container, Row, Col, Breadcrumb } from 'react-bootstrap'
 import './style.scss'
 
-const AboutOurCompany = ({ siteMetadata }) => (
-  <section className="ourcompany">
+const Company = ({ siteMetadata }) => (
+  <section className="company">
     <Container>
       <Row className="">
         <Col lg={6} className="feature-image py-5 px-4 px-md-5" />
@@ -42,4 +42,4 @@ const AboutOurCompany = ({ siteMetadata }) => (
   </section>
 )
 
-export default AboutOurCompany
+export default Company

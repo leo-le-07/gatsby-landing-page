@@ -3,7 +3,7 @@ import { withPrefix } from 'gatsby'
 import { Container, Row, Col, Breadcrumb } from 'react-bootstrap'
 import './style.scss'
 
-const Header = ({ title, breadcrumbs }) => (
+const CustomBreadcumd = ({ title, breadcrumbs }) => (
   <section className="header text-center">
     <div className="overlay" />
     <Container>
@@ -30,4 +30,4 @@ const Header = ({ title, breadcrumbs }) => (
   </section>
 )
 
-export default Header
+export default CustomBreadcumd

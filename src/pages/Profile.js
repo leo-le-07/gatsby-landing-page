@@ -4,9 +4,9 @@ import Img from 'gatsby-image'
 import React from 'react'
 
 import { siteMetadata } from '../../gatsby-config'
-import Layout from 'components/Layout'
-import Meta from 'components/Meta'
-import Icon from 'components/Icon'
+import Layout from 'components/shared/Layout'
+import Meta from 'components/shared/Meta'
+import Icon from 'components/shared/Icon'
 
 class Profile extends React.Component {
   render() {

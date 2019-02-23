@@ -1289,21 +1289,21 @@ features-icons-icon	src/scss/_icons.scss	/^      .features-icons-icon {$/;"	c
 i	src/scss/_icons.scss	/^        i {$/;"	t
 footer	src/components/Footer/style.scss	/^.footer {$/;"	c
 hr	src/components/Footer/style.scss	/^  hr {$/;"	t
-Layout	src/components/Layout/index.js	/^class Layout extends React.Component {$/;"	C
-componentDidMount	src/components/Layout/index.js	/^  componentDidMount() {$/;"	M
-componentDidUpdate	src/components/Layout/index.js	/^  componentDidUpdate() {$/;"	M
-render	src/components/Layout/index.js	/^  render() {$/;"	M
-title	src/components/Meta/index.js	/^  title = title ? `${title} | ${siteTitle}` : siteTitle$/;"	P
-title	src/components/Meta/index.js	/^      title={title}$/;"	P
-meta	src/components/Meta/index.js	/^      meta={[$/;"	P
-name	src/components/Meta/index.js	/^          name: 'twitter:site',$/;"	P
-content	src/components/Meta/index.js	/^          content: `@${get(site, 'twitter')}`,$/;"	P
-property	src/components/Meta/index.js	/^          property: 'og:description',$/;"	P
-content	src/components/Meta/index.js	/^          content: get(site, 'description'),$/;"	P
-property	src/components/Meta/index.js	/^          property: 'og:url',$/;"	P
-content	src/components/Meta/index.js	/^          content: `${get(site, 'siteUrl')}\/profile`,$/;"	P
-property	src/components/Meta/index.js	/^          property: 'og:image',$/;"	P
-content	src/components/Meta/index.js	/^          content: `${get(site, 'siteUrl')}\/img\/profile.jpg`,$/;"	P
+Layout	src/components/shared/Layout/index.js	/^class Layout extends React.Component {$/;"	C
+componentDidMount	src/components/shared/Layout/index.js	/^  componentDidMount() {$/;"	M
+componentDidUpdate	src/components/shared/Layout/index.js	/^  componentDidUpdate() {$/;"	M
+render	src/components/shared/Layout/index.js	/^  render() {$/;"	M
+title	src/components/shared/Meta/index.js	/^  title = title ? `${title} | ${siteTitle}` : siteTitle$/;"	P
+title	src/components/shared/Meta/index.js	/^      title={title}$/;"	P
+meta	src/components/shared/Meta/index.js	/^      meta={[$/;"	P
+name	src/components/shared/Meta/index.js	/^          name: 'twitter:site',$/;"	P
+content	src/components/shared/Meta/index.js	/^          content: `@${get(site, 'twitter')}`,$/;"	P
+property	src/components/shared/Meta/index.js	/^          property: 'og:description',$/;"	P
+content	src/components/shared/Meta/index.js	/^          content: get(site, 'description'),$/;"	P
+property	src/components/shared/Meta/index.js	/^          property: 'og:url',$/;"	P
+content	src/components/shared/Meta/index.js	/^          content: `${get(site, 'siteUrl')}\/profile`,$/;"	P
+property	src/components/shared/Meta/index.js	/^          property: 'og:image',$/;"	P
+content	src/components/shared/Meta/index.js	/^          content: `${get(site, 'siteUrl')}\/img\/profile.jpg`,$/;"	P
 Navi	src/components/Navi/index.js	/^class Navi extends React.Component {$/;"	C
 render	src/components/Navi/index.js	/^  render() {$/;"	M
 src	src/components/Navi/index.js	/^            src="http:\/\/pocoexpress.com.vn\/wp-content\/uploads\/2016\/05\/xlogo-poco.png.pagespeed.ic.aIMUc3KO3L.webp"$/;"	P
@@ -1328,15 +1328,15 @@ active	src/components/Navi/style.scss	/^      &.active {$/;"	c
 nav-link	src/components/Navi/style.scss	/^        .nav-link {$/;"	c
 nav-link	src/components/Navi/style.scss	/^      .nav-link {$/;"	c
 logo	src/components/Navi/style.scss	/^  .logo {$/;"	c
-Adsense	src/components/Adsense/index.js	/^class Adsense extends React.Component {$/;"	C
-componentDidMount	src/components/Adsense/index.js	/^  componentDidMount() {$/;"	M
-if	src/components/Adsense/index.js	/^    if (clientId) {$/;"	M
-render	src/components/Adsense/index.js	/^  render() {$/;"	M
-className	src/components/Adsense/index.js	/^          className="adsbygoogle"$/;"	P
-style	src/components/Adsense/index.js	/^          style={{ display: 'block' }}$/;"	P
-ad	src/components/Adsense/style.scss	/^.ad {$/;"	c
-icon	src/components/Icon/style.scss	/^.icon {$/;"	c
-svg	src/components/Icon/style.scss	/^  svg {$/;"	t
+Adsense	src/components/shared/Adsense/index.js	/^class Adsense extends React.Component {$/;"	C
+componentDidMount	src/components/shared/Adsense/index.js	/^  componentDidMount() {$/;"	M
+if	src/components/shared/Adsense/index.js	/^    if (clientId) {$/;"	M
+render	src/components/shared/Adsense/index.js	/^  render() {$/;"	M
+className	src/components/shared/Adsense/index.js	/^          className="adsbygoogle"$/;"	P
+style	src/components/shared/Adsense/index.js	/^          style={{ display: 'block' }}$/;"	P
+ad	src/components/shared/Adsense/style.scss	/^.ad {$/;"	c
+icon	src/components/shared/Icon/style.scss	/^.icon {$/;"	c
+svg	src/components/shared/Icon/style.scss	/^  svg {$/;"	t
 section	src/templates/Page/style.scss	/^section {$/;"	t
 jumboimage	src/templates/Page/style.scss	/^  &.jumboimage {$/;"	c
 0	src/templates/Page/style.scss	/^    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(51, 51, 51) 50%);$/;"	t

@@ -2,16 +2,15 @@ import { graphql } from 'gatsby'
 import React from 'react'
 import get from 'lodash/get'
 
-import Post from 'templates/Post'
-import Meta from 'components/Meta'
-import Layout from 'components/Layout'
-import Slides from 'components/Slides'
-import LandingWhyChooseUs from 'components/LandingWhyChooseUs'
-import Testimonials from 'components/Testimonials'
-import Clients from 'components/Clients'
-import ContactForm from 'components/ContactForm'
-import LandingAbout from 'components/LandingAbout'
-import LandingServices from 'components/LandingServices'
+import Meta from 'components/shared/Meta'
+import Layout from 'components/shared/Layout'
+import Slides from 'components/Home/Slides'
+import WhyUs from 'components/Home/WhyUs'
+import Testimonials from 'components/Home/Testimonials'
+import Clients from 'components/Home/Clients'
+import ContactForm from 'components/Home/ContactForm'
+import About from 'components/Home/About'
+import Service from 'components/Home/Service'
 
 const BlogIndex = ({ data, location }) => {
   const posts = get(data, 'remark.posts')
@@ -20,10 +19,10 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location}>
       <Meta site={siteMetadata} />
       <Slides />
-      <LandingWhyChooseUs />
-      <LandingServices />
+      <WhyUs />
+      <Service />
       <ContactForm />
-      <LandingAbout siteMetadata={siteMetadata} />
+      <About siteMetadata={siteMetadata} />
       <Testimonials />
       <Clients />
     </Layout>
@@ -45,31 +44,6 @@ export const pageQuery = graphql`
         companyName
         companyFullName
         email
-      }
-    }
-    remark: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      posts: edges {
-        post: node {
-          html
-          frontmatter {
-            layout
-            title
-            path
-            category
-            tags
-            description
-            date(formatString: "YYYY/MM/DD")
-            image {
-              childImageSharp {
-                fixed(width: 500) {
-                  ...GatsbyImageSharpFixed_withWebp
-                }
-              }
-            }
-          }
-        }
       }
     }
   }

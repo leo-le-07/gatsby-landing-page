@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap'
 import { withPrefix } from 'gatsby'
 import './style.scss'
 
-const LandingAbout = ({ siteMetadata }) => (
+const About = ({ siteMetadata }) => (
   <section className="about bg-light text-left">
     <Container>
       <Row>
@@ -35,4 +35,4 @@ const LandingAbout = ({ siteMetadata }) => (
   </section>
 )
 
-export default LandingAbout
+export default About

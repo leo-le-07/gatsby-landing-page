@@ -2,14 +2,12 @@ import { graphql } from 'gatsby'
 import React from 'react'
 import get from 'lodash/get'
 
-import Post from 'templates/Post'
-import Meta from 'components/Meta'
-import Layout from 'components/Layout'
-import Header from 'components/shared/Header'
-import AboutOurCompany from 'components/AboutOurCompany'
+import Meta from 'components/shared/Meta'
+import Layout from 'components/shared/Layout'
+import CustomBreadcumd from 'components/shared/CustomBreadcumd'
+import Company from 'components/About/Company'
 
 const About = ({ data, location }) => {
-  const posts = get(data, 'remark.posts')
   const siteMetadata = get(data, 'site.meta')
   const title = 'about us'
   const breadcrumbs = {
@@ -28,8 +26,8 @@ const About = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Meta site={siteMetadata} />
-      <Header title={title} breadcrumbs={breadcrumbs} />
-      <AboutOurCompany siteMetadata={siteMetadata} />
+      <CustomBreadcumd title={title} breadcrumbs={breadcrumbs} />
+      <Company siteMetadata={siteMetadata} />
     </Layout>
   )
 }
