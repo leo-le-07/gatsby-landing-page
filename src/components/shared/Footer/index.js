@@ -91,7 +91,13 @@ const Footer = ({ siteMetadata }) => (
             <h3 className="widget-title">
               {siteMetadata.companyFullName} Office
             </h3>
-            <ContactInfo siteMetadata={siteMetadata} />
+            <ContactInfo
+              address={siteMetadata.address}
+              phone={siteMetadata.phone}
+              email={siteMetadata.email}
+              tax={siteMetadata.tax}
+              workingTime={siteMetadata.workingTime}
+            />
           </aside>
         </Col>
       </Row>

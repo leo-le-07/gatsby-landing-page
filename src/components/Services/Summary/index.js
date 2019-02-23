@@ -63,7 +63,7 @@ const Summary = ({ siteMetadata }) => (
             You give us the places, we make the move. It’s that simple. Total
             logistics solution. Customs consultation...
           </p>
-          <Button variant="primary" href="/about">
+          <Button variant="primary" href="/services/logistic">
             Read More
           </Button>
         </Col>
