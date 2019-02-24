@@ -94,6 +94,13 @@ module.exports = {
         mergeCachingHeaders: true,
       },
     },
+    {
+      resolve: 'gatsby-plugin-crisp-chat',
+      options: {
+        websiteId: 'bf522b82-cd92-4b2b-9928-4680ae4b0f61',
+        enableDuringDevelop: true,
+      },
+    },
     'gatsby-plugin-catch-links',
     'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
