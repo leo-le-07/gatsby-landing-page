@@ -74,13 +74,7 @@ const Footer = ({ siteMetadata }) => (
                   <Link to="/services">Our Services</Link>
                 </li>
                 <li className="menu-item">
-                  <Link to="/">News</Link>
-                </li>
-                <li className="menu-item">
-                  <Link to="/">Tracking</Link>
-                </li>
-                <li className="menu-item">
-                  <Link to="/">Contact</Link>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>

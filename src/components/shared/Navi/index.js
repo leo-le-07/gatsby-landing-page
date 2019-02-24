@@ -44,15 +44,8 @@ class Navi extends React.Component {
               </Nav.Link>
               <Nav.Link
                 className="px-4"
-                href="/profile"
-                active={location.pathname === '/profile' ? true : false}
-              >
-                News
-              </Nav.Link>
-              <Nav.Link
-                className="px-4"
-                href="/profile"
-                active={location.pathname === '/profile' ? true : false}
+                href="/contact"
+                active={location.pathname === '/contact' ? true : false}
               >
                 Contact
               </Nav.Link>

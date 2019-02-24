@@ -1,0 +1,18 @@
+@import 'scss/_variables.scss';
+
+.form-control {
+  box-shadow: none;
+  height: 45px;
+  border: 1px solid #ddd;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 6px 15px;
+
+  &:focus {
+    border-color: $primary;
+  }
+}
+
+textarea.text-area {
+  height: 110px;
+}
