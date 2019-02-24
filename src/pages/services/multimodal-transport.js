@@ -7,22 +7,24 @@ import Layout from 'components/shared/Layout'
 import CustomBreadcumd from 'components/shared/CustomBreadcumd'
 import Multimodal from 'components/Services/Multimodal'
 
+import routes from 'utils/routes'
+
 const MultimodalTransport = ({ data, location }) => {
   const siteMetadata = get(data, 'site.meta')
   const title = 'multimodal transport'
   const breadcrumbs = {
     home: {
-      link: '/',
+      link: routes.ROOT,
       name: 'home',
       active: false,
     },
     service: {
-      link: '/services',
+      link: routes.SERVICE,
       name: 'our services',
       active: false,
     },
     multimodalTransport: {
-      link: '/services/multimodal-transport',
+      link: routes.SERVICE_MULTIMODAL,
       name: 'multimodal transport',
       active: true,
     },

@@ -49,21 +49,21 @@ const AirFreight = ({ siteMetadata }) => (
                 <div className={styles.list}>
                   <ul className="p-0 fa-ul">
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Direct communication with all involved parties.
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Close tracking of cargo movement ensure the most accurate
                       and up-to-minute information
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Same-day service and weekend operation as required
                     </li>
@@ -75,28 +75,28 @@ const AirFreight = ({ siteMetadata }) => (
                 <div className={styles.list}>
                   <ul className="p-0 fa-ul">
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       No cargo too small or no cargo too large.
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Able to secure the capacity you need, wherever you need it
                       and whenever you need it.
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       If your favorite carrier have service, we can offer the
                       best rate.
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Airport pick up and delivery service.
                     </li>

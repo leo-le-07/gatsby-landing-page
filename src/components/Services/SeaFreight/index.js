@@ -52,40 +52,40 @@ const SeaFreight = ({ siteMetadata }) => (
                 <div className={styles.list}>
                   <ul className="p-0 fa-ul">
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Export & import cargoes from Viet Nam to worldwide and
                       vice versa.
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Main market: USA, EUs, JAPAN, ASIA.
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Full Container Load services with competitive freight
                       rates and save time.
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Door to door delivery services.
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Cargoes insurance brokerage.
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Projects and exhibition cargoes services in Viet Nam and
                       and the surrounding area: Laos, Cambodia...
@@ -98,28 +98,28 @@ const SeaFreight = ({ siteMetadata }) => (
                 <div className={styles.list}>
                   <ul className="p-0 fa-ul">
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       No cargo too small or no cargo too large.
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Able to secure the capacity you need, wherever you need it
                       and whenever you need it.
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       If your favorite carrier have service, we can offer the
                       best rate.
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Airport pick up and delivery service.
                     </li>

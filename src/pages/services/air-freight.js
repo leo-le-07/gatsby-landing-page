@@ -7,22 +7,24 @@ import Layout from 'components/shared/Layout'
 import CustomBreadcumd from 'components/shared/CustomBreadcumd'
 import AirFreight from 'components/Services/AirFreight'
 
+import routes from 'utils/routes'
+
 const AirFreightPage = ({ data, location }) => {
   const siteMetadata = get(data, 'site.meta')
   const title = 'air freight'
   const breadcrumbs = {
     home: {
-      link: '/',
+      link: routes.ROOT,
       name: 'home',
       active: false,
     },
     service: {
-      link: '/services',
+      link: routes.SERVICE,
       name: 'our services',
       active: false,
     },
     airFreight: {
-      link: '/services/air-freight',
+      link: routes.SERVICE_AIR_FREIGHT,
       name: 'air freight',
       active: true,
     },

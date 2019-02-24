@@ -7,17 +7,19 @@ import Layout from 'components/shared/Layout'
 import CustomBreadcumd from 'components/shared/CustomBreadcumd'
 import Company from 'components/About/Company'
 
+import routes from 'utils/routes'
+
 const About = ({ data, location }) => {
   const siteMetadata = get(data, 'site.meta')
   const title = 'about us'
   const breadcrumbs = {
     home: {
-      link: '/',
+      link: routes.ROOT,
       name: 'home',
       active: false,
     },
     about: {
-      link: '/about',
+      link: routes.ABOUT,
       name: 'about us',
       active: true,
     },

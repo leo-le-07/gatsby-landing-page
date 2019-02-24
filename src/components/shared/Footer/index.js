@@ -2,6 +2,7 @@ import React from 'react'
 import { withPrefix, Link } from 'gatsby'
 import { Container, Row, Col, Figure } from 'react-bootstrap'
 import ContactInfo from 'components/shared/ContactInfo'
+import routes from 'utils/routes'
 import './style.scss'
 
 const Footer = ({ siteMetadata }) => (
@@ -65,16 +66,16 @@ const Footer = ({ siteMetadata }) => (
             <div className="information">
               <ul className="list-unstyled information-menu">
                 <li className="menu-item">
-                  <Link to="/">Home</Link>
+                  <Link to={routes.ROOT}>Home</Link>
                 </li>
                 <li className="menu-item">
-                  <Link to="/about">About Us</Link>
+                  <Link to={routes.ABOUT}>About Us</Link>
                 </li>
                 <li className="menu-item">
-                  <Link to="/services">Our Services</Link>
+                  <Link to={routes.SERVICE}>Our Services</Link>
                 </li>
                 <li className="menu-item">
-                  <Link to="/contact">Contact</Link>
+                  <Link to={routes.CONTACT}>Contact</Link>
                 </li>
               </ul>
             </div>

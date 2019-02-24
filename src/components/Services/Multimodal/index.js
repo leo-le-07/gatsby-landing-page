@@ -48,15 +48,15 @@ const Multimodal = ({ siteMetadata }) => (
                 <div className={styles.list}>
                   <ul className="p-0 fa-ul">
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Multiple transport mode combination for FCL and cargo to
                       Cambodia via Ho Chi Minh
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       Experience trucking and custom handling across border
                     </li>
@@ -68,26 +68,26 @@ const Multimodal = ({ siteMetadata }) => (
                 <div className={styles.list}>
                   <ul className="p-0 fa-ul">
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       HO CHI MINH – BREMENHAVEN – BRUNTAL
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       HO CHI MINH – KOPER/HAMBURG – GMÜND
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       HO CHI MINH – KOPER – BUDAPEST
                     </li>
                     <li className="mb-2 lead">
-                      <span class="fa-li">
-                        <i class="fa fa-share" />
+                      <span className="fa-li">
+                        <i className="fa fa-share" />
                       </span>
                       HO CHI MINH – XINGANG – INNER MOGOLIA
                     </li>

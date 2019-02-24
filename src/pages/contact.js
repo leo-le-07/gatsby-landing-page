@@ -7,17 +7,19 @@ import Layout from 'components/shared/Layout'
 import CustomBreadcumd from 'components/shared/CustomBreadcumd'
 import Contact from 'components/Contact'
 
+import routes from 'utils/routes'
+
 const ContactPage = ({ data, location }) => {
   const siteMetadata = get(data, 'site.meta')
   const title = 'contact'
   const breadcrumbs = {
     home: {
-      link: '/',
+      link: routes.ROOT,
       name: 'home',
       active: false,
     },
     contact: {
-      link: '/contact',
+      link: routes.CONTACT,
       name: 'contact',
       active: true,
     },

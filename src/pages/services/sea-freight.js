@@ -7,22 +7,24 @@ import Layout from 'components/shared/Layout'
 import CustomBreadcumd from 'components/shared/CustomBreadcumd'
 import SeaFreight from 'components/Services/SeaFreight'
 
+import routes from 'utils/routes'
+
 const SeaFreightPage = ({ data, location }) => {
   const siteMetadata = get(data, 'site.meta')
   const title = 'sea freight'
   const breadcrumbs = {
     home: {
-      link: '/',
+      link: routes.ROOT,
       name: 'home',
       active: false,
     },
     service: {
-      link: '/services',
+      link: routes.SERVICE,
       name: 'our services',
       active: false,
     },
     seaFreight: {
-      link: '/services/sea-freight',
+      link: routes.SERVICE_SEA_FREIGHT,
       name: 'sea freight',
       active: true,
     },

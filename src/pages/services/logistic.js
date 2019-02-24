@@ -7,22 +7,24 @@ import Layout from 'components/shared/Layout'
 import CustomBreadcumd from 'components/shared/CustomBreadcumd'
 import Logistic from 'components/Services/Logistic'
 
+import routes from 'utils/routes'
+
 const LogisticServices = ({ data, location }) => {
   const siteMetadata = get(data, 'site.meta')
   const title = 'logistic services'
   const breadcrumbs = {
     home: {
-      link: '/',
+      link: routes.ROOT,
       name: 'home',
       active: false,
     },
     service: {
-      link: '/services',
+      link: routes.SERVICE,
       name: 'our services',
       active: false,
     },
     logistic: {
-      link: '/services/logistic',
+      link: routes.SERVICE_LOGISTIC,
       name: 'logistic services',
       active: true,
     },
