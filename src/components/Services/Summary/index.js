@@ -18,7 +18,7 @@ const Summary = ({ siteMetadata }) => (
             With good agent systems in main sea ports all over the world and
             good partners in famous shipping lines,...
           </p>
-          <Button variant="primary" href="/about">
+          <Button variant="primary" href="/services/sea-freight">
             Read More
           </Button>
         </Col>
@@ -33,7 +33,7 @@ const Summary = ({ siteMetadata }) => (
             Timing is the essence of Air Freight and our experienced Customer
             Service Team can response quickly to all your...
           </p>
-          <Button variant="primary" href="/about">
+          <Button variant="primary" href="/services/air-freight">
             Read More
           </Button>
         </Col>
@@ -48,7 +48,7 @@ const Summary = ({ siteMetadata }) => (
             We choose the most cost-effective combination transport modes for
             your destination. Full accessibility to....
           </p>
-          <Button variant="primary" href="/about">
+          <Button variant="primary" href="/services/multimodal-transport">
             Read More
           </Button>
         </Col>
