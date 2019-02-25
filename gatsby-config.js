@@ -101,6 +101,7 @@ module.exports = {
         enableDuringDevelop: true,
       },
     },
+    `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-catch-links',
     'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
