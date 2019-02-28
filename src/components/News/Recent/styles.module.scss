@@ -1,0 +1,25 @@
+@import 'scss/_variables.scss';
+
+.list-items {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.feature-image {
+  display: block;
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 1.5rem;
+}
+
+.content {
+  width: calc(100% - 100px);
+  a {
+    text-decoration: none;
+    color: $gray-900;
+  }
+}

@@ -6,7 +6,7 @@ import styles from './styles.module.scss'
 import ReadMore from 'components/shared/ReadMore'
 import Header from 'components/News/Header'
 
-const Summary = ({ data, options }) => {
+const Summary = ({ postRemark }) => {
   const {
     category,
     tags,
@@ -15,10 +15,10 @@ const Summary = ({ data, options }) => {
     date,
     image,
     thumbnail,
-  } = data.frontmatter
+  } = postRemark.frontmatter
 
-  const html = get(data, 'html')
-  const description = get(data, 'excerpt')
+  const html = get(postRemark, 'html')
+  const description = get(postRemark, 'excerpt')
   return (
     <div className={styles.container + ' mb-5'}>
       <Header
