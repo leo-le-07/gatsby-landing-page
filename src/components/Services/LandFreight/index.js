@@ -1,6 +1,5 @@
 import React from 'react'
 import { withPrefix } from 'gatsby'
-import { Container, Row, Col, Image, Jumbotron } from 'react-bootstrap'
 import styles from './styles.module.scss'
 
 import Content from 'components/Services/shared/Content'

@@ -1,9 +1,8 @@
 import React from 'react'
 import { withPrefix } from 'gatsby'
-import { Container, Row, Col, Image, Jumbotron } from 'react-bootstrap'
 import styles from './styles.module.scss'
 
-import ContactInfo from 'components/shared/ContactInfo'
+import Content from 'components/Services/shared/Content'
 
 const SeaFreight = ({ siteMetadata }) => {
   const title = 'Sea Freight'
