@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import { withPrefix } from 'gatsby'
 import styles from './styles.module.scss'
 
 const LandingServices = () => (

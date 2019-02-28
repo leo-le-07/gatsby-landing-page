@@ -1,5 +1,4 @@
 import React from 'react'
-import { withPrefix } from 'gatsby'
 import { Container, Row, Col, Image, Jumbotron } from 'react-bootstrap'
 import ContactInfo from 'components/shared/ContactInfo'
 import ContactForm from 'components/shared/ContactForm'

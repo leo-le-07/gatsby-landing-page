@@ -7,4 +7,5 @@ export default {
   SERVICE_MULTIMODAL: `services/multimodal-transport`,
   SERVICE_LOGISTIC: `services/logistic`,
   CONTACT: '/contact',
+  NEWS: '/news',
 }
