@@ -11,7 +11,7 @@ import Header from 'components/News/Header'
 
 import routes from 'utils/routes'
 
-const NewsTemplate = ({ data, options }) => {
+const NewsTemplate = ({ data, location }) => {
   const siteMetadata = get(data, 'site.meta')
   const {
     category,
