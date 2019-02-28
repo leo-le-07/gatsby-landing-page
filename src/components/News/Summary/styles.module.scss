@@ -1,0 +1,9 @@
+@import 'scss/_variables.scss';
+
+.container {
+  position: relative;
+
+  .content {
+    color: $gray-600;
+  }
+}

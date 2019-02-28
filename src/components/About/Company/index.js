@@ -1,5 +1,4 @@
 import React from 'react'
-import { withPrefix } from 'gatsby'
 import { Container, Row, Col, Breadcrumb } from 'react-bootstrap'
 import styles from './styles.module.scss'
 

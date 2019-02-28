@@ -1,8 +1,11 @@
 import React from 'react'
 import { withPrefix } from 'gatsby'
 import { Container, Row, Col, Image, Button } from 'react-bootstrap'
-import routes from 'utils/routes'
 import styles from './styles.module.scss'
+
+import ReadMore from 'components/shared/ReadMore'
+
+import routes from 'utils/routes'
 
 const Summary = ({ siteMetadata }) => (
   <section className={styles.container}>
@@ -19,9 +22,7 @@ const Summary = ({ siteMetadata }) => (
             With good agent systems in main sea ports all over the world and
             good partners in famous shipping lines,...
           </p>
-          <Button variant="primary" href={routes.SERVICE_SEA_FREIGHT}>
-            Read More
-          </Button>
+          <ReadMore path={routes.SERVICE_SEA_FREIGHT} />
         </Col>
         <Col lg={3}>
           <Image
@@ -34,9 +35,7 @@ const Summary = ({ siteMetadata }) => (
             Timing is the essence of Air Freight and our experienced Customer
             Service Team can response quickly to all your...
           </p>
-          <Button variant="primary" href={routes.SERVICE_AIR_FREIGHT}>
-            Read More
-          </Button>
+          <ReadMore path={routes.SERVICE_AIR_FREIGHT} />
         </Col>
         <Col lg={3}>
           <Image
@@ -49,9 +48,7 @@ const Summary = ({ siteMetadata }) => (
             We choose the most cost-effective combination transport modes for
             your destination. Full accessibility to....
           </p>
-          <Button variant="primary" href={routes.SERVICE_MULTIMODAL}>
-            Read More
-          </Button>
+          <ReadMore path={routes.SERVICE_MULTIMODAL} />
         </Col>
         <Col lg={3}>
           <Image
@@ -64,9 +61,7 @@ const Summary = ({ siteMetadata }) => (
             You give us the places, we make the move. It’s that simple. Total
             logistics solution. Customs consultation...
           </p>
-          <Button variant="primary" href={routes.SERVICE_LOGISTIC}>
-            Read More
-          </Button>
+          <ReadMore path={routes.SERVICE_LOGISTIC} />
         </Col>
       </Row>
     </Container>

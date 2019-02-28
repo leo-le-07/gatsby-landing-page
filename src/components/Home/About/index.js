@@ -1,7 +1,10 @@
 import React from 'react'
-import { Container, Row, Col, Button } from 'react-bootstrap'
-import { withPrefix } from 'gatsby'
+import { Container, Row, Col } from 'react-bootstrap'
 import styles from './styles.module.scss'
+
+import ReadMore from 'components/shared/ReadMore'
+
+import routes from 'utils/routes'
 
 const About = ({ siteMetadata }) => (
   <section className={styles.container + ' bg-light text-left'}>
@@ -26,9 +29,7 @@ const About = ({ siteMetadata }) => (
             {siteMetadata.email} for customized solution and services to your
             business requirement
           </p>
-          <Button variant="primary" href="/about">
-            Read More
-          </Button>
+          <ReadMore path={routes.ABOUT} />
         </Col>
       </Row>
     </Container>

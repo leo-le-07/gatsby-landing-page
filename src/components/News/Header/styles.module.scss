@@ -1,0 +1,33 @@
+@import 'scss/_variables.scss';
+
+.thumbnail {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  height: 450px;
+  position: relative;
+  display: block;
+}
+
+.meta-date {
+  display: inline-block;
+  background: $primary;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.day {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.month {
+  display: block;
+}
+
+.year {
+  display: block;
+}

@@ -1,7 +1,7 @@
 const each = require('lodash/each')
 const Promise = require('bluebird')
 const path = require('path')
-const PostTemplate = path.resolve('./src/templates/index.js')
+const NewsTemplate = path.resolve('./src/templates/News/index.js')
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
@@ -11,17 +11,23 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           {
-            allFile(filter: { extension: { regex: "/md|js/" } }, limit: 1000) {
-              edges {
-                node {
+            allMarkdownRemark(
+              sort: { order: DESC, fields: [frontmatter___date] }
+              limit: 1000
+            ) {
+              newsList: edges {
+                news: node {
+                  excerpt(pruneLength: 250)
+                  html
                   id
-                  name: sourceInstanceName
-                  path: absolutePath
-                  remark: childMarkdownRemark {
-                    id
-                    frontmatter {
-                      layout
-                      path
+                  frontmatter {
+                    date(formatString: "YYYY/MM/DD")
+                    path
+                    title
+                    category
+                    thumbnail
+                    image {
+                      id
                     }
                   }
                 }
@@ -34,27 +40,14 @@ exports.createPages = ({ graphql, actions }) => {
           console.log(errors)
           reject(errors)
         }
-
-        // Create blog posts & pages.
-        const items = data.allFile.edges
-        const posts = items.filter(({ node }) => /posts/.test(node.name))
-        each(posts, ({ node }) => {
-          if (!node.remark) return
-          const { path } = node.remark.frontmatter
+        data.allMarkdownRemark.newsList.forEach(({ news }) => {
+          const { path } = news.frontmatter
           createPage({
             path,
-            component: PostTemplate,
-          })
-        })
-
-        const pages = items.filter(({ node }) => /page/.test(node.name))
-        each(pages, ({ node }) => {
-          if (!node.remark) return
-          const { name } = path.parse(node.path)
-          const PageTemplate = path.resolve(node.path)
-          createPage({
-            path: name,
-            component: PageTemplate,
+            component: NewsTemplate,
+            context: {
+              path,
+            },
           })
         })
       })
