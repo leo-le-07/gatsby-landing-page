@@ -1,114 +1,48 @@
 import React from 'react'
 import { withPrefix } from 'gatsby'
 import { Container, Row, Col, Image, Jumbotron } from 'react-bootstrap'
-import ContactInfo from 'components/shared/ContactInfo'
 import styles from './styles.module.scss'
 
-const AirFreight = ({ siteMetadata }) => (
-  <section className={styles.container}>
-    <Container>
-      <Row className="">
-        <Col lg={3}>
-          <aside>
-            <h2 className={styles.widgetTitle}>Contact</h2>
-            <ContactInfo
-              address={siteMetadata.address}
-              phone={siteMetadata.phone}
-              email={siteMetadata.email}
-              tax={siteMetadata.tax}
-              workingTime={siteMetadata.workingTime}
-            />
-          </aside>
-        </Col>
-        <Col lg={9}>
-          <Row>
-            <Col lg={6}>
-              <h2 className={styles.widgetTitle + ' text-primary'}>
-                Air Freight
-              </h2>
-              <p>
-                Timing is the essence of Air Freight and our experienced
-                Customer Service Team can response quickly to all your air
-                enquiry
-              </p>
-            </Col>
-            <Col lg={6}>
-              <Image
-                src={withPrefix('/img/services/example-8.jpg')}
-                alt="testimonials-1"
-                rounded
-              />
-            </Col>
-          </Row>
-          <Row>
-            <Col lg={12}>
-              <Jumbotron className={styles.content}>
-                <h2 className={styles.title + ' text-primary my-4'}>
-                  Proactive customer service
-                </h2>
-                <div className={styles.list}>
-                  <ul className="p-0 fa-ul">
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      Direct communication with all involved parties.
-                    </li>
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      Close tracking of cargo movement ensure the most accurate
-                      and up-to-minute information
-                    </li>
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      Same-day service and weekend operation as required
-                    </li>
-                  </ul>
-                </div>
-                <h2 className={styles.title + ' text-primary my-4'}>
-                  Flexibilit
-                </h2>
-                <div className={styles.list}>
-                  <ul className="p-0 fa-ul">
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      No cargo too small or no cargo too large.
-                    </li>
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      Able to secure the capacity you need, wherever you need it
-                      and whenever you need it.
-                    </li>
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      If your favorite carrier have service, we can offer the
-                      best rate.
-                    </li>
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      Airport pick up and delivery service.
-                    </li>
-                  </ul>
-                </div>
-              </Jumbotron>
-            </Col>
-          </Row>
-        </Col>
-      </Row>
-    </Container>
-  </section>
-)
+import Content from 'components/Services/shared/Content'
+
+const AirFreight = ({ siteMetadata }) => {
+  const title = 'Air Freight'
+  const thumbnail = '/img/services/example-8.jpg'
+  const descriptionList = [
+    'Our air freight services provide wholesale solutions for your air cargo needs. Our vast number of different partners and agents for air freight consignments worldwide and our well developed, integrated shipping solutions enables us to transport your cargo anywhere in the world. We offer our customers the services of different top-class airlines.',
+    'Whether you have a large cargo to be shipped or goods that need to be transported within a short amount of time, our air freight service will give you the maximum amount of flexibility and efficiency for all your air transportation needs and help you to keep your business run effectively.',
+  ]
+  const contentList = [
+    {
+      title: 'Our Major Responsibilities',
+      list: [
+        'Coordinate and ensure timely bookings with airlines on customer behalf',
+        'Prepare import documentation in accordance to government’s requirements an other documents required by the customer',
+        'Make sure of timely completion of the export documents and coordinate with both customer and/or warehouse for timely delivery of cargo',
+        'Keep communication open with the customer and the overseas supplier in regards to shipment',
+        'Follow up with the airline to keep track of departure information and updates',
+      ],
+    },
+    {
+      title: 'Air Freight (Customer Services)',
+      list: [
+        'Tel: (+84) 968 655 099 / (+84) 906 951 203',
+        'Skype: phamthuan.jason / vemaybay077',
+        'Email: Jason@skylinetransport.vn',
+      ],
+    },
+  ]
+  return (
+    <section className={styles.container}>
+      <Content
+        siteMetadata={siteMetadata}
+        title={title}
+        thumbnail={thumbnail}
+        descriptionList={descriptionList}
+        contentList={contentList}
+      />
+    </section>
+  )
+}
 
 export default AirFreight

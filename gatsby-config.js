@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: 'Skyline Logistics',
-    companyName: 'Skyline',
-    companyFullName: 'Skyline Logistics',
+    title: 'SKYLINE FORWARDING FIRM CO., LTD',
+    companyName: 'SKYLINE FORWARDING',
+    companyFullName: 'SKYLINE FORWARDING FIRM CO., LTD',
     address:
-      '283 Dien Bien Phu, Ward 15, Binh Thanh District, Ho Chi Minh City, Vietnam.',
-    email: 'kenny@pocoexpress.com.vn',
-    phone: '(+84 8) 6681 9528',
-    tax: '0312 705 904',
+      '1155 Phan Van Tri Street , Ward 10 , Go Vap District, HCM City, Vietnam',
+    email: 'trudy.tran@skylinetransport.vn',
+    phone: '(+84 8) 6682 7544',
+    tax: '(+84 8) 35170729',
     workingTime: 'Mon - Sat: 9:00 - 18:00',
-    description: 'Skyline Logistics company',
+    description: 'SKYLINE FORWARDING FIRM CO., LTD',
     siteUrl: 'https://gatstrap.netlify.com',
     author: 'Mr. Leo',
     twitter: 'leole1509',

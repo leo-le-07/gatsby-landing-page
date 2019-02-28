@@ -10,8 +10,8 @@ import routes from 'utils/routes'
 const Summary = ({ siteMetadata }) => (
   <section className={styles.container}>
     <Container>
-      <Row className="">
-        <Col lg={3}>
+      <Row className="mb-5">
+        <Col lg={4}>
           <Image
             className="img-thumbnail"
             src={withPrefix('/img/services/example-1.jpg')}
@@ -24,7 +24,7 @@ const Summary = ({ siteMetadata }) => (
           </p>
           <ReadMore path={routes.SERVICE_SEA_FREIGHT} />
         </Col>
-        <Col lg={3}>
+        <Col lg={4}>
           <Image
             className="img-thumbnail"
             src={withPrefix('/img/services/example-2.jpg')}
@@ -32,36 +32,51 @@ const Summary = ({ siteMetadata }) => (
           />
           <h3>Air Freight</h3>
           <p className="lead">
-            Timing is the essence of Air Freight and our experienced Customer
-            Service Team can response quickly to all your...
+            Whether you have a large cargo to be shipped or goods that need to
+            be transported within a short amount of time, our air freight ...
           </p>
           <ReadMore path={routes.SERVICE_AIR_FREIGHT} />
         </Col>
-        <Col lg={3}>
+        <Col lg={4}>
           <Image
             className="img-thumbnail"
             src={withPrefix('/img/services/example-3.jpg')}
             rounded
           />
-          <h3>Multimodal Transport</h3>
+          <h3>Land Freight</h3>
           <p className="lead">
-            We choose the most cost-effective combination transport modes for
-            your destination. Full accessibility to....
+            Our company handles each cargo with great care, delivering our
+            customers goods safely and on time is our top responsibility.
           </p>
-          <ReadMore path={routes.SERVICE_MULTIMODAL} />
+          <ReadMore path={routes.SERVICE_LAND_FREIGHT} />
         </Col>
-        <Col lg={3}>
+      </Row>
+      <Row className="mb-5">
+        <Col lg={4}>
           <Image
             className="img-thumbnail"
-            src={withPrefix('/img/services/example-3.jpg')}
+            src={withPrefix('/img/services/example-4.jpg')}
             rounded
           />
-          <h3>Logistics Services</h3>
+          <h3>Customs Clearance</h3>
           <p className="lead">
-            You give us the places, we make the move. It’s that simple. Total
-            logistics solution. Customs consultation...
+            Skyline supports proper handling of all goods imported to Vietnam
+            and activities at station level or an assigned area. We are ...
           </p>
-          <ReadMore path={routes.SERVICE_LOGISTIC} />
+          <ReadMore path={routes.SERVICE_CUSTOMS_CLEARANCE} />
+        </Col>
+        <Col lg={4}>
+          <Image
+            className="img-thumbnail"
+            src={withPrefix('/img/services/example-5.jpg')}
+            rounded
+          />
+          <h3>Sourcing</h3>
+          <p className="lead">
+            We source products for you from qualified supplier, and optimize
+            your supply chain.
+          </p>
+          <ReadMore path={routes.SERVICE_SOURCING} />
         </Col>
       </Row>
     </Container>

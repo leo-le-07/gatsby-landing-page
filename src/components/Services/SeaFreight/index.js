@@ -1,137 +1,63 @@
 import React from 'react'
 import { withPrefix } from 'gatsby'
 import { Container, Row, Col, Image, Jumbotron } from 'react-bootstrap'
-import ContactInfo from 'components/shared/ContactInfo'
 import styles from './styles.module.scss'
 
-const SeaFreight = ({ siteMetadata }) => (
-  <section className={styles.container}>
-    <Container>
-      <Row className="">
-        <Col lg={3}>
-          <aside>
-            <h2 className={styles.widgetTitle}>Contact</h2>
-            <ContactInfo
-              address={siteMetadata.address}
-              phone={siteMetadata.phone}
-              email={siteMetadata.email}
-              tax={siteMetadata.tax}
-              workingTime={siteMetadata.workingTime}
-            />
-          </aside>
-        </Col>
-        <Col lg={9}>
-          <Row>
-            <Col lg={6}>
-              <h2 className={styles.widgetTitle + ' text-primary'}>
-                Sea Freight
-              </h2>
-              <p>
-                With good agent systems in main sea ports all over the world and
-                good partners in famous shipping lines,{' '}
-                {siteMetadata.companyFullName} provides the sea freight services
-                at the competitive rates. We can manage to avoid off load
-                shipment at departure port or transit port. Trucks are available
-                for domestic transportation.
-              </p>
-            </Col>
-            <Col lg={6}>
-              <Image
-                src={withPrefix('/img/services/example-8.jpg')}
-                alt="testimonials-1"
-                rounded
-              />
-            </Col>
-          </Row>
-          <Row>
-            <Col lg={12}>
-              <Jumbotron className={styles.content}>
-                <h2 className={styles.title + ' text-primary my-4'}>
-                  Main services and products
-                </h2>
-                <div className={styles.list}>
-                  <ul className="p-0 fa-ul">
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      Export & import cargoes from Viet Nam to worldwide and
-                      vice versa.
-                    </li>
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      Main market: USA, EUs, JAPAN, ASIA.
-                    </li>
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      Full Container Load services with competitive freight
-                      rates and save time.
-                    </li>
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      Door to door delivery services.
-                    </li>
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      Cargoes insurance brokerage.
-                    </li>
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      Projects and exhibition cargoes services in Viet Nam and
-                      and the surrounding area: Laos, Cambodia...
-                    </li>
-                  </ul>
-                </div>
-                <h2 className={styles.title + ' text-primary my-4'}>
-                  Flexibilit
-                </h2>
-                <div className={styles.list}>
-                  <ul className="p-0 fa-ul">
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      No cargo too small or no cargo too large.
-                    </li>
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      Able to secure the capacity you need, wherever you need it
-                      and whenever you need it.
-                    </li>
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      If your favorite carrier have service, we can offer the
-                      best rate.
-                    </li>
-                    <li className="mb-2 lead">
-                      <span className="fa-li">
-                        <i className="fa fa-share" />
-                      </span>
-                      Airport pick up and delivery service.
-                    </li>
-                  </ul>
-                </div>
-              </Jumbotron>
-            </Col>
-          </Row>
-        </Col>
-      </Row>
-    </Container>
-  </section>
-)
+import ContactInfo from 'components/shared/ContactInfo'
+
+const SeaFreight = ({ siteMetadata }) => {
+  const title = 'Sea Freight'
+  const thumbnail = '/img/services/example-7.jpg'
+  const descriptionList = [
+    'Our company offers all types of ocean freight services starting from container carriage up to vessel chartering, Ro-Ro and bulk carriage. With our worldwide network of partners and agents we can deliver you cargo in any destination around the globe. The professional logistics specialists will develop the best solutions and ensure safe door-to-door transportation of our customer cargoes.',
+    'Our services links the whole world for the efficiency and comfort of your business.',
+  ]
+  const contentList = [
+    {
+      title: 'Our Services Include',
+      list: [
+        'Full Container Loads (FTL)',
+        'Less than container load (LTL)',
+        'Dangerous goods transport /ADR',
+        'Ro-Ro',
+        'Break Bulk',
+        'Intermodal Solutions',
+        'Customs clearance',
+      ],
+    },
+    {
+      title: 'Our Major Responsibilities',
+      list: [
+        'Applied understanding of local and global import/export regulations and requirements to support business needs.',
+        'Prepare import/export related documentation, which may include commercial invoices, export declarations, bills of lading, etc.',
+        'Ensure timely and accurate response to Broker Requests for Information and follow up to ensure resolution.',
+        'Promote freight forwarding team to arrange and facilitate shipments, including booking, configuration, tracking/tracing, etc.',
+        'Maintain and update the order shipment operation to ensure accuracy and completeness of the delivery.',
+        'Conduct effective and timely transactional review/audit of all import/export records.',
+        'Personally self-educate on the latest local and global Customs and other government agency import regulations.',
+      ],
+    },
+    {
+      title: 'Sea Freight (Customer Services)',
+      list: [
+        'Tel: 03 88 52 72 69 / 0938 864 017',
+        'Skype: truonghongthuan1',
+        'Zalo: 0388527269',
+        'Email: peter@skylinetransport.vn',
+      ],
+    },
+  ]
+  return (
+    <section className={styles.container}>
+      <Content
+        siteMetadata={siteMetadata}
+        title={title}
+        thumbnail={thumbnail}
+        descriptionList={descriptionList}
+        contentList={contentList}
+      />
+    </section>
+  )
+}
 
 export default SeaFreight

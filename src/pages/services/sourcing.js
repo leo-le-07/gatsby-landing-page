@@ -5,13 +5,13 @@ import get from 'lodash/get'
 import Meta from 'components/shared/Meta'
 import Layout from 'components/shared/Layout'
 import CustomBreadcumd from 'components/shared/CustomBreadcumd'
-import Logistic from 'components/Services/Logistic'
+import Sourcing from 'components/Services/Sourcing'
 
 import routes from 'utils/routes'
 
-const LogisticServices = ({ data, location }) => {
+const SourcingPage = ({ data, location }) => {
   const siteMetadata = get(data, 'site.meta')
-  const title = 'logistic services'
+  const title = 'sourcing'
   const breadcrumbs = {
     home: {
       link: routes.ROOT,
@@ -23,9 +23,9 @@ const LogisticServices = ({ data, location }) => {
       name: 'our services',
       active: false,
     },
-    logistic: {
-      link: routes.SERVICE_LOGISTIC,
-      name: 'logistic services',
+    sourcing: {
+      link: routes.SERVICE_SOURCING,
+      name: 'sourcing',
       active: true,
     },
   }
@@ -34,15 +34,15 @@ const LogisticServices = ({ data, location }) => {
     <Layout location={location}>
       <Meta site={siteMetadata} />
       <CustomBreadcumd title={title} breadcrumbs={breadcrumbs} />
-      <Logistic siteMetadata={siteMetadata} />
+      <Sourcing siteMetadata={siteMetadata} />
     </Layout>
   )
 }
 
-export default LogisticServices
+export default SourcingPage
 
 export const pageQuery = graphql`
-  query LogisticServicesQuery {
+  query SourcingPageQuery {
     site {
       meta: siteMetadata {
         title

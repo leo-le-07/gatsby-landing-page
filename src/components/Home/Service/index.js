@@ -12,7 +12,7 @@ const LandingServices = () => (
         </Col>
       </Row>
       <Row>
-        <Col lg={6}>
+        <Col lg={4}>
           <div className={styles.feature + ' mx-auto mb-5 mb-lg-0 mb-lg-3'}>
             <div className={styles.featureIcon + ' d-flex'}>
               <i className="fa fa-ship m-auto" />
@@ -20,16 +20,14 @@ const LandingServices = () => (
             <h2>Sea Freight</h2>
             <p className="mb-0 text-left">
               <small>
-                With good agent systems in main sea ports all over the world and
-                good partners in famous shipping lines, POCO EXPRESS provides
-                the sea freight services at the competitive rates. We can manage
-                to avoid off load shipment at departure port or transit port.
-                Trucks are available for domestic transportation.
+                OUR SERVICES INCLUDE: •Full Container Loads (FTL) •Less than
+                container load (LTL) •Dangerous goods transport /ADR •Ro-Ro
+                •Break Bulk •Intermodal Solutions •Customs clearance
               </small>
             </p>
           </div>
         </Col>
-        <Col lg={6}>
+        <Col lg={4}>
           <div className={styles.feature + ' mx-auto mb-5 mb-lg-0 mb-lg-3'}>
             <div className={styles.featureIcon + ' d-flex'}>
               <i className="fa fa-plane m-auto" />
@@ -37,38 +35,56 @@ const LandingServices = () => (
             <h2>Air Freight</h2>
             <p className="mb-0 text-left">
               <small>
-                Timing is the essence of Air Freight and our experienced
-                Customer Service Team can response quickly to all your air
-                enquiry.
+                Whether you have a large cargo to be shipped or goods that need
+                to be transported within a short amount of time, our air freight
+                service will give you the maximum amount of flexibility and
+                efficiency for all your air transportation needs.
+              </small>
+            </p>
+          </div>
+        </Col>
+        <Col lg={4}>
+          <div className={styles.feature + ' mx-auto mb-5 mb-lg-0 mb-lg-3'}>
+            <div className={styles.featureIcon + ' d-flex'}>
+              <i className="fa fa-plane m-auto" />
+            </div>
+            <h2>Land Freight</h2>
+            <p className="mb-0 text-left">
+              <small>
+                Our company handles each cargo with great care, delivering our
+                customers goods safely and on time is our top responsibility.
               </small>
             </p>
           </div>
         </Col>
       </Row>
       <Row>
-        <Col lg={6}>
+        <Col lg={4}>
           <div className={styles.feature + ' mx-auto mb-5 mb-lg-0 mb-lg-3'}>
             <div className={styles.featureIcon + ' d-flex'}>
               <i className="fa fa-truck m-auto" />
             </div>
-            <h2>Multimodal Transport</h2>
+            <h2>Customs Clearance</h2>
             <p className="mb-0 text-left">
               <small>
-                We choose the most cost-effective combination transport modes
-                for your destination.
+                Skyline supports proper handling of all goods imported to
+                Vietnam and activities at station level or an assigned area. We
+                are responsible for the timely and accurate customs clearance
+                process.
               </small>
             </p>
           </div>
         </Col>
-        <Col lg={6}>
+        <Col lg={4}>
           <div className={styles.feature + ' mx-auto mb-5 mb-lg-0 mb-lg-3'}>
             <div className={styles.featureIcon + ' d-flex'}>
               <i className="fa fa-fighter-jet m-auto" />
             </div>
-            <h2>Logistics Services</h2>
+            <h2>Sourcing</h2>
             <p className="mb-0 text-left">
               <small>
-                You give us the places, we make the move. It’s that simple.
+                We source products for you from qualified supplier, and optimize
+                your supply chain.
               </small>
             </p>
           </div>

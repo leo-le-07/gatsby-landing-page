@@ -5,13 +5,13 @@ import get from 'lodash/get'
 import Meta from 'components/shared/Meta'
 import Layout from 'components/shared/Layout'
 import CustomBreadcumd from 'components/shared/CustomBreadcumd'
-import Multimodal from 'components/Services/Multimodal'
+import CustomsClearance from 'components/Services/CustomsClearance'
 
 import routes from 'utils/routes'
 
-const MultimodalTransport = ({ data, location }) => {
+const CustomsClearancePage = ({ data, location }) => {
   const siteMetadata = get(data, 'site.meta')
-  const title = 'multimodal transport'
+  const title = 'customs clearance'
   const breadcrumbs = {
     home: {
       link: routes.ROOT,
@@ -23,9 +23,9 @@ const MultimodalTransport = ({ data, location }) => {
       name: 'our services',
       active: false,
     },
-    multimodalTransport: {
-      link: routes.SERVICE_MULTIMODAL,
-      name: 'multimodal transport',
+    logistic: {
+      link: routes.SERVICE_CUSTOMS_CLEARANCE,
+      name: 'customs clearance',
       active: true,
     },
   }
@@ -34,15 +34,15 @@ const MultimodalTransport = ({ data, location }) => {
     <Layout location={location}>
       <Meta site={siteMetadata} />
       <CustomBreadcumd title={title} breadcrumbs={breadcrumbs} />
-      <Multimodal siteMetadata={siteMetadata} />
+      <CustomsClearance siteMetadata={siteMetadata} />
     </Layout>
   )
 }
 
-export default MultimodalTransport
+export default CustomsClearancePage
 
 export const pageQuery = graphql`
-  query MultimodalTransportQuery {
+  query CustomsClearancePageQuery {
     site {
       meta: siteMetadata {
         title
