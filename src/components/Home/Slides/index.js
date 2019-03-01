@@ -25,7 +25,7 @@ const data = [
 ]
 
 const Slides = () => (
-  <Carousel>
+  <Carousel className={styles.container}>
     {data.map((item, index) => (
       <Carousel.Item key={index}>
         <img
