@@ -5,19 +5,19 @@ import styles from './styles.module.scss'
 
 const data = [
   {
-    imagePath: '/img/landing_carousel/example-1.jpg',
+    imagePath: '/img/landing_carousel/ex-1.jpg',
     altText: 'Carousel',
     title: '',
     description: '',
   },
   {
-    imagePath: '/img/landing_carousel/example-2.jpg',
+    imagePath: '/img/landing_carousel/ex-2.jpg',
     altText: 'Carousel',
     title: '',
     description: '',
   },
   {
-    imagePath: '/img/landing_carousel/example-3.jpg',
+    imagePath: '/img/landing_carousel/ex-3.jpg',
     altText: 'Carousel',
     title: '',
     description: '',
