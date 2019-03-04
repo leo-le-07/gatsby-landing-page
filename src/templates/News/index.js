@@ -4,7 +4,8 @@ import { graphql } from 'gatsby'
 import { Link } from 'gatsby'
 import { Container, Row, Col } from 'react-bootstrap'
 // import Disqus from 'disqus-react'
-import { DiscussionEmbed } from 'disqus-react'
+// import { DiscussionEmbed } from 'disqus-react'
+import Remarkbox from 'react-remarkbox'
 
 import Meta from 'components/shared/Meta'
 import Layout from 'components/shared/Layout'
@@ -45,12 +46,12 @@ const NewsTemplate = ({ data, location }) => {
   }
   const html = get(data, 'markdownRemark.html')
   const recentPostRemarks = get(data, 'recent.posts')
-  const disqusShortname = 'https-vigorous-borg-4a827f-netlify-com'
-  const disqusConfig = {
-    url: path,
-    identifier: path,
-    title: title,
-  }
+  // const disqusShortname = 'https-vigorous-borg-4a827f-netlify-com'
+  // const disqusConfig = {
+  // url: path,
+  // identifier: path,
+  // title: title,
+  // }
   return (
     <Layout location={location}>
       <Meta site={siteMetadata} />
@@ -70,9 +71,9 @@ const NewsTemplate = ({ data, location }) => {
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
-              <DiscussionEmbed
-                shortname={disqusShortname}
-                config={disqusConfig}
+              <Remarkbox
+                remarkboxKey="6d2fa78f-3e5b-11e9-9d17-040140774501"
+                threadUri={path}
               />
             </Col>
             <Col lg={4}>
