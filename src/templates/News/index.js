@@ -3,7 +3,7 @@ import get from 'lodash/get'
 import { graphql } from 'gatsby'
 import { Link } from 'gatsby'
 import { Container, Row, Col } from 'react-bootstrap'
-// import Disqus from 'disqus-react'
+import Disqus from 'disqus-react'
 // import { DiscussionEmbed } from 'disqus-react'
 import Remarkbox from 'react-remarkbox'
 
@@ -46,12 +46,12 @@ const NewsTemplate = ({ data, location }) => {
   }
   const html = get(data, 'markdownRemark.html')
   const recentPostRemarks = get(data, 'recent.posts')
-  // const disqusShortname = 'https-vigorous-borg-4a827f-netlify-com'
-  // const disqusConfig = {
-  // url: path,
-  // identifier: path,
-  // title: title,
-  // }
+  const disqusShortname = 'skyline-2'
+  const disqusConfig = {
+    url: path,
+    identifier: path,
+    title: title,
+  }
   return (
     <Layout location={location}>
       <Meta site={siteMetadata} />
@@ -71,10 +71,12 @@ const NewsTemplate = ({ data, location }) => {
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
-              <Remarkbox
-                remarkboxKey="6d2fa78f-3e5b-11e9-9d17-040140774501"
-                threadUri={path}
-              />
+              <Disqus.CommentCount
+                shortname={disqusShortname}
+                config={disqusConfig}
+              >
+                Comments
+              </Disqus.CommentCount>
             </Col>
             <Col lg={4}>
               <Recent postRemarks={recentPostRemarks} />
