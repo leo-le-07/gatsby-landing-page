@@ -3,8 +3,8 @@ import get from 'lodash/get'
 import { graphql } from 'gatsby'
 import { Link } from 'gatsby'
 import { Container, Row, Col } from 'react-bootstrap'
-import Disqus from 'disqus-react'
-// import { DiscussionEmbed } from 'disqus-react'
+// import Disqus from 'disqus-react'
+import { DiscussionEmbed } from 'disqus-react'
 import Remarkbox from 'react-remarkbox'
 
 import Meta from 'components/shared/Meta'
@@ -48,7 +48,6 @@ const NewsTemplate = ({ data, location }) => {
   const recentPostRemarks = get(data, 'recent.posts')
   const disqusShortname = 'skyline-2'
   const disqusConfig = {
-    url: path,
     identifier: path,
     title: title,
   }
@@ -71,12 +70,10 @@ const NewsTemplate = ({ data, location }) => {
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
-              <Disqus.CommentCount
+              <DiscussionEmbed
                 shortname={disqusShortname}
                 config={disqusConfig}
-              >
-                Comments
-              </Disqus.CommentCount>
+              />
             </Col>
             <Col lg={4}>
               <Recent postRemarks={recentPostRemarks} />
