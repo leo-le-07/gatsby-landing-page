@@ -3,6 +3,8 @@ import get from 'lodash/get'
 import { graphql } from 'gatsby'
 import { Link } from 'gatsby'
 import { Container, Row, Col } from 'react-bootstrap'
+// import Disqus from 'disqus-react'
+import { DiscussionEmbed } from 'disqus-react'
 
 import Meta from 'components/shared/Meta'
 import Layout from 'components/shared/Layout'
@@ -43,6 +45,12 @@ const NewsTemplate = ({ data, location }) => {
   }
   const html = get(data, 'markdownRemark.html')
   const recentPostRemarks = get(data, 'recent.posts')
+  const disqusShortname = 'https-vigorous-borg-4a827f-netlify-com'
+  const disqusConfig = {
+    url: path,
+    identifier: path,
+    title: title,
+  }
   return (
     <Layout location={location}>
       <Meta site={siteMetadata} />
@@ -61,6 +69,10 @@ const NewsTemplate = ({ data, location }) => {
               <div
                 className="blog-post-content"
                 dangerouslySetInnerHTML={{ __html: html }}
+              />
+              <DiscussionEmbed
+                shortname={disqusShortname}
+                config={disqusConfig}
               />
             </Col>
             <Col lg={4}>
