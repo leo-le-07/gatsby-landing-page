@@ -104,7 +104,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-crisp-chat',
       options: {
-        websiteId: 'bf522b82-cd92-4b2b-9928-4680ae4b0f61',
+        websiteId: '9ac0e3da-68bd-4f98-b9af-252ee1c4fef6',
         enableDuringDevelop: true,
       },
     },
